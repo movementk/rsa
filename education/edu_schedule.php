@@ -523,7 +523,7 @@
                     <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-gray" role="button" data-dismiss="modal" aria-label="Close">취소하기</a>
-                            <a href="#" class="btn btn-red" role="button">신청하기</a>
+                            <a href="#" id="btn-edu-apply" class="btn btn-red" role="button">신청하기</a>
                         </p>
                     </div>
                 </div>
@@ -682,5 +682,16 @@
 	
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<script>
+		(function($) {
+			// 레이어팝업 관련
+			$(document).on("click", "#edu-apply #btn-edu-apply", function() {
+				$("#edu-apply").modal("hide");
+				window.setTimeout(function() {
+					$("#modal-write").modal("show");
+				}, 400);
+			});
+		})(jQuery);
+	</script>
 </body>
 </html>
