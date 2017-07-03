@@ -143,7 +143,7 @@
                                         <td>
                                             07 ~ 08
                                             <p class="btn-schedule">
-                                                <a href="#" class="btn btn-gray" role="button" data-toggle="modal" data-target="#edu-apply">신청하기</a>
+                                                <a href="#" class="btn btn-gray" role="button" data-toggle="modal" data-target="#edu-details">신청하기</a>
                                             </p>
                                         </td>
                                         <td></td>
@@ -151,7 +151,7 @@
                                         <td>
                                             06 ~ 07
                                             <p class="btn-schedule">
-                                                <a href="#" class="btn btn-gray" role="button" data-toggle="modal" data-target="#modal-write">신청하기</a>
+                                                <a href="#" class="btn btn-gray" role="button" role="button" data-toggle="modal" data-target="#edu-details">신청하기</a>
                                             </p>
                                         </td>
                                         <td></td>
@@ -159,7 +159,7 @@
                                         <td>
                                             13 ~ 14
                                             <p class="btn-schedule">
-                                                <a href="#" class="btn btn-gray" role="button">신청하기</a>
+                                                <a href="#" class="btn btn-gray" role="button" data-toggle="modal" data-target="#edu-details">신청하기</a>
                                             </p>
                                         </td>
                                         <td></td>
@@ -420,8 +420,8 @@
 	<!-- //End Content -->
 	
 	<!-- Modal popup -->
-    <!-- #edu-apply -->
-    <div class="modal fade" id="edu-apply" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!-- #edu-details -->
+    <div class="modal fade" id="edu-details" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -531,8 +531,8 @@
         </div>
     </div>
     
-    <!-- modal-write -->
-    <div class="modal fade" id="modal-write" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+    <!-- edu-apply -->
+    <div class="modal fade" id="edu-apply" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -685,10 +685,10 @@
 	<script>
 		(function($) {
 			// 레이어팝업 관련
-			$(document).on("click", "#edu-apply #btn-edu-apply", function() {
-				$("#edu-apply").modal("hide");
+			$(document).on("click", "#edu-details #btn-edu-apply", function() {
+				$("#edu-details").modal("hide");
 				window.setTimeout(function() {
-					$("#modal-write").modal("show");
+					$("#edu-apply").modal("show");
 				}, 400);
 			});
 		})(jQuery);

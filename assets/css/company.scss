@@ -1,0 +1,85 @@
+@import 'common';
+
+// 회사소개
+.introduce{
+    .company-intro {
+        .article-content {
+            text-align: center;
+            h4 {
+                font-size: 30px;
+                color: #e9193a;
+                margin-bottom: 35px;
+            }
+            > p {
+                font-size: 16px;
+                color: #555;
+                line-height: 28px;
+                font-weight: 400;
+                margin-bottom: 65px;
+            }
+            .intro-list {
+                height: 498px;
+                background-image: url(/assets/images/company/company_intro_bg.png);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                .figure {
+                    padding-top: 35px;
+                    img {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    .service-area {
+        .article-content {
+            > p {
+                font-size: 16px;
+                color: #666;
+                line-height: 24px;
+                font-weight: 400;
+                > b {
+                    font-weight: 500;
+                    color: #e61937;
+                }
+            }
+            .circle-list {
+                font-size: 0;
+                text-align: center;
+                margin-top: 80px;
+                > li {
+                    display: inline-block;
+                    width: 20%;
+                    vertical-align: top;
+                    .circle {
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        padding: 45px 0;
+                        border-radius: 50%;
+                        &.gray-bg {
+                            background-color: #939393;
+                        }
+                        &.red-bg {
+                            background-color: #e61937;
+                        }
+                        .figure {
+                            height: 51px;
+                            line-height: 51px;
+                            vertical-align: middle;
+                            img {
+                                display: inline-block;
+                            }
+                        }
+                        .figcaption {
+                            font-size: 14px;
+                            color: #fff;
+                            line-height: 18px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

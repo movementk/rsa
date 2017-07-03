@@ -44,13 +44,13 @@
                         <li class="active">
                             <a href="#">회사개요</a>
                             <ul>
-                                <li><a href="#">회사소개<span></span></a></li>
-                                <li><a href="#">인사말<span></span></a></li>
-                                <li><a href="#">CI<span></span></a></li>
-                                <li><a href="#">연혁<span></span></a></li>
-                                <li><a href="#">사업장안내<span></span></a></li>
-                                <li><a href="#">파트너웹 제안<span></span></a></li>
-                                <li><a href="#">글로벌 파트너쉽<span></span></a></li>
+                                <li><a href="/company/introduce.php">회사소개<span></span></a></li>
+                                <li><a href="/company/greeting.php">인사말<span></span></a></li>
+                                <li><a href="/company/ci.php">CI<span></span></a></li>
+                                <li><a href="/company/history.php">연혁<span></span></a></li>
+                                <li><a href="/company/headquarters.php">사업장안내<span></span></a></li>
+                                <li><a href="/company/partner.php">파트너웹 제안<span></span></a></li>
+                                <li><a href="/company/partner_ship.php">글로벌 파트너쉽<span></span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -91,7 +91,7 @@
                             <a href="#">교육지원</a>
                             <ul>
                                 <li><a href="/education/edu_guide.php">교육안내<span></span></a></li>
-                                <li><a href="#">스케줄/등록<span></span></a></li>
+                                <li><a href="/education/edu_schedule.php">스케줄/등록<span></span></a></li>
                             </ul>
                         </li>
                         <li>

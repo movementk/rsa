@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,600,700");
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  position: relative;
+  min-width: 1200px;
+  font-size: 12px;
+  color: #5b5b5b;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 140px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  min-width: 1200px !important; }
+
+.introduce .company-intro .article-content {
+  text-align: center; }
+  .introduce .company-intro .article-content h4 {
+    font-size: 30px;
+    color: #e9193a;
+    margin-bottom: 35px; }
+  .introduce .company-intro .article-content > p {
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 65px; }
+  .introduce .company-intro .article-content .intro-list {
+    height: 498px;
+    background-image: url(/assets/images/company/company_intro_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+    .introduce .company-intro .article-content .intro-list .figure {
+      padding-top: 35px; }
+      .introduce .company-intro .article-content .intro-list .figure img {
+        display: inline-block; }
+.introduce .service-area .article-content > p {
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  font-weight: 400; }
+  .introduce .service-area .article-content > p > b {
+    font-weight: 500;
+    color: #e61937; }
+.introduce .service-area .article-content .circle-list {
+  font-size: 0;
+  text-align: center;
+  margin-top: 80px; }
+  .introduce .service-area .article-content .circle-list > li {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top; }
+    .introduce .service-area .article-content .circle-list > li .circle {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      padding: 45px 0;
+      border-radius: 50%; }
+      .introduce .service-area .article-content .circle-list > li .circle.gray-bg {
+        background-color: #939393; }
+      .introduce .service-area .article-content .circle-list > li .circle.red-bg {
+        background-color: #e61937; }
+      .introduce .service-area .article-content .circle-list > li .circle .figure {
+        height: 51px;
+        line-height: 51px;
+        vertical-align: middle; }
+        .introduce .service-area .article-content .circle-list > li .circle .figure img {
+          display: inline-block; }
+      .introduce .service-area .article-content .circle-list > li .circle .figcaption {
+        font-size: 14px;
+        color: #fff;
+        line-height: 18px;
+        margin-top: 20px; }
+
+/*# sourceMappingURL=company.css.map */
