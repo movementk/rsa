@@ -522,7 +522,7 @@
                     <b class="attention">위 교육내용은 변경될 수 있습니다</b>
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-gray" role="button">취소하기</a>
+                            <a href="#" class="btn btn-gray" role="button" data-dismiss="modal" aria-label="Close">취소하기</a>
                             <a href="#" class="btn btn-red" role="button">신청하기</a>
                         </p>
                     </div>
@@ -669,7 +669,7 @@
                         </div>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-gray" role="button">취소</a>
+                                <a href="#" class="btn btn-gray" data-dismiss="modal" aria-label="Close" role="button">취소</a>
                                 <button type="submit" class="btn btn-red">확인</button>
                             </p>
                         </div>
