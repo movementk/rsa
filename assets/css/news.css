@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,600,700");
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  position: relative;
+  min-width: 1200px;
+  font-size: 12px;
+  color: #5b5b5b;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 140px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  min-width: 1200px !important; }
+
+.news .page-header {
+  background-image: url(/assets/images/news/news_header_bg.jpg); }
+.news .sub-lnb .lnb-list li {
+  width: 33.3%; }
+
+.notice .section-content .search-form {
+  margin-bottom: 30px; }
+.notice .section-content .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+.notice .section-content .paging {
+  margin-top: 40px; }
+
+.view .section-content .notice-view .view-content p img {
+  display: block;
+  margin: 0 auto; }
+.view .section-content .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+
+.write .section-content .table-wrap .table.type-write tbody tr th {
+  padding-left: 15px; }
+  .write .section-content .table-wrap .table.type-write tbody tr th.u-content {
+    vertical-align: top;
+    padding-top: 20px; }
+.write .section-content .table-wrap .table.type-write tbody tr td .form-group .form-control {
+  width: 142px;
+  height: 35px; }
+.write .section-content .table-wrap .table.type-write tbody tr td.subject .form-group .form-control {
+  width: 792px; }
+.write .section-content .table-wrap .table.type-write tbody tr td.u-content {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .write .section-content .table-wrap .table.type-write tbody tr td.u-content .form-group textarea {
+    width: 792px;
+    height: 162px; }
+.write .section-content .table-wrap .table.type-write tbody tr td.attach .form-group {
+  display: inline-block; }
+  .write .section-content .table-wrap .table.type-write tbody tr td.attach .form-group .form-control {
+    width: 322px; }
+.write .section-content .table-wrap .table.type-write tbody tr td.attach label {
+  display: inline-block;
+  width: 83px;
+  height: 35px;
+  font-size: 14px;
+  color: #fff;
+  vertical-align: top;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #acacac; }
+.write .section-content .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+
+/*# sourceMappingURL=news.css.map */

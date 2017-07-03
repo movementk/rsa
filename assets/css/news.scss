@@ -1,0 +1,123 @@
+@import 'common';
+
+// 뉴스센터 공통 
+.news {
+    .page-header {
+        background-image: url(/assets/images/news/news_header_bg.jpg);
+    }
+    .sub-lnb {
+        .lnb-list {
+            li {
+                width: 33.3%;
+            }
+        }
+    }
+}
+
+// News Center 모두 공통 하나의 클래스로 통일
+// notice
+// list 
+.notice {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+// view 
+.view {
+    .section-content {
+        .notice-view {
+            .view-content {
+                p {
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}
+// 쓰기
+.write {
+    .section-content {
+        .table-wrap {
+            .table.type-write {
+                tbody {
+                    tr {
+                        th {
+                            padding-left: 15px;
+                            &.u-content {
+                                vertical-align: top;
+                                padding-top: 20px;
+                            }
+                        }
+                        td {
+                            .form-group {
+                                .form-control {
+                                    width: 142px;
+                                    height: 35px;
+                                }
+                            }
+                            &.subject {
+                                .form-group {
+                                    .form-control {
+                                        width: 792px;
+                                    }
+                                }
+                            }
+                            &.u-content {
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+                                .form-group {
+                                    textarea {
+                                        width: 792px;
+                                        height: 162px;
+                                    }
+                                }
+                            }
+                            &.attach {
+                                .form-group {
+                                    display: inline-block;
+                                    .form-control {
+                                        width: 322px;
+                                    }
+                                }
+                                label {
+                                    display: inline-block;
+                                    width: 83px;
+                                    height: 35px;
+                                    font-size: 14px;
+                                    color: #fff;
+                                    vertical-align: top;
+                                    line-height: 35px;
+                                    text-align: center;
+                                    margin-left: 10px;
+                                    cursor: pointer;
+                                    border-radius: 2px;
+                                    background-color: #acacac;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}

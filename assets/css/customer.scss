@@ -1,0 +1,417 @@
+@import 'common';
+
+// 연구개발 공통 
+.customer {
+    .page-header {
+        background-image: url(/assets/images/customer/customer_header_bg.jpg);
+    }
+    .sub-lnb {
+        .lnb-list {
+            li {
+                width: 12.5%;
+            }
+        }
+    }
+}
+
+// FAQ
+// list
+.faq-list {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+// view
+.faq-view {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}
+
+// Q&A
+// list
+.qna-list {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+//view
+.qna-view {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}
+// write
+.qna-write {
+    .section-content {
+        .table-wrap {
+            .table.type-write {
+                tbody {
+                    tr {
+                        th {
+                            padding-left: 15px;
+                            &.u-content {
+                                vertical-align: top;
+                                padding-top: 20px;
+                            }
+                        }
+                        td {
+                            .form-group {
+                                .form-control {
+                                    width: 142px;
+                                    height: 35px;
+                                }
+                            }
+                            &.subject {
+                                .form-group {
+                                    .form-control {
+                                        width: 792px;
+                                    }
+                                }
+                            }
+                            &.u-content {
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+                                .form-group {
+                                    textarea {
+                                        width: 792px;
+                                        height: 162px;
+                                    }
+                                }
+                            }
+                            &.attach {
+                                .form-group {
+                                    display: inline-block;
+                                    .form-control {
+                                        width: 322px;
+                                    }
+                                }
+                                label {
+                                    display: inline-block;
+                                    width: 83px;
+                                    height: 35px;
+                                    font-size: 14px;
+                                    color: #fff;
+                                    vertical-align: top;
+                                    line-height: 35px;
+                                    text-align: center;
+                                    margin-left: 10px;
+                                    cursor: pointer;
+                                    border-radius: 2px;
+                                    background-color: #acacac;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}
+
+// 동영상
+// list
+.video-list {
+    .section-content {
+        padding: 0;
+        background: none;
+        > ul {
+            > li {
+                &:nth-of-type(4n + 1) {
+                    clear: both;
+                }
+                > a {
+                    display: block;
+                    margin-bottom: 65px;
+                    &:hover, &:focus {
+                        text-decoration: none;
+                        .details {
+                            background-color: rgba(230, 25, 55, 1);
+                            .video-title {
+                                color: #fff;
+                            }
+                            .date {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .figure {
+                        img {
+                            width: 270px;
+                            height: 270px;
+                        }
+                    }
+                    .details {
+                        @include trans();
+                        padding: 20px 30px;
+                        .video-title {
+                            font-size: 15px;
+                            color: #333;
+                            line-height: 22px;
+                        }
+                        .date {
+                            display: block;
+                            font-size: 13px;
+                            color: #777;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
+// 뷰
+
+
+// 서비스 센터
+.cs-center {
+    .section-content {
+        padding: 0;
+        background: none;
+        .center-addr {
+            position: relative;
+            width: 100%;
+            height: 410px;
+            border: 5px solid #b4b4b4;
+            background-color: #fff;
+            background-image: url(/assets/images/customer/cs_center_bg.png);
+            background-repeat: no-repeat;
+            background-position: 48% 50%;
+            > div {
+                position: absolute;
+                padding-left: 125px;
+                background-image: url(/assets/images/customer/area_bg.png);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                > h4 {
+                    font-size: 16px;
+                    color: #666;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+                > address {
+                    font-size: 14px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 24px;
+                }
+                > dl {
+                    dt {
+                        float: left;
+                        clear: both;
+                        font-size: 14px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 24px;
+                        &:after {
+                            content: ":";
+                            padding: 0 4px;
+                        }
+                    }
+                    dd {
+                        float: left;
+                        font-size: 14px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 24px;
+                    }
+                }
+                &.jungbu {
+                    top: 100px;
+                    left: 77px;
+                }
+                &.nambu {
+                    bottom: 75px;
+                    right: 55px;
+                }
+            }
+        }
+        .table-wrap {
+            margin-top: 45px;
+        }
+    }
+}
+
+// 대리점
+// list
+.agent-list {
+    .section-content {
+        padding: 0;
+        background: none;
+        .form-group {
+            text-align: right;
+            .form-control {
+                display: inline-block;
+                width: 110px;
+                height: 45px;
+                font-size: 14px;
+                color: #999;
+                padding-left: 15px;
+            }
+        }
+        .table-wrap {
+            margin-top: 32px;
+        }
+        .paging {
+            margin-top: 50px;
+        }
+    }
+}
+// view
+.agent-view {
+    .section-content {
+        .table-wrap {
+            tbody {
+                tr {
+                    th {
+                        padding: 20px 0;
+                        padding-left: 15px;
+                        b {
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                        &.agent-maps {
+                            vertical-align: top;
+                            padding-top: 30px;
+                        }
+                    }
+                    td {
+                        font-size: 14px;
+                        color: #666;
+                        font-weight: 300;
+                        padding: 20px 30px;
+                        a {
+                            color: #666;
+                        }
+                        &.agent-maps {
+                            padding: 30px 38px;
+                            .map {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 50px;
+        }
+    }
+}
+// 대리점게시판
+.agent-notice {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+
+
+// 연락처
+.contact {
+    article {
+        .article-content {
+            .table-wrap {
+                .table-type2 {
+                    tbody {
+                        tr {
+                            td {
+                                line-height: 24px;
+                                font-weight: 300;
+                                &:first-child {
+                                    background-color: #f8f9fa;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

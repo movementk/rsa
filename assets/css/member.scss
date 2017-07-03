@@ -1,0 +1,473 @@
+@import 'common';
+
+// Member 공통
+.member {
+    .page-header {
+        background-image: url(/assets/images/member/member_header_bg.jpg);
+        .visual-header {
+            height: 290px;
+        }
+    }
+}
+
+.form-control {
+    height: 30px;
+    border-radius: 2px;
+    border-color: #d6d6d6;
+}
+
+// 아이디 비번 찾기 및 비밀번호 확인 공통
+// 로그인
+.common-form {
+    margin-top: 187px;
+    padding: 95px 0 115px;
+    background-color: #fff;
+    .section-header {
+        text-align: center;
+        padding: 0;
+        > h3 {
+            font-size: 30px;
+            color: #333;
+            @include arial();
+        }
+        > p {
+            font-size: 14px;
+            color: #777;
+            margin-top: 25px;
+        }
+    }
+    .section-content {
+        padding: 0;
+        .login-form {
+            width: 464px;
+            margin: 0 auto;
+            .write {
+                position: relative;
+                padding: 30px 90px 20px 0;
+                > .form-group {
+                    display: block;
+                    overflow: hidden;
+                    &:first-child {
+                        margin-bottom: 20px;
+                    }
+                    label {
+                        float: left;
+                        width: 72px;
+                        font-size: 13px;
+                        color: #555;
+                        font-weight: 400;
+                        line-height: 30px;
+                        text-align: left;
+                    }
+                    .form-control {
+                        float: left;
+                        width: 300px;
+                    }
+                }
+                .btn-login {
+                    position: absolute;
+                    top: 30px;
+                    right: 0;
+                    .btn-red {
+                        width: 80px;
+                        height: 80px;
+                        font-size: 15px;
+                        color: #fff;
+                        line-height: 80px;
+                        border-radius: 2px;
+                        background-color: #e61937;
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+            .find-join {
+                padding-left: 72px;
+                dl {
+                    display: inline-block;
+                    width: 100%;
+                    dt {
+                        float: left;
+                        clear: both;
+                        font-size: 13px;
+                        color: #777;
+                        line-height: 25px;
+                        font-weight: 400;
+                        &:nth-of-type(1) {
+                            margin-bottom: 5px;
+                        }
+                        &:before {
+                            content: "ㆍ";
+                            padding-right: 3px;
+                        }
+                    }
+                    dd {
+                        float: right;
+                        font-size: 13px;
+                        color: #777;
+                        line-height: 25px;
+                        font-weight: 400;
+                        &:nth-of-type(1) {
+                            margin-bottom: 5px;
+                        }
+                        .btn-join {
+                            .btn-gray {
+                                width: 80px;
+                                height: 25px;
+                                font-size: 12px;
+                                color: #fff;
+                                line-height: 25px;
+                                background-color: #555;
+                                &:hover, &:focus {
+                                    opacity: .7;
+                                }
+                            }
+                        }
+                        &.find {
+                            > a {
+                                display: inline-block;
+                                font-size: 13px;
+                                color: #777;
+                                font-weight: 400;
+                                &:hover, &:focus {
+                                    text-decoration: none;
+                                }
+                                &:first-child:after {
+                                    content: "/";
+                                    padding: 0 3px 0 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 이용약관
+.agree {
+    .section-content {
+        .content {
+            overflow-y: scroll;
+            min-height: 350px;
+            font-size: 13px;
+            color: #666;
+            line-height: 20px;
+            padding: 30px 20px;
+            border: 1px solid #dfdfdf;
+        }
+        .selection-agree {
+            width: 100%;
+            margin-top: 20px;
+            overflow: hidden;
+            .form-group {
+                float: left;
+                vertical-align: middle;;
+                .agree-txt {
+                    display: inline-block;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    margin-right: 30px;
+                }
+                label {
+                    display: inline-block;
+                    margin-right: 30px;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    input {
+                        position: relative;
+                        top: 2px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .btn-area {
+                float: right;
+                p {
+                    .btn-red {
+                        width: 140px;
+                        height: 40px;
+                        font-size: 15px;
+                        line-height: 40px;
+                        border-radius: 0;
+                        background-color: #e3182e;
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 정보입력
+.join {
+    article {
+        .article-content {
+            padding: 60px 70px;
+            background-color: #fff;
+            .table-wrap {
+                .type-write {
+                    tbody {
+                        tr {
+                            th {
+                                padding-left: 25px;
+                            }
+                            td {
+                                padding-left: 40px;
+                                padding-right: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.basic-info {
+            .article-content {
+                .table-wrap {
+                    strong {
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 13px;
+                        color: #e61937;
+                        font-weight: 500;
+                        text-align: right;
+                        margin-bottom: 10px;
+                    }
+                    .type-write {
+                        tbody {
+                            tr {
+                                th {
+                                    label {
+                                        &:before {
+                                            content: "*";
+                                            color: #e61937;
+                                            padding-right: 3px;
+                                        }
+                                    }
+                                }
+                                td {
+                                    .form-group {
+                                        .form-control {
+                                            font-size: 13px;
+                                            width: 142px;
+                                        }
+                                    }
+                                    &.e-mail {
+                                        .form-group {
+                                            .form-control {
+                                                width: 342px;
+                                            }
+                                        }
+                                    }
+                                    &.user-id {
+                                        .form-group {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                        .check-id {
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            .btn-gray {
+                                                width: 93px;
+                                                height: 32px;
+                                                font-size: 13px;
+                                                color: #fff;
+                                                font-weight: 300;
+                                                line-height: 32px;
+                                                text-align: center;
+                                                border-radius: 2px;
+                                                background-color: #acacac;
+                                                &:hover, &:focus {
+                                                    opacity: .7;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.office-info {
+            .article-content {
+                .table-wrap {
+                    .type-write {
+                        tbody {
+                            tr {
+                                th {
+                                    
+                                }
+                                td {
+                                    .form-group {
+                                        .form-control {
+                                            display: inline-block;
+                                            width: 58px;
+                                        }
+                                    }
+                                    &.office {
+                                        .form-group {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                            .form-control {
+                                                width: 142px;
+                                            }
+                                        }
+                                        .attention {
+                                            display: inline-block;
+                                            font-size: 13px;
+                                            color: #999;
+                                            vertical-align: top;
+                                            line-height: 32px;
+                                        }
+                                    }
+                                    &.department {
+                                        .form-group {
+                                            .form-control {
+                                                width: 342px;
+                                            }
+                                        }
+                                    }
+                                    &.common-form {
+                                        color: #d6d6d6;
+                                        .form-group {
+                                            .form-control {
+                                                &:nth-of-type(1) {
+                                                    margin-right: 8px;
+                                                }
+                                                &:nth-of-type(2) {
+                                                    margin: 0 8px;
+                                                }
+                                                &:nth-of-type(3) {
+                                                    margin-left: 8px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 비밀번호 확인
+.pw-confirm {
+    margin-top: 187px;
+    padding: 95px 0 115px;
+    background-color: #fff;
+    .section-header {
+        text-align: center;
+        padding: 0;
+        > h3 {
+            font-size: 30px;
+            color: #333;
+            @include arial();
+        }
+        > p {
+            font-size: 14px;
+            color: #777;
+            margin-top: 25px;
+        }
+    }
+    .section-content {
+        padding: 0;
+        .login-form {
+            width: 373px;
+            margin: 0 auto;
+            .write {
+                margin-top: 50px;
+                .user-id {
+                    line-height: 40px;
+                    font-size: 13px;
+                    color: #666;
+                    padding-left: 12px;
+                }
+                .form-group {
+                    margin-top: 10px;
+                    .form-control {
+                        width: 100%;
+                        height: 40px;
+                        background-color: #eee;
+                        border-color: #eee;
+                    }
+                }
+                .btn-login {
+                    margin-top: 10px;
+                    .btn-red {
+                        width: 100%;
+                        height: 42px;
+                        font-size: 15px;
+                        color: #fff;
+                        line-height: 42px;
+                        border-radius: 2px;
+                        background-color: #e61937;
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
