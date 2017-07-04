@@ -6,13 +6,13 @@
                 <li>
                     <h4>회사개요</h4>
                     <ul>
-                        <li><a href="#">회사소개</a></li>
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">CI</a></li>
-                        <li><a href="#">연혁</a></li>
-                        <li><a href="#">사업장안내</a></li>
-                        <li><a href="#">파트너웹 제안</a></li>
-                        <li><a href="#">글로벌 파트너쉽</a></li>
+                        <li><a href="/company/introduce.php">회사소개<span></span></a></li>
+                        <li><a href="/company/greeting.php">인사말<span></span></a></li>
+                        <li><a href="/company/ci.php">CI<span></span></a></li>
+                        <li><a href="/company/history.php">연혁<span></span></a></li>
+                        <li><a href="/company/headquarters.php">사업장안내<span></span></a></li>
+                        <li><a href="/company/partner.php">파트너쉽 제안<span></span></a></li>
+                        <li><a href="/company/partner_ship.php">글로벌 파트너쉽<span></span></a></li>
                     </ul>
                 </li>
                 <li>
@@ -37,31 +37,31 @@
                     </ul>
                 </li>
                 <li>
-                    <h4>연구개발</h4>
+                    <h4>고객센터</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
-                        <li><a href="#">동영상</a></li>
-                        <li><a href="#">서비스센터</a></li>
-                        <li><a href="#">대리점</a></li>
-                        <li><a href="#">대리점 게시판</a></li>
-                        <li><a href="#">연락처</a></li>
+                        <li><a href="/customer/faq_list.php">FAQ</a></li>
+                        <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
+                        <li><a href="/customer/dataroom.php">자료실</a></li>
+                        <li><a href="/customer/video_list.php">동영상</a></li>
+                        <li><a href="/customer/cs_center.php">서비스센터</a></li>
+                        <li><a href="/customer/agent_list.php">대리점</a></li>
+                        <li><a href="/customer/agent_notice.php">대리점 게시판</a></li>
+                        <li><a href="/customer/contact.php">연락처</a></li>
                     </ul>
                 </li>
                 <li>
                     <h4>교육지원</h4>
                     <ul>
-                        <li><a href="#">교육안내</a></li>
-                        <li><a href="#">스케줄/등록</a></li>
+                        <li><a href="/education/edu_guide.php">교육안내</a></li>
+                        <li><a href="/education/edu_schedule.php">스케줄/등록</a></li>
                     </ul>
                 </li>
                 <li>
                     <h4>뉴스센터</h4>
                     <ul>
-                        <li><a href="#">NOTICE</a></li>
-                        <li><a href="#">PRESS RELEASE</a></li>
-                        <li><a href="#">NEW CENTER</a></li>
+                        <li><a href="/news/notice_list.php">NOTICE</a></li>
+                        <li><a href="/news/pr_list.php">PRESS RELEASE</a></li>
+                        <li><a href="/news/news_list.php">NEW CENTER</a></li>
                     </ul>
                 </li>
             </ul>

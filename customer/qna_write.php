@@ -21,7 +21,7 @@
                     <ul class="lnb-list">
                         <li><a href="/customer/faq_list.php">FAQ</a></li>
                         <li class="active"><a href="/customer/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
+                        <li><a href="/customer/dataroom.php">자료실</a></li>
                         <li><a href="/customer/video_list.php">동영상</a></li>
                         <li><a href="/customer/cs_center.php">서비스센터</a></li>
                         <li><a href="/customer/agent_list.php">대리점</a></li>
@@ -53,6 +53,17 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    
+                                    <!-- RSA 담당자 리뷰 (최종수정) e-mail input 추가 -->
+                                    <tr>
+                                        <th><label for="e-mail">이메일</label></th>
+                                        <td class="e-mail">
+                                            <div class="form-group">
+                                                <input type="email" id="e-mail" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
                                     <tr>
                                         <th><label for="u-pw">비밀번호</label></th>
                                         <td>

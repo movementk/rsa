@@ -379,7 +379,7 @@ label {
         color: #e61937;
         text-decoration: none; }
       .table-wrap .table.table-type2 tbody tr td a.agent:hover, .table-wrap .table.table-type2 tbody tr td a.agent:focus {
-        text-decoration: underline; }
+        text-decoration: none; }
   .table-wrap .table.table-type3 tbody tr th {
     font-size: 16px;
     color: #333;

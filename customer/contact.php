@@ -21,7 +21,7 @@
                     <ul class="lnb-list">
                         <li><a href="/customer/faq_list.php">FAQ</a></li>
                         <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
+                        <li><a href="/customer/dataroom.php">자료실</a></li>
                         <li><a href="/customer/video_list.php">동영상</a></li>
                         <li><a href="/customer/cs_center.php">서비스센터</a></li>
                         <li><a href="/customer/agent_list.php">대리점</a></li>
@@ -61,7 +61,7 @@
                                         <td>PLC/IO</td>
                                         <td>
                                             이재용 부장<br>
-                                            김용준 과장
+                                            김용준 차장
                                         </td>
                                         <td>
                                             010-3643-5740<br>
@@ -86,48 +86,40 @@
                                     <tr>
                                         <td>서보 드라이브</td>
                                         <td>
-                                            윤보원 과장<br>
-                                            김종호 과장<br>
-                                            김대경 사원
+                                            윤보원 차장<br>
+                                            김대경 대리
                                         </td>
                                         <td>
                                             010-9234-8658<br>
-                                            010-7137-2303<br>
                                             010-8212-1884
                                         </td>
                                         <td>
                                             031-685-9590<br>
-                                            031-685-9428<br>
                                             031-685-9338
                                         </td>
                                         <td>
                                             bwyun@rsautomation.co.kr<br>
-                                            jhkim3@rsautomation.co.kr<br>
                                             dgkim@rsautomation.co.kr
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>모션 컨트롤러 (MMC)</td>
                                         <td>
-                                            김종호 과장<br>
                                             김도언 과장<br>
-                                            김대경 사원<br>
+                                            김대경 대리<br>
                                             이민정 대리
                                         </td>
                                         <td>
-                                            010-7137-2303<br>
                                             010-8984-9446<br>
                                             010-8212-1884<br>
                                             010-4576-8917
                                         </td>
                                         <td>
                                             031-685-9428<br>
-                                            031-685-9428<br>
                                             031-685-9338<br>
                                             031-685-9338
                                         </td>
                                         <td>
-                                            jhkim3@rsautomation.co.kr<br>
                                             dekim@rsautomation.co.kr<br>
                                             dgkim@rsautomation.co.kr<br>
                                             mjlee1@rsautomation.co.kr
@@ -181,9 +173,9 @@
                         </div>
                     </div>
                 </article>
-                <article class="education">
+                <article class="after-service">
                     <div class="article-header">
-                        <h3 class="content-title">교육지원</h3>
+                        <h3 class="content-title">A/S센터</h3>
                     </div>
                     <div class="article-content">
                         <div class="table-wrap">
@@ -197,7 +189,7 @@
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>제품</th>
+                                        <th>구분</th>
                                         <th>담당자</th>
                                         <th>휴대폰</th>
                                         <th>전화</th>
@@ -206,11 +198,17 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>PLC</td>
-                                        <td>이재용 부장</td>
-                                        <td>010-3643-5740</td>
-                                        <td>031-685-9424</td>
-                                        <td>jylee@rsautomation.co.kr</td>
+                                        <td>A/S센터</td>
+                                        <td>
+                                            반재규 과장<br>
+                                            장상석 과장
+                                        </td>
+                                        <td>
+                                            010-8772-1192<br>
+                                            010-8772-1192
+                                        </td>
+                                        <td>-</td>
+                                        <td>-</td>
                                     </tr>
                                 </tbody>
                             </table>

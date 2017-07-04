@@ -21,6 +21,10 @@
         .search-form {
             margin-bottom: 30px;
         }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
         .paging {
             margin-top: 40px;
         }
@@ -82,6 +86,13 @@
                                     height: 35px;
                                 }
                             }
+                            &.e-mail {
+                                .form-group {
+                                    .form-control {
+                                        width: 300px;
+                                    }
+                                }
+                            }
                             &.subject {
                                 .form-group {
                                     .form-control {
@@ -139,6 +150,9 @@
     .section-content {
         padding: 0;
         background: none;
+        .search-form {
+            margin-bottom: 30px;
+        }
         > ul {
             > li {
                 &:nth-of-type(4n + 1) {
@@ -189,68 +203,127 @@
     }
 }
 // 뷰
-
+.video-view {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    } 
+}
 
 // 서비스 센터
 .cs-center {
     .section-content {
         padding: 0;
         background: none;
-        .center-addr {
-            position: relative;
+        .after-center {
+            overflow: hidden;
             width: 100%;
             height: 410px;
             border: 5px solid #b4b4b4;
             background-color: #fff;
-            background-image: url(/assets/images/customer/cs_center_bg.png);
-            background-repeat: no-repeat;
-            background-position: 48% 50%;
             > div {
-                position: absolute;
-                padding-left: 125px;
-                background-image: url(/assets/images/customer/area_bg.png);
-                background-repeat: no-repeat;
-                background-position: 0 0;
-                > h4 {
-                    font-size: 16px;
-                    color: #666;
-                    font-weight: 500;
-                    margin-bottom: 15px;
-                }
-                > address {
-                    font-size: 14px;
-                    color: #666;
-                    font-weight: 300;
-                    line-height: 24px;
-                }
-                > dl {
-                    dt {
-                        float: left;
-                        clear: both;
-                        font-size: 14px;
-                        color: #666;
-                        font-weight: 300;
-                        line-height: 24px;
-                        &:after {
-                            content: ":";
-                            padding: 0 4px;
+                float: left;
+                width: 50%;
+                height: 400px;
+                &.center-map {
+                    position: relative;
+                    background-image: url(/assets/images/customer/cs_center_map.png);
+                    background-repeat: no-repeat;
+                    background-position: 240px 50%;
+                    > div {
+                        position: absolute;
+                        > h4 {
+                            font-size: 16px;
+                            color: #e61937;
+                            font-weight: 500;
+                            margin-bottom: 5px;
+                        }
+                        .area-list {
+                            overflow: hidden;
+                            > li {
+                                float: left;
+                                font-size: 13px;
+                                color: #666;
+                                font-weight: 300;
+                                line-height: 18px;
+                                &:nth-of-type(5) {
+                                    clear: both;
+                                }
+                                &:before {
+                                    content: "/";
+                                }
+                                &:first-child:before {
+                                    content: "(";
+                                }
+                                &:last-child:after {
+                                    content: ")";
+                                }
+                            }
+                        }
+                        &.jungbu {
+                            top: 106px;
+                            left: 153px;
+                        }
+                        &.nambu {
+                            right: 20px;
+                            bottom: 117px;
                         }
                     }
-                    dd {
-                        float: left;
-                        font-size: 14px;
-                        color: #666;
-                        font-weight: 300;
-                        line-height: 24px;
+                }
+                &.center-addr {
+                    padding: 60px 0;
+                    padding-left: 70px;
+                    > div {
+                        display: block;
+                        padding-left: 28px;
+                        background-image: url(/assets/images/customer/area_bg.png);
+                        background-repeat: no-repeat;
+                        background-position: 0 0;
+                        > h4 {
+                            font-size: 16px;
+                            color: #666;
+                            font-weight: 500;
+                            padding-top: 3px;
+                            margin-bottom: 15px;
+                        }
+                        > address {
+                            font-size: 14px;
+                            color: #666;
+                            font-weight: 300;
+                            line-height: 24px;
+                        }
+                        > dl {
+                            overflow: hidden;
+                            clear: both;
+                            dt {
+                                float: left;
+                                clear: both;
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 300;
+                                line-height: 24px;
+                                &:after {
+                                    content: ":";
+                                    padding: 0 4px;
+                                }
+                            }
+                            dd {
+                                float: left;
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 300;
+                                line-height: 24px;
+                            }
+                        }
+                        &.jungbu {
+                            margin-bottom: 60px;
+                        }
+                        &.nambu {
+
+                        }
                     }
-                }
-                &.jungbu {
-                    top: 100px;
-                    left: 77px;
-                }
-                &.nambu {
-                    bottom: 75px;
-                    right: 55px;
                 }
             }
         }
@@ -263,22 +336,51 @@
 // 대리점
 // list
 .agent-list {
+    .section-header {
+        padding-bottom: 60px;
+    }
     .section-content {
         padding: 0;
         background: none;
-        .form-group {
-            text-align: right;
-            .form-control {
+        .tab-list {
+            .agent-tab-list {
                 display: inline-block;
-                width: 110px;
-                height: 45px;
-                font-size: 14px;
-                color: #999;
-                padding-left: 15px;
+                text-align: center;
+                li {
+                    display: inline;
+                    &.active {
+                        a {
+                            color: #fff;
+                            background-color: #e61937;
+                            border-color: #e61937;
+                            &:hover, &:focus {
+                                opacity: 1;
+                                cursor: default;
+                            }
+                        }
+                    }
+                    a {
+                        float: left;
+                        width: 167.1px;
+                        font-size: 14px;
+                        color: #999;
+                        padding: 15px 0;
+                        margin-left: -1px;
+                        border: 1px solid #e3e3e3;
+                        background-color: #fff;
+                        @include trans();
+                        &:hover, &:focus {
+                            color: #fff;
+                            text-decoration: none;
+                            background-color: #e61937;
+                            border-color: #e61937;
+                        }
+                    }
+                }
             }
         }
         .table-wrap {
-            margin-top: 32px;
+            margin-top: 50px;
         }
         .paging {
             margin-top: 50px;
@@ -369,7 +471,83 @@
     }
 }
 
-
+// 자료실 
+.dataroom {
+    .section-content {
+        padding: 0;
+        background: none;
+        .table-wrap {
+            .type-write {
+                border: 2px solid #e61937;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 16px;
+                            color: #333;
+                            font-weight: 400;
+                            vertical-align: middle;
+                            padding-left: 50px;
+                        }
+                        td {
+                            padding: 28px 0 28px 50px;
+                            background-color: #fff;
+                            > ul {
+                                font-size: 0;
+                                li {
+                                    display: inline-block;
+                                    margin-right: 40px;
+                                    font-size: 14px;
+                                    color: #707070;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                    label {
+                                        font-size: 14px;
+                                        color: #707070;
+                                        font-weight: 300;
+                                        input[type=radio] {
+                                            position: relative;
+                                            top: 1px;
+                                            border: 1px solid #acacac;
+                                            margin-right: 10px;
+                                        }
+                                    }
+//                                    &.active {
+//                                        label {
+//                                            color: #e61937;
+//                                            input[type=radio] {
+//                                                border: 1px solid #e61937;
+//                                            }
+//                                        }
+//                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .search-area {
+            position: relative;
+            height: 190px;
+            padding: 72px 70px;
+            margin-top: 20px;
+            background-color: #fff;
+            .logo {
+                position: absolute;
+                top: 75px;
+                left: 70px;
+            }
+            .search-form {
+                .form-group {
+                    #search {
+                        width: 690px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

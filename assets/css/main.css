@@ -89,7 +89,8 @@ address {
     #content article.product .bx-wrapper .bx-viewport .product-list li {
       text-align: center; }
       #content article.product .bx-wrapper .bx-viewport .product-list li figure img {
-        display: inline-block; }
+        display: inline-block;
+        height: 100px; }
       #content article.product .bx-wrapper .bx-viewport .product-list li figure figcaption {
         font-size: 16px;
         color: #5b5b5b;
@@ -326,12 +327,16 @@ address {
       font-size: 70px;
       color: #fff;
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 600;
+      font-weight: 500;
+      line-height: 55px;
       margin-bottom: 40px;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
       -ms-transform: scale(0.1);
       -webkit-transform: scale(0.1);
       transform: scale(0.1); }
+      #fields .fields-content .en small {
+        font-size: 25px;
+        color: #fff; }
     #fields .fields-content .ko {
       position: relative;
       top: -20px;
@@ -443,21 +448,16 @@ address {
     border-right: 1px solid #e5e5e5; }
     #rsa-center .container > div a {
       display: inline-block;
+      font-size: 14px;
+      color: #000;
+      height: 52px;
+      line-height: 48px;
+      font-weight: 400;
       padding-left: 74px;
       background-position: 0 2px;
       background-repeat: no-repeat; }
       #rsa-center .container > div a:hover, #rsa-center .container > div a:focus {
         text-decoration: none; }
-      #rsa-center .container > div a > h3 {
-        font-size: 14px;
-        color: #000;
-        font-weight: 400; }
-      #rsa-center .container > div a > p {
-        font-size: 12px;
-        color: #666;
-        line-height: 16px;
-        font-weight: 300;
-        margin-top: 10px; }
     #rsa-center .container > div:last-child {
       border-right: 0; }
     #rsa-center .container > div.cs-center a {

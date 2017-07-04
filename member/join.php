@@ -61,10 +61,11 @@
                                         </tr>
                                         <tr>
                                             <th><label for="u-pw">비밀번호</label></th>
-                                            <td>
+                                            <td class="user-pw">
                                                 <div class="form-group">
                                                     <input type="password" id="u-pw" class="form-control">
                                                 </div>
+                                                <p class="attention">(영문과 숫자를 조합하여 4~12자 사이)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -116,6 +117,14 @@
                                             <td class="department">
                                                 <div class="form-group">
                                                     <input type="text" id="u-department" class="form-control">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><label for="u-rank">직급</label></th>
+                                            <td class="office">
+                                                <div class="form-group">
+                                                    <input type="text" id="u-rank" class="form-control">
                                                 </div>
                                             </td>
                                         </tr>

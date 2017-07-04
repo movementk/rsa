@@ -20,7 +20,7 @@
 // 로그인
 .common-form {
     margin-top: 187px;
-    padding: 95px 0 115px;
+    padding: 115px 0;
     background-color: #fff;
     .section-header {
         text-align: center;
@@ -30,51 +30,39 @@
             color: #333;
             @include arial();
         }
-        > p {
-            font-size: 14px;
-            color: #777;
-            margin-top: 25px;
-        }
     }
     .section-content {
         padding: 0;
         .login-form {
-            width: 464px;
+            width: 374px;
             margin: 0 auto;
             .write {
                 position: relative;
-                padding: 30px 90px 20px 0;
+                padding: 30px 0 25px;
                 > .form-group {
                     display: block;
                     overflow: hidden;
-                    &:first-child {
-                        margin-bottom: 20px;
-                    }
-                    label {
-                        float: left;
-                        width: 72px;
-                        font-size: 13px;
-                        color: #555;
-                        font-weight: 400;
-                        line-height: 30px;
-                        text-align: left;
-                    }
+                    margin-bottom: 10px;
                     .form-control {
-                        float: left;
-                        width: 300px;
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 0;
+                        background-color: #eee;
+                        border-color: #eee;
                     }
                 }
                 .btn-login {
-                    position: absolute;
-                    top: 30px;
-                    right: 0;
+                    .btn {
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
                     .btn-red {
-                        width: 80px;
-                        height: 80px;
+                        width: 100%;
+                        height: 40px;
                         font-size: 15px;
                         color: #fff;
-                        line-height: 80px;
-                        border-radius: 2px;
+                        line-height: 40px;
                         background-color: #e61937;
                         &:hover, &:focus {
                             opacity: .7;
@@ -83,7 +71,45 @@
                 }
             }
             .find-join {
-                padding-left: 72px;
+                overflow: hidden;
+                .id-save {
+                    float: left;
+                    .form-group {
+                        label {
+                            font-size: 13px;
+                            color: #777;
+                            input {
+                                display: inline-block;
+                                vertical-align: top;
+                                margin-top: 2px;
+                                margin-right: 3px;
+                            }
+                        }
+                    }
+                }
+                > ul {
+                    float: right;
+                    li {
+                        display: inline-block;
+                        &:first-child {
+                            &:after {
+                                position: relative;
+                                top: -1px;
+                                content: "|";
+                                font-size: 12px;
+                                color: #ccc;
+                                padding: 0 10px;
+                            }
+                        }
+                        a {
+                            font-size: 13px;
+                            color: #777;
+                            &:hover, &:focus {
+                                
+                            }
+                        }
+                    }
+                }
                 dl {
                     display: inline-block;
                     width: 100%;
@@ -112,6 +138,11 @@
                             margin-bottom: 5px;
                         }
                         .btn-join {
+                            .btn {
+                                &:hover, &:focus {
+                                    opacity: .7;
+                                }
+                            }
                             .btn-gray {
                                 width: 80px;
                                 height: 25px;
@@ -119,9 +150,6 @@
                                 color: #fff;
                                 line-height: 25px;
                                 background-color: #555;
-                                &:hover, &:focus {
-                                    opacity: .7;
-                                }
                             }
                         }
                         &.find {
@@ -292,6 +320,19 @@
                                             }
                                         }
                                     }
+                                    &.user-pw {
+                                        .form-group {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                        .attention {
+                                            display: inline-block;
+                                            font-size: 13px;
+                                            color: #999;
+                                            vertical-align: top;
+                                            line-height: 32px;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -401,6 +442,7 @@
                     .form-control {
                         width: 100%;
                         height: 40px;
+                        border-radius: 0;
                         background-color: #eee;
                         border-color: #eee;
                     }
@@ -419,6 +461,39 @@
                             opacity: .7;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+// 아이디 비밀번호 찾
+.pw-find {
+    margin-left: 30px;
+}
+.id-find, .pw-find {
+    width: 570px;
+    float: left;
+    .section-header {
+        .summary {
+            font-size: 14px;
+            color: #777;
+            margin-top: 30px;
+        }
+    }
+    .section-content {
+        .write {
+            padding: 20px 0 0 0 !important;
+            .btn-login {
+                .btn-white {
+                    width: 100%;
+                    height: 40px;
+                    font-size: 14px;
+                    color: #555;
+                    line-height: 38px;
+                    text-align: center;
+                    margin-top: 10px;
+                    border: 1px solid #d6d6d6;
                 }
             }
         }
