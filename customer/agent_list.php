@@ -21,7 +21,7 @@
                     <ul class="lnb-list">
                         <li><a href="/customer/faq_list.php">FAQ</a></li>
                         <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
+                        <li><a href="/customer/dataroom.php">자료실</a></li>
                         <li><a href="/customer/video_list.php">동영상</a></li>
                         <li><a href="/customer/cs_center.php">서비스센터</a></li>
                         <li class="active"><a href="/customer/agent_list.php">대리점</a></li>
@@ -34,14 +34,23 @@
         <div class="container">
             <section class="agent-list">
                 <div class="section-header">
-                    <h3 class="content-title">서비스센터</h3>
+                    <h3 class="content-title">대리점</h3>
                 </div>
                 <div class="section-content">
-                    <div class="form-group">
-                        <select class="form-control">
-                            <option>서울</option>
-                        </select>
-                    </div>
+                   
+                    <!-- RSA 담당자 리뷰 (최종수정) e-mail input 추가 -->
+                    <nav class="tab-list">
+                        <ul class="agent-tab-list">
+                            <li class="active"><a href="#">서울</a></li>
+                            <li><a href="#">수원</a></li>
+                            <li><a href="#">부산</a></li>
+                            <li><a href="#">대구</a></li>
+                            <li><a href="#">광주</a></li>
+                            <li><a href="#">차단기전문대리점</a></li>
+                            <li><a href="#">UPS전문대리점</a></li>
+                        </ul>
+                    </nav>
+                    
                     <div class="table-wrap">
                         <table class="table table-type2">
                             <colgroup>

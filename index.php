@@ -14,10 +14,12 @@
             </div>
             <div class="fields-content">    
                 <div>
-                    <h2 class="en">1 FIRST MOVEMENT</h2>
+                    <h2 class="en">
+                        알에스오토메이션<br>
+                        <small>로봇모션 · 에너지제어 전문기업</small>
+                    </h2>
                     <p class="ko">
-                        확보된 핵심 제품기술과 사업 노하우를 가진 자동화기기 전문기업으로<br>
-                        혁신과 변화를 선도해 나가고 있습니다.
+                        4차산업혁명의 브레인을 만든다
                     </p>
                     <ul class="menu-list">
                         <li>
@@ -83,28 +85,16 @@
         <nav id="rsa-center">
             <div class="container">
                 <div class="cs-center">
-                    <a href="#">
-                        <h3>서비스센터</h3>
-                        <p>제품 사용후 불편 사항을<br>처리해드립니다.</p>
-                    </a>
+                    <a href="#">서비스센터</a>
                 </div>
                 <div class="data-room">
-                    <a href="#">
-                        <h3>자료실</h3>
-                        <p>제품 사용후 불편 사항을<br>처리해드립니다.</p>
-                    </a>
+                    <a href="#">자료실</a>
                 </div>
                 <div class="faq">
-                    <a href="#">
-                        <h3>FAQ</h3>
-                        <p>제품 사용후 불편 사항을<br>처리해드립니다.</p>
-                    </a>
+                    <a href="#">FAQ</a>
                 </div>
                 <div class="qna">
-                    <a href="#">
-                        <h3>Q&amp;A</h3>
-                        <p>제품 사용후 불편 사항을<br>처리해드립니다.</p>
-                    </a>
+                    <a href="#">Q&amp;A</a>
                 </div>
             </div>
         </nav>
@@ -114,8 +104,11 @@
                     <div class="col-xs-5">
                         <article class="technology">
                             <a href="#">
-                                <h5>알에스오토메이션의 기술 지원</h5>
-                                <p>최신 기술 트랜드에 맞추어 지속적으로 교육<br>프로그램을 개발하고 있습니다.</p>
+                                <h5>알에스오토메이션의 솔루션 시스템</h5>
+                                <p>
+                                    글로벌 브랜드 RS Automation의 자동화 솔루션,<br>
+                                    앞서 가는 여러분의 자동화 파트너입니다.
+                                </p>
                                 <i class="icon-right-open-big">
                                     <span class="sr-only" role="button">자세히보기</span>
                                 </i>
@@ -126,26 +119,26 @@
                             <ul class="product-list">
                                 <li>
                                     <figure>
-                                        <img src="/assets/images/main/rsa_product_img01.jpg" alt="product img">
-                                        <figcaption>MOSCON-F50</figcaption>
+                                        <img src="/assets/images/main/rsa_product_img01.jpg" alt="X8 SERIES">
+                                        <figcaption>X8 SERIES</figcaption>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure>
-                                        <img src="/assets/images/main/rsa_product_img01.jpg" alt="product img">
-                                        <figcaption>MOSCON-F50</figcaption>
+                                        <img src="/assets/images/main/rsa_product_img02.jpg" alt="CSD7">
+                                        <figcaption>CSD7</figcaption>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure>
-                                        <img src="/assets/images/main/rsa_product_img01.jpg" alt="product img">
-                                        <figcaption>MOSCON-F50</figcaption>
+                                        <img src="/assets/images/main/rsa_product_img03.jpg" alt="MMC-EtherCAT">
+                                        <figcaption>MMC-EtherCAT</figcaption>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure>
-                                        <img src="/assets/images/main/rsa_product_img01.jpg" alt="product img">
-                                        <figcaption>MOSCON-F50</figcaption>
+                                        <img src="/assets/images/main/rsa_product_img04.jpg" alt="DS60">
+                                        <figcaption>DS60</figcaption>
                                     </figure>
                                 </li>
                             </ul>

@@ -24,7 +24,7 @@
                         <li><a href="#">CI</a></li>
                         <li><a href="#">연혁</a></li>
                         <li><a href="#">사업장안내</a></li>
-                        <li><a href="#">파트너웹 제안</a></li>
+                        <li><a href="#">파트너쉽 제안</a></li>
                         <li><a href="#">글로벌 파트너쉽</a></li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
                     <div class="article-content">
                         <h4>The Innovative Reliable &amp; Smart Automation</h4>
                         <p>
-                            알에스오토메이션은 지난 30년간, 글로벌 초우량 기업 (삼성테크윈, 삼성전자, 로크웰오토메이션)에서의<br>
+                            알에스오토메이션은 지난 30여년간, 글로벌 초우량 기업 (삼성테크윈, 삼성전자, 로크웰오토메이션)에서의<br>
                             사업경험을 바탕으로 2010년 1월 1일 새롭게 출범한 자동화기기 전문 기업 입니다.
                         </p>
                         <div class="intro-list">

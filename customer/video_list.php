@@ -21,7 +21,7 @@
                     <ul class="lnb-list">
                         <li><a href="/customer/faq_list.php">FAQ</a></li>
                         <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
+                        <li><a href="/customer/dataroom.php">자료실</a></li>
                         <li class="active"><a href="/customer/video_list.php">동영상</a></li>
                         <li><a href="/customer/cs_center.php">서비스센터</a></li>
                         <li><a href="/customer/agent_list.php">대리점</a></li>
@@ -37,6 +37,30 @@
                     <h3 class="content-title">동영상</h3>
                 </div>
                 <div class="section-content">
+                   
+                    <!-- RSA 담당자 리뷰 (최종수정) e-mail input 추가 -->
+                    <div class="search-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <select class="form-control selection-1">
+                                    <option>전체</option>
+                                    <option>제품</option>
+                                    <option>솔루션</option>
+                                    <option>방송/전시회 및 기타</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="search" class="form-control">
+                                <label for="search" class="sr-only">검색하기</label>
+                                <button type="submit" class="btn btn-search">
+                                    <i class="icon-search-1">
+                                        <span class="sr-only">검색버튼</span>
+                                    </i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    
                     <ul class="row">
                         <li class="col-xs-3">
                             <a href="#">

@@ -49,7 +49,7 @@
                                 <li><a href="/company/ci.php">CI<span></span></a></li>
                                 <li><a href="/company/history.php">연혁<span></span></a></li>
                                 <li><a href="/company/headquarters.php">사업장안내<span></span></a></li>
-                                <li><a href="/company/partner.php">파트너웹 제안<span></span></a></li>
+                                <li><a href="/company/partner.php">파트너쉽 제안<span></span></a></li>
                                 <li><a href="/company/partner_ship.php">글로벌 파트너쉽<span></span></a></li>
                             </ul>
                         </li>
@@ -79,7 +79,7 @@
                             <ul>
                                 <li><a href="/customer/faq_list.php">FAQ<span></span></a></li>
                                 <li><a href="/customer/qna_list.php">Q&amp;A<span></span></a></li>
-                                <li><a href="#">자료실<span></span></a></li>
+                                <li><a href="/customer/dataroom.php">자료실<span></span></a></li>
                                 <li><a href="/customer/video_list.php">동영상<span></span></a></li>
                                 <li><a href="/customer/cs_center.php">서비스센터<span></span></a></li>
                                 <li><a href="/customer/agent_list.php">대리점<span></span></a></li>

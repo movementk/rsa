@@ -66,6 +66,7 @@
                             figure {
                                 img {
                                     display: inline-block;
+                                    height: 100px;
                                 }
                                 figcaption {
                                     font-size: 16px;
@@ -360,12 +361,17 @@
             font-size: 70px;
             color: #fff;
             @include titi();
-            font-weight: 600;
+            font-weight: 500;
+            line-height: 55px;
             margin-bottom: 40px;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
             -ms-transform: scale(.1);
             -webkit-transform: scale(.1);
             transform: scale(.1);
+            small {
+                font-size: 25px;
+                color: #fff;
+            }
         }
         .ko {
             position: relative;
@@ -463,23 +469,16 @@
             border-right: 1px solid #e5e5e5;
             a {
                 display: inline-block;
+                font-size: 14px;
+                color: #000;
+                height: 52px;
+                line-height: 48px;
+                font-weight: 400;
                 padding-left: 74px;
                 background-position: 0 2px;
                 background-repeat: no-repeat;
                 &:hover, &:focus {
                     text-decoration: none;
-                }
-                > h3 {
-                    font-size: 14px;
-                    color: #000;
-                    font-weight: 400;
-                }
-                > p {
-                    font-size: 12px;
-                    color: #666;
-                    line-height: 16px;
-                    font-weight: 300;
-                    margin-top: 10px;
                 }
             }
             &:last-child {

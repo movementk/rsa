@@ -20,40 +20,39 @@
             <section class="common-form login">
                 <div class="section-header">
                     <h3>LOGIN</h3>
-                    <p class="summary">회원가입을 하시면 더 많은 서비스를 자유로이 누리실 수 있습니다</p>
                 </div>
                 <div class="section-content">
                     <div class="login-form">
                         <form action="#">
                             <div class="write">
                                 <div class="form-group">
-                                    <label for="u-id">아이디</label>
-                                    <input type="text" id="u-id" class="form-control">
+                                    <label for="u-id" class="sr-only">아이디</label>
+                                    <input type="text" id="u-id" class="form-control" placeholder="아이디 입력">
                                 </div>
                                 <div class="form-group">
-                                    <label for="u-pw">비밀번호</label>
-                                    <input type="password" id="u-pw" class="form-control">
+                                    <label for="u-pw" class="sr-only">비밀번호</label>
+                                    <input type="password" id="u-pw" class="form-control" placeholder="비밀번호 입력">
                                 </div>
                                 <p class="btn-login">
-                                    <button type="submit" class="btn btn-red">확인</button>
+                                    <button type="submit" class="btn btn-red">로그인</button>
                                 </p>
                             </div>
+                            <div class="find-join">
+                                <div class="id-save">
+                                    <div class="form-group">
+                                        <label><input type="checkbox"> 아이디 저장</label>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="/member/id_pw_find.php">아이디 / 비밀번호 찾기</a>
+                                    </li>
+                                    <li>
+                                        <a href="/member/join.php">회원가입</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </form>
-                        <div class="find-join">
-                            <dl>
-                                <dt>아직 회원이 아니신가요?</dt>
-                                <dd>
-                                    <p class="btn-join">
-                                        <a href="/member/join.php" class="btn btn-gray" role="button">회원가입</a>
-                                    </p>
-                                </dd>
-                                <dt>아이디/비밀번호를 잊어버리셨나요?</dt>
-                                <dd class="find">
-                                    <a href="#">아이디</a>
-                                    <a href="#">비밀번호 찾기</a>
-                                </dd>
-                            </dl>
-                        </div>
                     </div>
                 </div>
             </section>
