@@ -138,6 +138,8 @@ address {
         font-size: 13px;
         color: #777;
         margin-top: 30px; }
+  .video-list .section-content .btn-area {
+    text-align: right; }
   .video-list .section-content .paging {
     margin-top: 20px; }
 
@@ -255,7 +257,7 @@ address {
           cursor: default; }
       .agent-list .section-content .tab-list .agent-tab-list li a {
         float: left;
-        width: 167.1px;
+        width: 146.25px;
         font-size: 14px;
         color: #999;
         padding: 15px 0;
@@ -277,6 +279,9 @@ address {
           border-color: #e61937; }
   .agent-list .section-content .table-wrap {
     margin-top: 50px; }
+  .agent-list .section-content .btn-area {
+    margin-top: 30px;
+    text-align: right; }
   .agent-list .section-content .paging {
     margin-top: 50px; }
 
@@ -335,26 +340,52 @@ address {
       .dataroom .section-content .table-wrap .type-write tbody tr td > ul {
         font-size: 0; }
         .dataroom .section-content .table-wrap .type-write tbody tr td > ul li {
+          position: relative;
           display: inline-block;
           margin-right: 40px;
-          font-size: 14px;
-          color: #707070; }
+          font-size: 14px; }
           .dataroom .section-content .table-wrap .type-write tbody tr td > ul li:last-child {
             margin-right: 0; }
           .dataroom .section-content .table-wrap .type-write tbody tr td > ul li label {
-            font-size: 14px;
+            position: relative;
             color: #707070;
-            font-weight: 300; }
-            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li label input[type=radio] {
-              position: relative;
-              top: 1px;
-              border: 1px solid #acacac;
-              margin-right: 10px; }
+            font-weight: 400;
+            padding-left: 23px;
+            z-index: 1;
+            cursor: pointer; }
+          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio] {
+            position: absolute;
+            visibility: hidden; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check {
+              border: 1px solid #e61937; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check:before {
+              background: #e61937; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ label {
+              color: #e61937; }
+          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check {
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 14px;
+            height: 14px;
+            border: 1px solid #707070;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 0; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check:before {
+              content: "";
+              position: absolute;
+              top: 3px;
+              left: 3px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              transition: all 0.25s; }
   .dataroom .section-content .search-area {
     position: relative;
     height: 190px;
     padding: 72px 70px;
-    margin-top: 20px;
+    margin-top: 45px;
     background-color: #fff; }
     .dataroom .section-content .search-area .logo {
       position: absolute;
@@ -362,5 +393,68 @@ address {
       left: 70px; }
     .dataroom .section-content .search-area .search-form .form-group #search {
       width: 690px; }
+  .dataroom .section-content .basic-content {
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 100px;
+    background-color: #fff; }
+    .dataroom .section-content .basic-content .attention {
+      font-size: 18px;
+      color: #333;
+      padding-top: 100px;
+      background-image: url(/assets/images/customer/no_search_bg.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0%; }
+  .dataroom .section-content .search-success {
+    margin-top: 45px;
+    padding: 40px 70px;
+    background-color: #fff; }
+    .dataroom .section-content .search-success .tab-list {
+      margin-bottom: 40px; }
+      .dataroom .section-content .search-success .tab-list > ul {
+        display: inline-block;
+        text-align: center; }
+        .dataroom .section-content .search-success .tab-list > ul > li {
+          display: inline; }
+          .dataroom .section-content .search-success .tab-list > ul > li.active a {
+            color: #fff;
+            background-color: #e61937;
+            border-color: #e61937; }
+            .dataroom .section-content .search-success .tab-list > ul > li.active a:hover, .dataroom .section-content .search-success .tab-list > ul > li.active a:focus {
+              opacity: 1;
+              cursor: default; }
+          .dataroom .section-content .search-success .tab-list > ul > li a {
+            float: left;
+            width: 172.6px;
+            font-size: 14px;
+            color: #999;
+            padding: 15px 0;
+            margin-left: -1px;
+            border: 1px solid #e3e3e3;
+            background-color: #fff;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .dataroom .section-content .search-success .tab-list > ul > li a:hover, .dataroom .section-content .search-success .tab-list > ul > li a:focus {
+              color: #fff;
+              text-decoration: none;
+              background-color: #e61937;
+              border-color: #e61937; }
+    .dataroom .section-content .search-success .btn-area {
+      margin-top: 30px;
+      text-align: right; }
+    .dataroom .section-content .search-success .paging {
+      margin-top: 40px; }
+
+.data_view .section-content .btn-area {
+  margin-top: 30px;
+  text-align: right; }
 
 /*# sourceMappingURL=customer.css.map */

@@ -48,6 +48,7 @@
                             <li><a href="#">광주</a></li>
                             <li><a href="#">차단기전문대리점</a></li>
                             <li><a href="#">UPS전문대리점</a></li>
+                            <li><a href="#">기타지역</a></li>
                         </ul>
                     </nav>
                     
@@ -163,6 +164,11 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-red" role="button">글쓰기</a>
+                        </p>
                     </div>
                     <nav class="paging" aria-label="Page navigation">
                         <ul class="pagination">

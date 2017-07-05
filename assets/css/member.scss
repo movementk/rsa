@@ -403,6 +403,16 @@
             }
         }
     }
+    .btn-area {
+        text-align: center;
+        margin-top: 63px;
+        p {
+            .btn-red {
+                width: 142px;
+                border-radius: 0;
+            }
+        }
+    }
 }
 
 // 비밀번호 확인
@@ -499,50 +509,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
