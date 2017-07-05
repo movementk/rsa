@@ -48,7 +48,7 @@
                                 <li><a href="/company/greeting.php">인사말<span></span></a></li>
                                 <li><a href="/company/ci.php">CI<span></span></a></li>
                                 <li><a href="/company/history.php">연혁<span></span></a></li>
-                                <li><a href="/company/headquarters.php">사업장안내<span></span></a></li>
+                                <li><a href="/company/location.php">사업장안내<span></span></a></li>
                                 <li><a href="/company/partner.php">파트너쉽 제안<span></span></a></li>
                                 <li><a href="/company/partner_ship.php">글로벌 파트너쉽<span></span></a></li>
                             </ul>

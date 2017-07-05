@@ -19,13 +19,13 @@
             <nav class="sub-lnb">
                 <div class="container">
                     <ul class="lnb-list">
-                        <li class="active"><a href="#">회사소개</a></li>
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">CI</a></li>
-                        <li><a href="#">연혁</a></li>
-                        <li><a href="#">사업장안내</a></li>
-                        <li><a href="#">파트너쉽 제안</a></li>
-                        <li><a href="#">글로벌 파트너쉽</a></li>
+                        <li class="active"><a href="/company/introduce.php">회사소개</a></li>
+                        <li><a href="/company/greeting.php">인사말</a></li>
+                        <li><a href="/company/ci.php">CI</a></li>
+                        <li><a href="/company/history.php">연혁</a></li>
+                        <li><a href="/company/location.php">사업장안내</a></li>
+                        <li><a href="/company/partner.php">파트너쉽 제안</a></li>
+                        <li><a href="/company/partner_ship.php">글로벌 파트너쉽</a></li>
                     </ul>
                 </div>
             </nav>

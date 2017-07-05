@@ -169,6 +169,11 @@
                             </div>
                         </div>
                     </article>
+                    <div class="btn-area">
+                        <p>
+                            <button type="submit" class="btn btn-red">가입신청</button>
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>

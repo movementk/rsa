@@ -271,6 +271,12 @@ address {
     margin: 0 8px; }
   .join article.office-info .article-content .table-wrap .type-write tbody tr td.common-form .form-group .form-control:nth-of-type(3) {
     margin-left: 8px; }
+.join .btn-area {
+  text-align: center;
+  margin-top: 63px; }
+  .join .btn-area p .btn-red {
+    width: 142px;
+    border-radius: 0; }
 
 .pw-confirm {
   margin-top: 187px;

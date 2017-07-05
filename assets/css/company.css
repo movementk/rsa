@@ -30,8 +30,16 @@ address {
 .container {
   min-width: 1200px !important; }
 
+.company .section-content {
+  padding: 0;
+  background: none; }
+
 .introduce .company-intro .article-content {
-  text-align: center; }
+  text-align: center;
+  padding-top: 550px;
+  background-image: url(/assets/images/company/introduce_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0; }
   .introduce .company-intro .article-content h4 {
     font-size: 30px;
     color: #e9193a;
@@ -88,5 +96,227 @@ address {
         color: #fff;
         line-height: 18px;
         margin-top: 20px; }
+
+.greeting .section-content figure {
+  text-align: right; }
+  .greeting .section-content figure img {
+    display: inline-block; }
+.greeting .section-content .greeting-txt {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 60px; }
+.greeting .section-content strong {
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+  font-weight: 500; }
+.greeting .section-content h4 {
+  margin-top: 50px;
+  line-height: 48px; }
+  .greeting .section-content h4 small {
+    font-size: 16px;
+    color: #666;
+    font-weight: 300;
+    margin-right: 27px; }
+
+.ci-info .btn {
+  width: 165px;
+  height: 38px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 36px; }
+  .ci-info .btn .icon-download {
+    margin-right: 10px; }
+    .ci-info .btn .icon-download:before {
+      margin: 0; }
+  .ci-info .btn:hover, .ci-info .btn:focus {
+    opacity: .7; }
+.ci-info .summary {
+  font-size: 16px;
+  color: #666;
+  line-height: 26px;
+  font-weight: 300;
+  margin-top: 50px; }
+.ci-info .section-content article .article-header {
+  padding-top: 120px; }
+.ci-info .section-content .square-bg {
+  position: relative;
+  width: 100%;
+  height: 292px;
+  text-align: center;
+  border: 1px solid #ececed;
+  background-image: url(/assets/images/company/ci_bg.gif); }
+  .ci-info .section-content .square-bg .btn-ci {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .ci-info .section-content .square-bg .btn-ci .btn-red {
+      background-color: #e61937; }
+    .ci-info .section-content .square-bg .btn-ci .btn-gray {
+      background-color: #878787; }
+  .ci-info .section-content .square-bg h6 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #222;
+    font-weight: 400; }
+  .ci-info .section-content .square-bg.typical {
+    margin-bottom: 30px; }
+  .ci-info .section-content .square-bg figure {
+    line-height: 292px; }
+    .ci-info .section-content .square-bg figure img {
+      display: inline-block; }
+.ci-info .section-content .colo-box {
+  position: relative;
+  width: 100%;
+  height: 254px;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+  border-radius: 20px; }
+  .ci-info .section-content .colo-box .color-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -9.5px;
+    width: 130px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    background-color: #f2f3f5; }
+  .ci-info .section-content .colo-box.main-color {
+    padding: 29.5px 0; }
+    .ci-info .section-content .colo-box.main-color > ul {
+      font-size: 0; }
+      .ci-info .section-content .colo-box.main-color > ul > li {
+        position: relative;
+        width: 195px;
+        height: 195px;
+        display: inline-block;
+        border-radius: 50%; }
+        .ci-info .section-content .colo-box.main-color > ul > li:first-child {
+          z-index: 0;
+          background-color: #e61937; }
+        .ci-info .section-content .colo-box.main-color > ul > li:last-child {
+          z-index: 1;
+          margin-left: -17px;
+          background-color: #878787; }
+        .ci-info .section-content .colo-box.main-color > ul > li .details {
+          display: table;
+          width: 100%; }
+          .ci-info .section-content .colo-box.main-color > ul > li .details dl {
+            display: table-cell;
+            height: 195px;
+            text-align: center;
+            vertical-align: middle; }
+            .ci-info .section-content .colo-box.main-color > ul > li .details dl dt {
+              font-size: 14px;
+              color: #fff;
+              line-height: 26px;
+              font-weight: 400; }
+            .ci-info .section-content .colo-box.main-color > ul > li .details dl dd {
+              font-size: 12px;
+              color: #fff;
+              line-height: 18px;
+              font-weight: 300;
+              opacity: .8;
+              margin-top: 5px; }
+  .ci-info .section-content .colo-box, .ci-info .section-content .colo-box sub-color {
+    padding: 53px 0; }
+    .ci-info .section-content .colo-box > ul, .ci-info .section-content .colo-box sub-color > ul {
+      font-size: 0; }
+      .ci-info .section-content .colo-box > ul > li, .ci-info .section-content .colo-box sub-color > ul > li {
+        position: relative;
+        width: 148px;
+        height: 148px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-left: -23px; }
+        .ci-info .section-content .colo-box > ul > li:nth-of-type(1), .ci-info .section-content .colo-box sub-color > ul > li:nth-of-type(1) {
+          z-index: 1;
+          margin-left: 0;
+          background-color: #7b7b7b; }
+        .ci-info .section-content .colo-box > ul > li:nth-of-type(2), .ci-info .section-content .colo-box sub-color > ul > li:nth-of-type(2) {
+          z-index: 2;
+          background-color: #a8996e; }
+        .ci-info .section-content .colo-box > ul > li:nth-of-type(3), .ci-info .section-content .colo-box sub-color > ul > li:nth-of-type(3) {
+          z-index: 3;
+          background-color: #a7a9ac; }
+        .ci-info .section-content .colo-box > ul > li .details, .ci-info .section-content .colo-box sub-color > ul > li .details {
+          display: table;
+          width: 100%;
+          text-align: center; }
+          .ci-info .section-content .colo-box > ul > li .details dl, .ci-info .section-content .colo-box sub-color > ul > li .details dl {
+            display: table-cell;
+            vertical-align: middle;
+            height: 148px; }
+            .ci-info .section-content .colo-box > ul > li .details dl dt, .ci-info .section-content .colo-box sub-color > ul > li .details dl dt {
+              font-size: 16px;
+              color: #fff;
+              line-height: 26px;
+              font-weight: 400; }
+            .ci-info .section-content .colo-box > ul > li .details dl dd, .ci-info .section-content .colo-box sub-color > ul > li .details dl dd {
+              font-size: 12px;
+              color: #fff;
+              line-height: 26pxp;
+              opacity: .7;
+              font-weight: 300;
+              margin-top: 10px; }
+
+.history .section-content {
+  padding: 0;
+  background: none; }
+  .history .section-content .content-top {
+    position: relative;
+    width: 100%;
+    height: 472px;
+    background-image: url(/assets/images/company/history_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+    .history .section-content .content-top h4 {
+      position: absolute;
+      bottom: 62px;
+      right: 70px;
+      font-size: 24px;
+      text-align: right;
+      color: #fff;
+      font-weight: 500;
+      line-height: 42px; }
+      .history .section-content .content-top h4:before {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        content: "";
+        height: 23px;
+        margin-right: 15px;
+        border-left: 2px solid #de1d3b; }
+  .history .section-content > ol {
+    margin-top: 90px; }
+    .history .section-content > ol > li > dl {
+      display: table; }
+      .history .section-content > ol > li > dl dt {
+        display: table-cell;
+        width: 252px;
+        font-size: 26px;
+        color: #555;
+        font-weight: bold;
+        padding-top: 25px;
+        font-family: 'Titillium Web', sans-serif;
+        border-top: 3px solid #555; }
+      .history .section-content > ol > li > dl dd {
+        display: table-cell;
+        width: 918px;
+        font-size: 15px;
+        color: #555;
+        font-weight: 300;
+        padding-left: 60px;
+        padding-bottom: 100px;
+        border-top: 1px solid #cccdce; }
+        .history .section-content > ol > li > dl dd > p {
+          display: block;
+          line-height: 30px; }
 
 /*# sourceMappingURL=company.css.map */

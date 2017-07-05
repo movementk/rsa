@@ -197,6 +197,9 @@
                 }
             }
         }
+        .btn-area {
+            text-align: right;
+        }
         .paging {
             margin-top: 20px;
         }
@@ -361,7 +364,7 @@
                     }
                     a {
                         float: left;
-                        width: 167.1px;
+                        width: 146.25px;
                         font-size: 14px;
                         color: #999;
                         padding: 15px 0;
@@ -381,6 +384,10 @@
         }
         .table-wrap {
             margin-top: 50px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
         }
         .paging {
             margin-top: 50px;
@@ -494,32 +501,56 @@
                             > ul {
                                 font-size: 0;
                                 li {
+                                    position: relative;
                                     display: inline-block;
                                     margin-right: 40px;
                                     font-size: 14px;
-                                    color: #707070;
                                     &:last-child {
                                         margin-right: 0;
                                     }
                                     label {
-                                        font-size: 14px;
+                                        position: relative;
                                         color: #707070;
-                                        font-weight: 300;
-                                        input[type=radio] {
-                                            position: relative;
-                                            top: 1px;
-                                            border: 1px solid #acacac;
-                                            margin-right: 10px;
+                                        font-weight: 400;
+                                        padding-left: 23px;
+                                        z-index: 1;
+                                        cursor: pointer;
+                                    }
+                                    input[type=radio] {
+                                        position: absolute; 
+                                        visibility: hidden;
+                                        &:checked ~ .check { 
+                                            border: 1px solid #e61937; 
+                                        }
+                                        &:checked ~ .check:before { 
+                                            background: #e61937; 
+                                        }
+                                        &:checked ~ label { 
+                                            color: #e61937;
                                         }
                                     }
-//                                    &.active {
-//                                        label {
-//                                            color: #e61937;
-//                                            input[type=radio] {
-//                                                border: 1px solid #e61937;
-//                                            }
-//                                        }
-//                                    }
+                                    .check {
+                                        position: absolute;
+                                        top: 3px;
+                                        left: 0;
+                                        width: 14px;
+                                        height: 14px;
+                                        border: 1px solid #707070;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        z-index: 0;
+                                        &:before {
+                                            content: "";
+                                            position: absolute;
+                                            top: 3px;
+                                            left: 3px;
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            transition: all 0.25s;
+                                            
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -531,7 +562,7 @@
             position: relative;
             height: 190px;
             padding: 72px 70px;
-            margin-top: 20px;
+            margin-top: 45px;
             background-color: #fff;
             .logo {
                 position: absolute;
@@ -546,50 +577,81 @@
                 }
             }
         }
+        .basic-content {
+            width: 100%;
+            height: 320px;
+            text-align: center;
+            margin-top: 45px;
+            padding-top: 100px;
+            background-color: #fff;
+            .attention {
+                font-size: 18px;
+                color: #333;
+                padding-top: 100px;
+                background-image: url(/assets/images/customer/no_search_bg.png);
+                background-repeat: no-repeat;
+                background-position: 50% 0%;
+            }
+        }
+        .search-success {
+            margin-top: 45px;
+            padding: 40px 70px;
+            background-color: #fff;
+            .tab-list {
+                margin-bottom: 40px;
+                > ul {
+                    display: inline-block;
+                    text-align: center;
+                    > li {
+                        display: inline;
+                        &.active {
+                            a {
+                                color: #fff;
+                                background-color: #e61937;
+                                border-color: #e61937;
+                                &:hover, &:focus {
+                                    opacity: 1;
+                                    cursor: default;
+                                }
+                            }
+                        }
+                        a {
+                            float: left;
+                            width: 172.6px;
+                            font-size: 14px;
+                            color: #999;
+                            padding: 15px 0;
+                            margin-left: -1px;
+                            border: 1px solid #e3e3e3;
+                            background-color: #fff;
+                            @include trans();
+                            &:hover, &:focus {
+                                color: #fff;
+                                text-decoration: none;
+                                background-color: #e61937;
+                                border-color: #e61937;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                text-align: right;
+            }
+            .paging {
+                margin-top: 40px;
+            }
+        }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 자료실 게시글 뷰
+.data_view {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+}

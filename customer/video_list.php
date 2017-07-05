@@ -167,6 +167,11 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-red" role="button">글쓰기</a>
+                        </p>
+                    </div>
                     <nav class="paging" aria-label="Page navigation">
                         <ul class="pagination">
                             <li>
