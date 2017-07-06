@@ -25,7 +25,7 @@
                         <li><a href="/company/history.php">연혁</a></li>
                         <li><a href="/company/location.php">사업장안내</a></li>
                         <li><a href="/company/partner.php">파트너쉽 제안</a></li>
-                        <li><a href="/company/partner_ship.php">글로벌 파트너쉽</a></li>
+                        <li><a href="/company/global_partner.php">글로벌 파트너쉽</a></li>
                     </ul>
                 </div>
             </nav>
@@ -36,7 +36,7 @@
                     <h3 class="content-title">C.I (Corporate Identity)</h3>
                     <p class="summary">
                         원 하나의 모티프가 연속적으로 연결되어 그룹이 형성되고, 확장되어 유기적인 형상으로 표현된 안이다. 네트워크와 융합으로 시너지를 내어, 성장하고, 산뢰받는 기업의<br>
-                        모습을 구상적인 형태로 묘사하였다. Glay색상은 이성적이며, 기술의 속성을, Red색상은 열성적인 구성원의 마인드를 나타내고자 하였다.<br>로고의 Red색상 문자 R의 뜻은 Reliable, S의 뜻은 Smart 이다.
+                        모습을 구상적인 형태로 묘사하였다. Gray 색상은 이성적이며 기술의 속성을, Red 색상은 열성적인 구성원의 마인드를 나타내고자 하였다.<br>로고의 Red 색상 문자 R의 뜻은 Reliable, S의 뜻은 Smart 이다.
                     </p>
                 </div>
                 <div class="section-content">

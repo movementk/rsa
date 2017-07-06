@@ -11,8 +11,8 @@
                         <li><a href="/company/ci.php">CI<span></span></a></li>
                         <li><a href="/company/history.php">연혁<span></span></a></li>
                         <li><a href="/company/location.php">사업장안내<span></span></a></li>
-                        <li><a href="/company/partner.php">파트너쉽 제안<span></span></a></li>
-                        <li><a href="/company/partner_ship.php">글로벌 파트너쉽<span></span></a></li>
+                        <li><a href="/company/partner.php">파트너쉽 제안</a></li>
+                        <li><a href="/company/global_partner.php">글로벌 파트너쉽</a></li>
                     </ul>
                 </li>
                 <li>
@@ -27,7 +27,7 @@
                 <li>
                     <h4>제품안내</h4>
                     <ul>
-                        <li><a href="#">PLC</a></li>
+                        <li><a href="/product/product_list.php">PLC</a></li>
                         <li><a href="#">DISTBUTED I/O</a></li>
                         <li><a href="#">TOUCH PANEL</a></li>
                         <li><a href="#">INVERTER</a></li>

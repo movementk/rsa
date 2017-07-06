@@ -1,5 +1,6 @@
 @import 'common';
 
+
 // 메인 컨텐츠
 #content {
     article {
@@ -7,41 +8,41 @@
             width: 100%;
             height: 280px;
             margin-bottom: 30px;
-            a {
-                display: block;
-                width: 100%;
-                height: 280px;
-                padding: 37px 34px;
-                text-decoration: none;
-                @include trans($sec: .3s);
-                background-image: url(/assets/images/main/technology_bg.jpg);
-                background-position: 50% 50%;
-                background-size: 100% auto;
-                &:hover {
-                    background-size: 105% auto;
-                }
-                h5 {
-                    font-size: 18px;
-                    font-weight: 400;
+            padding: 130px 20px 20px;
+            text-align: right;
+            background-image: url(/assets/images/main/technology_bg.jpg);
+            background-position: 50% 50%;
+            background-size: 100% auto;
+            h5 {
+                font-size: 24px;
+                font-weight: 500;
+                color: #333;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 13px;
+                color: #666;
+                line-height: 18px;
+                margin-bottom: 15px;
+            }
+            .btn-catalog {
+                .btn-red {
+                    width: 182px;
+                    height: 38px;
+                    line-height: 36px;
+                    font-size: 14px;
                     color: #fff;
-                    margin-bottom: 20px;
-                }
-                p {
-                    font-size: 13px;
-                    color: #fff;
-                    line-height: 20px;
-                    margin-bottom: 20px;
-                }
-                .icon-right-open-big {
-                    display: block;
-                    width: 22px;
-                    height: 22px;
-                    color: #fff;
-                    padding-left: 2px;
-                    line-height: 19px;
-                    text-align: center;
-                    border: 1px solid #fff;
-                    border-radius: 50%;
+                    font-weight: 300;
+                    padding: 0;
+                    border-radius: 0;
+                    @include trans();
+                    background-color: #ff0327;
+                    .icon-file-pdf {
+                        margin-right: 10px;
+                    }
+                    &:hover, &:focus {
+                        color: rgba(255, 255, 255, .8);
+                    }
                 }
             }
         }
@@ -141,87 +142,169 @@
                 }
             }
         }
-        &.rsa-news {
-            height: 590px;
-            padding: 35px 27px 33px;
+        &.rsa-press {
+            height: 280px;
+            margin-bottom: 30px;
+            padding: 35px 25px 15px;
             background-color: #fff;
             h5 {
+                width: 100%;
                 font-size: 19px;
                 color: #5b5b5b;
                 font-weight: 500;
                 @include lato();
-                margin-bottom: 20px;
-            }
-            > a {
-                text-decoration: none;
-                .news-img {
-                    img {
-                        width: 316px;
-                        height: 186px;
+                .more {
+                    position: relative;
+                    top: 4px;
+                    float: right;
+                    font-size: 12px;
+                    color: #5b5b5b;
+                    font-weight: 300;
+                    text-align: right;
+                    @include trans();
+                    @include noto();
+                    &:hover, &:focus {
+                        color: #000;
+                        text-decoration: none;
                     }
                 }
-                .details {
-                    margin-top: 25px;
-                    .subjuct {
-                        font-size: 16px;
-                        color: #333;
-                        font-weight: 400;
+            }
+            hr {
+                width: 100%;
+                margin: 25px 0 35px;
+                border-top: 1px solid #adadad;
+            }
+            .bx-wrapper {
+                .bx-viewport {
+                    .press-slider {
+                        li {
+                            a {
+                                overflow: hidden;
+                                .figure {
+                                    float: left;
+                                    img {
+                                        width: 117px;
+                                        height: 120px;
+                                    }
+                                }
+                                .details {
+                                    float: left;
+                                    padding-left: 15px;
+                                    .press-subject {
+                                        font-size: 16px;
+                                        color: #333;
+                                        margin-bottom: 15px;
+                                    }
+                                    .press-content {
+                                        overflow: hidden;
+                                        width: 183px;
+                                        height: 60px;
+                                        font-size: 13px;
+                                        color: #5b5b5b;
+                                        line-height: 20px;
+                                        opacity: .7;
+                                    }
+                                    .date {
+                                        font-size: 13px;
+                                        color: #5b5b5b;
+                                        opacity: .7;
+                                        text-align: right;
+                                        margin-top: 10px;
+                                    }
+                                }
+                                &:hover, &:focus {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
                     }
-                    .news-content {
+                }
+                .bx-controls {
+                    .bx-controls-direction {
+                        display: none;
+                    }
+                    .bx-pager {
+                        margin-top: 20px;
+                        text-align: center;
+                        .bx-pager-item {
+                            display: inline-block;
+                            margin: 0 5px;
+                            a {
+                                display: inline-block;
+                                width: 8px;
+                                height: 8px;
+                                border-radius: 50%;
+                                background-color: #a5a8ad;
+                                text-indent: -9999px;
+                                &.active {
+                                    background-color: #ff0025;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.rsa-notice {
+            width: 100%;
+            height: 280px;
+            padding: 35px 25px;
+            background-color: #fff;
+            h5 {
+                width: 100%;
+                font-size: 19px;
+                color: #5b5b5b;
+                font-weight: 500;
+                @include lato();
+                .more {
+                    position: relative;
+                    top: 4px;
+                    float: right;
+                    font-size: 12px;
+                    color: #5b5b5b;
+                    font-weight: 300;
+                    text-align: right;
+                    @include trans();
+                    @include noto();
+                    &:hover, &:focus {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+            hr {
+                width: 100%;
+                margin: 25px 0;
+                border-top: 1px solid #adadad;
+            }
+            .notice-list {
+                li {
+                    position: relative;
+                    line-height: 36px;
+                    a {
+                        position: relative;
+                        display: block;
                         font-size: 14px;
                         color: #5b5b5b;
-                        line-height: 20px;
-                        margin-top: 15px;
-                    }
-                    .info {
-                        width: 100%;
-                        font-size: 0;
-                        margin-top: 30px;
-                        > dt {
-                            display: inline-block;
-                            width: 50%;
-                            font-size: 13px;
-                            color: #777;
-                            font-weight: 300;
-                            text-align: left;
-                        }
-                        > dd {
-                            display: inline-block;
-                            width: 50%;
-                            font-size: 13px;
-                            color: #777;
-                            font-weight: 300;
-                            text-align: right;
-                        }
-                    }
-                }
-            }
-            .line {
-                margin: 26px 0;
-                width: 100%;
-                border-top: 1px solid #ccc;
-            }
-            .news-list {
-                li {
-                    line-height: 26px;
-                    > a {
-                        position: relative;
-                        width: 100%;
-                        display: block;
                         opacity: .7;
-                        .list {
-                            width: 100%;
-                            padding-right: 50px;
-                            font-size: 13px;
+                        padding-left: 12px;
+                        padding-right: 50px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        &:before {
+                            position: absolute;
+                            left: 2px;
+                            content: "·";
+                            opacity: .7;
+                            display: inline-block;
+                        }
+                        .date {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            font-size: 14px;
                             color: #5b5b5b;
-                            overflow: hidden;
-                            white-space: nowrap;
-                            text-overflow: ellipsis;
-                            .date {
-                                position: absolute;
-                                top: 0;
-                                right: 0;
-                            }
                         }
                     }
                 }
@@ -357,23 +440,20 @@
             text-align: center;
             vertical-align: middle;
         }
-        .en {
+        .rsa-title {
             font-size: 70px;
             color: #fff;
-            @include titi();
-            font-weight: 500;
-            line-height: 55px;
+            @include lato();
+            font-weight: bold;
             margin-bottom: 40px;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-            -ms-transform: scale(.1);
-            -webkit-transform: scale(.1);
-            transform: scale(.1);
             small {
-                font-size: 25px;
+                font-size: 30px;
                 color: #fff;
+                @include noto();
             }
         }
-        .ko {
+        .summary {
             position: relative;
             top: -20px;
             font-size: 15px;
@@ -381,7 +461,6 @@
             line-height: 26px;
             font-weight: 400;
             @include noto();
-            opacity: 0;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
         .menu-list {
@@ -436,24 +515,6 @@
             }
         }
     }
-    &.on {
-        .fields-content {
-            > div {
-                .en {
-                    opacity: 1;
-                    -ms-transform: scale(1);
-                    -webkit-transform: scale(1);
-                    transform: scale(1);
-                    @include trans($sec: 3s, $timing: cubic-bezier(0.22, 0.61, 0.36, 1), $delay: 0s);
-                }
-                .ko {
-                    top: 0;
-                    opacity: 1;
-                    @include trans($sec: .5s, $timing: cubic-bezier(0.22, 0.61, 0.36, 1), $delay: 1.5s);
-                }
-            }
-        }
-    }
 }
 
 // 서비스센터 및 게시판
@@ -472,13 +533,19 @@
                 font-size: 14px;
                 color: #000;
                 height: 52px;
-                line-height: 48px;
                 font-weight: 400;
                 padding-left: 74px;
                 background-position: 0 2px;
                 background-repeat: no-repeat;
                 &:hover, &:focus {
                     text-decoration: none;
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 16px;
+                    font-weight: 300;
+                    margin-top: 10px;
                 }
             }
             &:last-child {
@@ -507,6 +574,7 @@
         }
     }
 }
+
 
 // 메인 컨텐츠
 #rsa-content {
