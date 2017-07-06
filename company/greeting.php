@@ -25,7 +25,7 @@
                         <li><a href="/company/history.php">연혁</a></li>
                         <li><a href="/company/location.php">사업장안내</a></li>
                         <li><a href="/company/partner.php">파트너쉽 제안</a></li>
-                        <li><a href="/company/partner_ship.php">글로벌 파트너쉽</a></li>
+                        <li><a href="/company/global_partner.php">글로벌 파트너쉽</a></li>
                     </ul>
                 </div>
             </nav>

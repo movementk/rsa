@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,600,700");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
@@ -33,46 +34,44 @@ address {
 #content article.technology {
   width: 100%;
   height: 280px;
-  margin-bottom: 30px; }
-  #content article.technology a {
-    display: block;
-    width: 100%;
-    height: 280px;
-    padding: 37px 34px;
-    text-decoration: none;
+  margin-bottom: 30px;
+  padding: 130px 20px 20px;
+  text-align: right;
+  background-image: url(/assets/images/main/technology_bg.jpg);
+  background-position: 50% 50%;
+  background-size: 100% auto; }
+  #content article.technology h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px; }
+  #content article.technology p {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin-bottom: 15px; }
+  #content article.technology .btn-catalog .btn-red {
+    width: 182px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0;
+    border-radius: 0;
     -webkit-transition-property: all;
     transition-property: all;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    background-image: url(/assets/images/main/technology_bg.jpg);
-    background-position: 50% 50%;
-    background-size: 100% auto; }
-    #content article.technology a:hover {
-      background-size: 105% auto; }
-    #content article.technology a h5 {
-      font-size: 18px;
-      font-weight: 400;
-      color: #fff;
-      margin-bottom: 20px; }
-    #content article.technology a p {
-      font-size: 13px;
-      color: #fff;
-      line-height: 20px;
-      margin-bottom: 20px; }
-    #content article.technology a .icon-right-open-big {
-      display: block;
-      width: 22px;
-      height: 22px;
-      color: #fff;
-      padding-left: 2px;
-      line-height: 19px;
-      text-align: center;
-      border: 1px solid #fff;
-      border-radius: 50%; }
+    background-color: #ff0327; }
+    #content article.technology .btn-catalog .btn-red .icon-file-pdf {
+      margin-right: 10px; }
+    #content article.technology .btn-catalog .btn-red:hover, #content article.technology .btn-catalog .btn-red:focus {
+      color: rgba(255, 255, 255, 0.8); }
 #content article.product {
   width: 100%;
   height: 280px;
@@ -141,73 +140,149 @@ address {
           text-indent: -9999px; }
           #content article.product .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
             background-color: #ff0025; }
-#content article.rsa-news {
-  height: 590px;
-  padding: 35px 27px 33px;
+#content article.rsa-press {
+  height: 280px;
+  margin-bottom: 30px;
+  padding: 35px 25px 15px;
   background-color: #fff; }
-  #content article.rsa-news h5 {
+  #content article.rsa-press h5 {
+    width: 100%;
     font-size: 19px;
     color: #5b5b5b;
     font-weight: 500;
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 20px; }
-  #content article.rsa-news > a {
-    text-decoration: none; }
-    #content article.rsa-news > a .news-img img {
-      width: 316px;
-      height: 186px; }
-    #content article.rsa-news > a .details {
-      margin-top: 25px; }
-      #content article.rsa-news > a .details .subjuct {
+    font-family: 'Lato', sans-serif; }
+    #content article.rsa-press h5 .more {
+      position: relative;
+      top: 4px;
+      float: right;
+      font-size: 12px;
+      color: #5b5b5b;
+      font-weight: 300;
+      text-align: right;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      font-family: 'Noto Sans KR', sans-serif; }
+      #content article.rsa-press h5 .more:hover, #content article.rsa-press h5 .more:focus {
+        color: #000;
+        text-decoration: none; }
+  #content article.rsa-press hr {
+    width: 100%;
+    margin: 25px 0 35px;
+    border-top: 1px solid #adadad; }
+  #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a {
+    overflow: hidden; }
+    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure {
+      float: left; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure img {
+        width: 117px;
+        height: 120px; }
+    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details {
+      float: left;
+      padding-left: 15px; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-subject {
         font-size: 16px;
         color: #333;
-        font-weight: 400; }
-      #content article.rsa-news > a .details .news-content {
-        font-size: 14px;
-        color: #5b5b5b;
-        line-height: 20px;
-        margin-top: 15px; }
-      #content article.rsa-news > a .details .info {
-        width: 100%;
-        font-size: 0;
-        margin-top: 30px; }
-        #content article.rsa-news > a .details .info > dt {
-          display: inline-block;
-          width: 50%;
-          font-size: 13px;
-          color: #777;
-          font-weight: 300;
-          text-align: left; }
-        #content article.rsa-news > a .details .info > dd {
-          display: inline-block;
-          width: 50%;
-          font-size: 13px;
-          color: #777;
-          font-weight: 300;
-          text-align: right; }
-  #content article.rsa-news .line {
-    margin: 26px 0;
-    width: 100%;
-    border-top: 1px solid #ccc; }
-  #content article.rsa-news .news-list li {
-    line-height: 26px; }
-    #content article.rsa-news .news-list li > a {
-      position: relative;
-      width: 100%;
-      display: block;
-      opacity: .7; }
-      #content article.rsa-news .news-list li > a .list {
-        width: 100%;
-        padding-right: 50px;
+        margin-bottom: 15px; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-content {
+        overflow: hidden;
+        width: 183px;
+        height: 60px;
         font-size: 13px;
         color: #5b5b5b;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis; }
-        #content article.rsa-news .news-list li > a .list .date {
-          position: absolute;
-          top: 0;
-          right: 0; }
+        line-height: 20px;
+        opacity: .7; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .date {
+        font-size: 13px;
+        color: #5b5b5b;
+        opacity: .7;
+        text-align: right;
+        margin-top: 10px; }
+    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:hover, #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:focus {
+      text-decoration: none; }
+  #content article.rsa-press .bx-wrapper .bx-controls .bx-controls-direction {
+    display: none; }
+  #content article.rsa-press .bx-wrapper .bx-controls .bx-pager {
+    margin-top: 20px;
+    text-align: center; }
+    #content article.rsa-press .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+      display: inline-block;
+      margin: 0 5px; }
+      #content article.rsa-press .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #a5a8ad;
+        text-indent: -9999px; }
+        #content article.rsa-press .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+          background-color: #ff0025; }
+#content article.rsa-notice {
+  width: 100%;
+  height: 280px;
+  padding: 35px 25px;
+  background-color: #fff; }
+  #content article.rsa-notice h5 {
+    width: 100%;
+    font-size: 19px;
+    color: #5b5b5b;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif; }
+    #content article.rsa-notice h5 .more {
+      position: relative;
+      top: 4px;
+      float: right;
+      font-size: 12px;
+      color: #5b5b5b;
+      font-weight: 300;
+      text-align: right;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      font-family: 'Noto Sans KR', sans-serif; }
+      #content article.rsa-notice h5 .more:hover, #content article.rsa-notice h5 .more:focus {
+        color: #000;
+        text-decoration: none; }
+  #content article.rsa-notice hr {
+    width: 100%;
+    margin: 25px 0;
+    border-top: 1px solid #adadad; }
+  #content article.rsa-notice .notice-list li {
+    position: relative;
+    line-height: 36px; }
+    #content article.rsa-notice .notice-list li a {
+      position: relative;
+      display: block;
+      font-size: 14px;
+      color: #5b5b5b;
+      opacity: .7;
+      padding-left: 12px;
+      padding-right: 50px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      #content article.rsa-notice .notice-list li a:before {
+        position: absolute;
+        left: 2px;
+        content: "·";
+        opacity: .7;
+        display: inline-block; }
+      #content article.rsa-notice .notice-list li a .date {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 14px;
+        color: #5b5b5b; }
 #content .rs-search-area {
   width: 100%;
   height: 210px;
@@ -323,21 +398,18 @@ address {
       display: table-cell;
       text-align: center;
       vertical-align: middle; }
-    #fields .fields-content .en {
+    #fields .fields-content .rsa-title {
       font-size: 70px;
       color: #fff;
-      font-family: 'Titillium Web', sans-serif;
-      font-weight: 500;
-      line-height: 55px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
       margin-bottom: 40px;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-      -ms-transform: scale(0.1);
-      -webkit-transform: scale(0.1);
-      transform: scale(0.1); }
-      #fields .fields-content .en small {
-        font-size: 25px;
-        color: #fff; }
-    #fields .fields-content .ko {
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+      #fields .fields-content .rsa-title small {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Noto Sans KR', sans-serif; }
+    #fields .fields-content .summary {
       position: relative;
       top: -20px;
       font-size: 15px;
@@ -345,7 +417,6 @@ address {
       line-height: 26px;
       font-weight: 400;
       font-family: 'Noto Sans KR', sans-serif;
-      opacity: 0;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
     #fields .fields-content .menu-list {
       display: inline-block;
@@ -412,30 +483,6 @@ address {
             border-color: #e61937; }
             #fields .fields-content .menu-list li a:hover p, #fields .fields-content .menu-list li a:focus p {
               font-weight: bold; }
-  #fields.on .fields-content > div .en {
-    opacity: 1;
-    -ms-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 3s;
-    transition-duration: 3s;
-    -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s; }
-  #fields.on .fields-content > div .ko {
-    top: 0;
-    opacity: 1;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-    -webkit-transition-delay: 1.5s;
-    transition-delay: 1.5s; }
 
 #rsa-center {
   position: relative;
@@ -451,13 +498,18 @@ address {
       font-size: 14px;
       color: #000;
       height: 52px;
-      line-height: 48px;
       font-weight: 400;
       padding-left: 74px;
       background-position: 0 2px;
       background-repeat: no-repeat; }
       #rsa-center .container > div a:hover, #rsa-center .container > div a:focus {
         text-decoration: none; }
+      #rsa-center .container > div a p {
+        font-size: 12px;
+        color: #666;
+        line-height: 16px;
+        font-weight: 300;
+        margin-top: 10px; }
     #rsa-center .container > div:last-child {
       border-right: 0; }
     #rsa-center .container > div.cs-center a {

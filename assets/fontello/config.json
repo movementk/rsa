@@ -77,6 +77,18 @@
       "css": "download",
       "code": 59401,
       "src": "iconic"
+    },
+    {
+      "uid": "9daa1fdf0838118518a7e22715e83abc",
+      "css": "file-pdf",
+      "code": 61889,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5cbe092278ff71fc27c920298b0f3ca3",
+      "css": "fax",
+      "code": 61868,
+      "src": "fontawesome"
     }
   ]
 }
