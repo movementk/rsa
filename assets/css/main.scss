@@ -441,24 +441,27 @@
             vertical-align: middle;
         }
         .rsa-title {
-            font-size: 70px;
+//            font-size: 70px;
+            font-size: 60px;
             color: #fff;
             @include lato();
             font-weight: bold;
             margin-bottom: 40px;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
             small {
-                font-size: 30px;
+//                font-size: 30px;
+                font-size: 26px;
                 color: #fff;
                 @include noto();
             }
         }
         .summary {
-            position: relative;
-            top: -20px;
-            font-size: 15px;
+//            position: relative;
+//            top: -20px;
+//            font-size: 15px;
+//            line-height: 26px;
+            font-size: 30px;
             color: #fff;
-            line-height: 26px;
             font-weight: 400;
             @include noto();
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -474,7 +477,7 @@
                     width: 130px;
                     text-align: center;
                     border: 1px solid #fff;
-                    opacity: .5;
+                    opacity: .8;
                     padding: 15px 0;
                     margin-left: -1px;
                     @include trans();

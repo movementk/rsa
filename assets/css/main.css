@@ -399,22 +399,19 @@ address {
       text-align: center;
       vertical-align: middle; }
     #fields .fields-content .rsa-title {
-      font-size: 70px;
+      font-size: 60px;
       color: #fff;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
       margin-bottom: 40px;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
       #fields .fields-content .rsa-title small {
-        font-size: 30px;
+        font-size: 26px;
         color: #fff;
         font-family: 'Noto Sans KR', sans-serif; }
     #fields .fields-content .summary {
-      position: relative;
-      top: -20px;
-      font-size: 15px;
+      font-size: 30px;
       color: #fff;
-      line-height: 26px;
       font-weight: 400;
       font-family: 'Noto Sans KR', sans-serif;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
@@ -429,7 +426,7 @@ address {
           width: 130px;
           text-align: center;
           border: 1px solid #fff;
-          opacity: .5;
+          opacity: .8;
           padding: 15px 0;
           margin-left: -1px;
           -webkit-transition-property: all;

@@ -49,7 +49,7 @@
                                     </a>
                                 </p>
                                 <figure>
-                                    <img src="/assets/images/company/ci_ai_img01.png" alt="">
+                                    <img src="/assets/images/company/ci_ai_img01.png" alt="ci ai">
                                 </figure>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                     </a>
                                 </p>
                                 <figure>
-                                    <img src="/assets/images/company/ci_ai_img02.png" alt="">
+                                    <img src="/assets/images/company/ci_ai_img02.png" alt="ci ai">
                                 </figure>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                                     </a>
                                 </p>
                                 <figure>
-                                    <img src="/assets/images/company/ci_ai_img03.png" alt="">
+                                    <img src="/assets/images/company/ci_ai_img03.png" alt="ci ai">
                                 </figure>
                             </div>
                         </div>
@@ -164,7 +164,24 @@
                                     </a>
                                 </p>
                                 <figure>
-                                    <img src="/assets/images/company/ci_ai_img04.png" alt="">
+                                    <img src="/assets/images/company/ci_ai_img04.png" alt="ci ai">
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="slogan">
+                        <div class="article-header">
+                            <h4 class="content-title">Slogan</h4>
+                        </div>
+                        <div class="article-content">
+                            <div class="typical square-bg">
+                                <p class="btn-ci">
+                                    <a href="#" class="btn btn-gray" role="button">
+                                        <i class="icon-download"></i>CI 다운로드 AI
+                                    </a>
+                                </p>
+                                <figure>
+                                    <img src="/assets/images/company/slogan_logo.png" alt="slogan logo">
                                 </figure>
                             </div>
                         </div>

@@ -177,10 +177,7 @@ body.nav-expanded #header {
 
 #footnav {
   padding: 55px 0 50px;
-  background-image: url(/assets/images/main/footnav_bg.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; }
+  background-color: #666; }
   #footnav .site-map > ul {
     overflow: hidden; }
     #footnav .site-map > ul > li {
