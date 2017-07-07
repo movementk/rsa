@@ -480,12 +480,37 @@
 
 // 자료실 
 .dataroom {
+    .section-header {
+        position: relative;
+        padding-bottom: 70px;
+        .search-area {
+            position: absolute;
+            top: 110px;
+            right: 0;
+            .search-form {
+                .form-group {
+                    #search {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
     .section-content {
+        .summary {
+            font-size: 16px;
+            color: #707070;
+            .icon-search-1 {
+                margin-right: 5px;
+                color: #707070;
+            }
+        }
         padding: 0;
         background: none;
         .table-wrap {
+            margin-top: 30px;
             .type-write {
-                border: 2px solid #e61937;
+                border: 3px solid #cfcfcf;
                 tbody {
                     tr {
                         th {
@@ -554,25 +579,6 @@
                                 }
                             }
                         }
-                    }
-                }
-            }
-        }
-        .search-area {
-            position: relative;
-            height: 190px;
-            padding: 72px 70px;
-            margin-top: 45px;
-            background-color: #fff;
-            .logo {
-                position: absolute;
-                top: 75px;
-                left: 70px;
-            }
-            .search-form {
-                .form-group {
-                    #search {
-                        width: 690px;
                     }
                 }
             }

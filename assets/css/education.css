@@ -203,7 +203,6 @@ address {
 .e-guide article.tuition-fee .article-content .attention {
   position: relative;
   font-size: 15px;
-  color: #e61937;
   font-weight: 400;
   line-height: 26px;
   padding-left: 10px; }
@@ -459,7 +458,6 @@ address {
         .modal .modal-dialog .modal-content .modal-footer .attention {
           display: block;
           font-size: 16px;
-          color: #e61936;
           font-weight: 500;
           margin-bottom: 20px; }
         .modal .modal-dialog .modal-content .modal-footer .btn-area p .btn {

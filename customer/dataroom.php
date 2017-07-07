@@ -33,11 +33,34 @@
         </div>
         <div class="container">
             <section class="dataroom">
-                <div class="section-header">
-                    <h3 class="content-title">자료실</h3>
-                </div>
-                <div class="section-content">
-                    <form action="#">
+                <form action="#">
+                    <div class="section-header">
+                        <h3 class="content-title">자료실</h3>
+                        <div class="search-area">
+                            <div class="search-form">
+                                <div class="form-group">
+                                    <select class="form-control selection-2">
+                                        <option>전체</option>
+                                        <option>제목</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="search" class="form-control" placeholder="찾으시는 제품을 입력해 주세요">
+                                    <label for="search" class="sr-only">검색하기</label>
+                                    <button type="submit" class="btn btn-search">
+                                        <i class="icon-search-1">
+                                            <span class="sr-only">검색버튼</span>
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <p class="summary">
+                            <i class="icon-search-1"></i>
+                            찾으시는 자료의 카테고리를 선택해 주세요
+                        </p>
                         <div class="table-wrap">
                             <table class="table type-write">
                                 <colgroup>
@@ -198,253 +221,230 @@
                                 </tbody>
                             </table>
                         </div>
-                        
-                        <div class="search-area">
-                            <h4 class="logo">
-                                <img src="/assets/images/customer/search_logo.gif" alt="logo">
-                            </h4>
-                            <div class="search-form">
-                                <div class="form-group">
-                                    <select class="form-control selection-2">
-                                        <option>전체</option>
-                                        <option>제목</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
-                                    <label for="search" class="sr-only">검색하기</label>
-                                    <button type="submit" class="btn btn-search">
-                                        <i class="icon-search-1">
-                                            <span class="sr-only">검색버튼</span>
-                                        </i>
-                                    </button>
-                                </div>
+
+                        <!-- 검색전 -->   
+                        <article class="basic-content">
+                            <p class="attention">찾으시는 자료의 카테고리를 선택해주세요</p>
+                        </article>
+
+                        <!-- 검색결과 -->
+                        <article class="search-success">
+                            <nav class="tab-list">
+                                <ul>
+                                    <li class="active"><a href="#">카탈로그</a></li>
+                                    <li><a href="#">메뉴얼</a></li>
+                                    <li><a href="#">소프트웨어</a></li>
+                                    <li><a href="#">CAD Data</a></li>
+                                    <li><a href="#">기타 기술자료</a></li>
+                                    <li><a href="#">특허 및 인증서</a></li>
+                                </ul>
+                            </nav>
+                            <div class="table-wrap">
+                                <table class="table table-type1">
+                                    <colgroup>
+                                        <col style="width: 80px;">
+                                        <col style="width: 135px;">
+                                        <col style="width: 610px;">
+                                        <col style="width: 75px;">
+                                        <col style="width: 130px;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>분류</th>
+                                            <th>제목</th>
+                                            <th>파일</th>
+                                            <th>등록일</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    IO20 보드용 API
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8PLC는 Ethernet 포트를 통해 어떠한 프로토콜 통신을 지원하는가
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8 PLC Ethernet 다이렉트 통신케이블 결선도
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8 PLC Xnet SERIAL RS232C통신케이블 결선도
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8 PLC Xnet USB Mini B TYPE통신케이블 결선도
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    IO20 보드용 API
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8PLC는 Ethernet 포트를 통해 어떠한 프로토콜 통신을 지원하는가
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8PLC의 RS232C 485 포트 및 USB 채널은 어떠한 프로토콜 지원 가능한가
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8 PLC Ethernet 다이렉트 통신케이블 결선도
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="num">152</td>
+                                            <td>카탈로그</td>
+                                            <td class="subject">
+                                                <a href="#">
+                                                    X8PLC의 RS232C 485 포트 및 USB 채널은 어떠한 프로토콜 지원 가능한가
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <i class="icon-doc-text">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </td>
+                                            <td class="date">2015.06.08</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                        </div>
-                    </form>
-                    
-                    <!-- 검색전 -->   
-                    <article class="basic-content">
-                        <p class="attention">찾으시는 자료의 카테고리를 선택해주세요</p>
-                    </article>
-                    
-                    <!-- 검색결과 -->
-                    <article class="search-success">
-                        <nav class="tab-list">
-                            <ul>
-                                <li class="active"><a href="#">카탈로그</a></li>
-                                <li><a href="#">메뉴얼</a></li>
-                                <li><a href="#">소프트웨어</a></li>
-                                <li><a href="#">CAD Data</a></li>
-                                <li><a href="#">기타 기술자료</a></li>
-                                <li><a href="#">특허 및 인증서</a></li>
-                            </ul>
-                        </nav>
-                        <div class="table-wrap">
-                            <table class="table table-type1">
-                                <colgroup>
-                                    <col style="width: 80px;">
-                                    <col style="width: 135px;">
-                                    <col style="width: 610px;">
-                                    <col style="width: 75px;">
-                                    <col style="width: 130px;">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>분류</th>
-                                        <th>제목</th>
-                                        <th>파일</th>
-                                        <th>등록일</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                IO20 보드용 API
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8PLC는 Ethernet 포트를 통해 어떠한 프로토콜 통신을 지원하는가
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8 PLC Ethernet 다이렉트 통신케이블 결선도
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8 PLC Xnet SERIAL RS232C통신케이블 결선도
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8 PLC Xnet USB Mini B TYPE통신케이블 결선도
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                IO20 보드용 API
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8PLC는 Ethernet 포트를 통해 어떠한 프로토콜 통신을 지원하는가
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8PLC의 RS232C 485 포트 및 USB 채널은 어떠한 프로토콜 지원 가능한가
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8 PLC Ethernet 다이렉트 통신케이블 결선도
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">152</td>
-                                        <td>카탈로그</td>
-                                        <td class="subject">
-                                            <a href="#">
-                                                X8PLC의 RS232C 485 포트 및 USB 채널은 어떠한 프로토콜 지원 가능한가
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <i class="icon-doc-text">
-                                                <span class="sr-only">첨부파일</span>
-                                            </i>
-                                        </td>
-                                        <td class="date">2015.06.08</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="btn-area">
-                            <p>
-                                <a href="#" class="btn btn-red" role="button">글쓰기</a>
-                            </p>
-                        </div>
-                        <nav class="paging" aria-label="Page navigation">
-                            <ul class="pagination">
-                                <li>
-                                    <a href="#" aria-label="Previous" class="arrow-btn double-previous"></a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="Previous" class="arrow-btn previous"></a>
-                                </li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">6</a></li>
-                                <li><a href="#">7</a></li>
-                                <li><a href="#">8</a></li>
-                                <li><a href="#">9</a></li>
-                                <li><a href="#">10</a></li>
-                                <li>
-                                    <a href="#" aria-label="Next" class="arrow-btn next"></a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="Next" class="arrow-btn double-next"></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </article>
-                </div>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-red" role="button">글쓰기</a>
+                                </p>
+                            </div>
+                            <nav class="paging" aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous" class="arrow-btn double-previous"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" aria-label="Previous" class="arrow-btn previous"></a>
+                                    </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">6</a></li>
+                                    <li><a href="#">7</a></li>
+                                    <li><a href="#">8</a></li>
+                                    <li><a href="#">9</a></li>
+                                    <li><a href="#">10</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next" class="arrow-btn next"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" aria-label="Next" class="arrow-btn double-next"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </article>
+                    </div>
+                </form>
             </section>
         </div>
 	</main>

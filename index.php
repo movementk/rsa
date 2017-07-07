@@ -8,7 +8,7 @@
         <div id="fields">
             <div class="video-area">
                 <video loop muted autoplay>
-                    <source src="/assets/images/main/video_1.mp4" type="video/mp4">
+                    <source src="/assets/images/main/banner2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -16,7 +16,7 @@
                 <div>
                     <h2 class="rsa-title">
                         <small>로봇모션·에너지제어 전문기업</small><br>
-                        RSAUTOMATION
+                        알에스오토메이션
                     </h2>
                     <p class="summary">
                         4차산업혁명의 브레인을 만든다

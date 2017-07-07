@@ -77,10 +77,6 @@ address {
   background-color: #fff; }
   .product-list .section-content .product-item ~ .product-item {
     margin-top: 100px; }
-  .product-list .section-content .product-item .row > .vcenter {
-    float: none;
-    display: inline-block;
-    vertical-align: middle; }
   .product-list .section-content .product-item .figure {
     text-align: center; }
     .product-list .section-content .product-item .figure .product-img img {
@@ -100,7 +96,6 @@ address {
     padding-left: 55px; }
     .product-list .section-content .product-item .details .attention {
       font-size: 13px;
-      color: #e61c39;
       font-weight: 400;
       margin-top: 10px; }
       .product-list .section-content .product-item .details .attention:before {
@@ -115,7 +110,7 @@ address {
       font-weight: 300;
       color: #666;
       line-height: 24px;
-      margin-top: 30px; }
+      margin-top: 15px; }
       .product-list .section-content .product-item .details p.summary {
         font-size: 15px;
         color: #666;
@@ -123,15 +118,15 @@ address {
         opacity: .8;
         font-weight: 400;
         margin-top: 5px; }
-    .product-list .section-content .product-item .details strong {
+    .product-list .section-content .product-item .details strong, .product-list .section-content .product-item .details b {
       display: block;
       font-size: 16px;
       color: #666;
       font-weight: 500;
       line-height: 24px;
-      margin-top: 50px; }
-    .product-list .section-content .product-item .details ul {
       margin-top: 30px; }
+    .product-list .section-content .product-item .details ul {
+      margin-top: 15px; }
       .product-list .section-content .product-item .details ul li {
         font-size: 13px;
         color: #666;

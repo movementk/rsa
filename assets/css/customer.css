@@ -323,76 +323,81 @@ address {
   .contact article .article-content .table-wrap .table-type2 tbody tr td:first-child {
     background-color: #f8f9fa; }
 
+.dataroom .section-header {
+  position: relative;
+  padding-bottom: 70px; }
+  .dataroom .section-header .search-area {
+    position: absolute;
+    top: 110px;
+    right: 0; }
+    .dataroom .section-header .search-area .search-form .form-group #search {
+      width: 300px; }
 .dataroom .section-content {
   padding: 0;
   background: none; }
-  .dataroom .section-content .table-wrap .type-write {
-    border: 2px solid #e61937; }
-    .dataroom .section-content .table-wrap .type-write tbody tr th {
-      font-size: 16px;
-      color: #333;
-      font-weight: 400;
-      vertical-align: middle;
-      padding-left: 50px; }
-    .dataroom .section-content .table-wrap .type-write tbody tr td {
-      padding: 28px 0 28px 50px;
-      background-color: #fff; }
-      .dataroom .section-content .table-wrap .type-write tbody tr td > ul {
-        font-size: 0; }
-        .dataroom .section-content .table-wrap .type-write tbody tr td > ul li {
-          position: relative;
-          display: inline-block;
-          margin-right: 40px;
-          font-size: 14px; }
-          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li:last-child {
-            margin-right: 0; }
-          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li label {
+  .dataroom .section-content .summary {
+    font-size: 16px;
+    color: #707070; }
+    .dataroom .section-content .summary .icon-search-1 {
+      margin-right: 5px;
+      color: #707070; }
+  .dataroom .section-content .table-wrap {
+    margin-top: 30px; }
+    .dataroom .section-content .table-wrap .type-write {
+      border: 3px solid #cfcfcf; }
+      .dataroom .section-content .table-wrap .type-write tbody tr th {
+        font-size: 16px;
+        color: #333;
+        font-weight: 400;
+        vertical-align: middle;
+        padding-left: 50px; }
+      .dataroom .section-content .table-wrap .type-write tbody tr td {
+        padding: 28px 0 28px 50px;
+        background-color: #fff; }
+        .dataroom .section-content .table-wrap .type-write tbody tr td > ul {
+          font-size: 0; }
+          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li {
             position: relative;
-            color: #707070;
-            font-weight: 400;
-            padding-left: 23px;
-            z-index: 1;
-            cursor: pointer; }
-          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio] {
-            position: absolute;
-            visibility: hidden; }
-            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check {
-              border: 1px solid #e61937; }
-            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check:before {
-              background: #e61937; }
-            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ label {
-              color: #e61937; }
-          .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check {
-            position: absolute;
-            top: 3px;
-            left: 0;
-            width: 14px;
-            height: 14px;
-            border: 1px solid #707070;
-            border-radius: 50%;
-            cursor: pointer;
-            z-index: 0; }
-            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check:before {
-              content: "";
+            display: inline-block;
+            margin-right: 40px;
+            font-size: 14px; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li:last-child {
+              margin-right: 0; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li label {
+              position: relative;
+              color: #707070;
+              font-weight: 400;
+              padding-left: 23px;
+              z-index: 1;
+              cursor: pointer; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio] {
+              position: absolute;
+              visibility: hidden; }
+              .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check {
+                border: 1px solid #e61937; }
+              .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ .check:before {
+                background: #e61937; }
+              .dataroom .section-content .table-wrap .type-write tbody tr td > ul li input[type=radio]:checked ~ label {
+                color: #e61937; }
+            .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check {
               position: absolute;
               top: 3px;
-              left: 3px;
-              width: 6px;
-              height: 6px;
+              left: 0;
+              width: 14px;
+              height: 14px;
+              border: 1px solid #707070;
               border-radius: 50%;
-              transition: all 0.25s; }
-  .dataroom .section-content .search-area {
-    position: relative;
-    height: 190px;
-    padding: 72px 70px;
-    margin-top: 45px;
-    background-color: #fff; }
-    .dataroom .section-content .search-area .logo {
-      position: absolute;
-      top: 75px;
-      left: 70px; }
-    .dataroom .section-content .search-area .search-form .form-group #search {
-      width: 690px; }
+              cursor: pointer;
+              z-index: 0; }
+              .dataroom .section-content .table-wrap .type-write tbody tr td > ul li .check:before {
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                transition: all 0.25s; }
   .dataroom .section-content .basic-content {
     width: 100%;
     height: 320px;
