@@ -178,6 +178,7 @@
                 .bx-viewport {
                     .press-slider {
                         li {
+							height: 120px;
                             a {
                                 overflow: hidden;
                                 .figure {
@@ -417,6 +418,7 @@
 
 // 비주얼 영상
 #fields {
+	display: none;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -441,83 +443,250 @@
             vertical-align: middle;
         }
         .rsa-title {
-//            font-size: 70px;
-            font-size: 60px;
+            font-size: 50px;
             color: #fff;
             @include lato();
             font-weight: bold;
             margin-bottom: 40px;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
             small {
-//                font-size: 30px;
-                font-size: 26px;
+                font-size: 24px;
                 color: #fff;
                 @include noto();
             }
         }
         .summary {
-//            position: relative;
-//            top: -20px;
-//            font-size: 15px;
-//            line-height: 26px;
-            font-size: 30px;
+            font-size: 24px;
             color: #fff;
             font-weight: 400;
             @include noto();
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
-        .menu-list {
-            display: inline-block;
+    }
+}
+
+// 비주얼 영역
+#jumbo {
+	overflow: hidden;
+	position: relative;
+	height: 663px;
+	.jumbo-slider {
+		.bx-wrapper {
+			.bx-viewport {
+				ul {
+					li {
+						overflow: hidden;
+						position: relative;
+						height: 663px;
+						background-repeat: no-repeat;
+						background-size: cover;
+						background-position: 50% 50%;
+						video {
+							position: relative;
+							width: 100%;
+							height: auto;
+						}
+						.img {
+							position: relative;
+							width: 100%;
+							height: 100%;
+							background-repeat: no-repeat;
+							background-size: cover;
+							background-position: 50% 50%; 
+							-ms-transform: scale(1.2);
+							-webkit-transform: scale(1.2);
+							transform: scale(1.2);
+						}
+						&.active {
+							.img {
+								@include trans($sec: 3s);
+								-ms-transform: scale(1);
+								-webkit-transform: scale(1);
+								transform: scale(1);
+							}
+						}
+					}
+				}
+			}
+			.bx-controls {
+				z-index: 1;
+				position: absolute;
+				bottom: 50px;
+				left: 0;
+				width: 100%;
+				height: 15px;
+				text-align: center;
+				.bx-pager {
+					display: inline-block;
+					.bx-pager-item {
+						display: inline;
+						.bx-pager-link {
+							float: left;
+							width: 15px;
+							height: 15px;
+							border: 1px solid #fff;
+							border-radius: 50%;
+							&.active {
+								background-color: #fff;
+							}
+						}
+						& + .bx-pager-item {
+							.bx-pager-link {
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.jumbo-content {
+        position: absolute;
+        top: 0;
+        display: table;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 30em rgba(0, 0, 0, .5);
+        > div {
+            display: table-cell;
             text-align: center;
+            vertical-align: middle;
+        }
+        .menu-list {
+            font-size: 0;
             margin-top: 65px;
-            li {
-                display: inline;
-                a {
-                    float: left;
-                    width: 130px;
-                    text-align: center;
-                    border: 1px solid #fff;
-                    opacity: .8;
-                    padding: 15px 0;
+            div {
+                display: inline-block;
+                h3 {
+                    width: 100%;
+                    font-size: 13px;
+                    color: #fff;
+                    display: block;
+                    line-height: 25px;
                     margin-left: -1px;
-                    @include trans();
-                    i {
-                        display: block;
-                        width: 100%;
-                        height: 50px;
-                        background-position: 50% 50%;
-                        background-repeat: no-repeat;
-                        &.icon-1 {background-image: url(/assets/images/main/icon_img01.png);}
-                        &.icon-2 {background-image: url(/assets/images/main/icon_img02.png);}
-                        &.icon-3 {background-image: url(/assets/images/main/icon_img03.png);}
-                        &.icon-4 {background-image: url(/assets/images/main/icon_img04.png);}
-                        &.icon-5 {background-image: url(/assets/images/main/icon_img05.png);}
-                        &.icon-6 {background-image: url(/assets/images/main/icon_img06.png);}
-                        &.icon-7 {background-image: url(/assets/images/main/icon_img07.png);}
+                    border: 1px solid #989390;
+                    background-color: rgba(#000, .5);
+                }
+                ul {
+                    li {
+                        display: inline;
+                        &:last-child {
+                            a {
+                                border-right: 1px solid #989390;
+                            }
+                        }
+                        a {
+                            float: left;
+                            width: 130px;
+                            text-align: center;
+                            border: 1px solid #989390;
+                            border-top: 0;
+                            padding: 15px 0;
+                            @include trans();
+                            margin-left: -1px;
+                            background-color: rgba(#000, .5);
+                            i {
+                                display: block;
+                                width: 100%;
+                                height: 50px;
+                                background-position: 50% 50%;
+                                background-repeat: no-repeat;
+                                &.icon-1 {background-image: url(/assets/images/main/icon_img01.png);}
+                                &.icon-2 {background-image: url(/assets/images/main/icon_img02.png);}
+                                &.icon-3 {background-image: url(/assets/images/main/icon_img03.png);}
+                                &.icon-4 {background-image: url(/assets/images/main/icon_img04.png);}
+                                &.icon-5 {background-image: url(/assets/images/main/icon_img05.png);}
+                                &.icon-6 {background-image: url(/assets/images/main/icon_img06.png);}
+                                &.icon-7 {background-image: url(/assets/images/main/icon_img07.png);}
+                                &.icon-8 {background-image: url(/assets/images/main/icon_img08.png);}
+                            }
+                            p {
+                                font-size: 14px;
+                                color: #fff;
+                                @include lato();
+                                font-weight: 400;
+                                margin-top: 10px;
+                                @include trans();
+                            }
+                            &:hover, &:focus {
+                                position: relative;
+                                z-index: 999;
+                                text-decoration: none;
+                                opacity: 1;
+                                p {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
                     }
-                    p {
-                        font-size: 14px;
-                        color: #fff;
-                        @include lato();
-                        font-weight: 400;
-                        margin-top: 10px;
-                        @include trans();
+                }
+                &.robot-motion {
+                    h3 {
+                        width: 776px;
                     }
-                    &:hover, &:focus {
-                        position: relative;
-                        z-index: 999;
-                        text-decoration: none;
-                        opacity: 1;
-                        background-color: #e61937;
-                        border-color: #e61937;
-                        p {
-                            font-weight: bold;
+                    ul {
+                        li {
+                            &:last-child {
+                                a {
+                                    border-right: 0;
+                                }
+                            }
+                            a {
+                                &:hover, &:focus {
+                                    background-color: #e61937;
+                                    border-color: #e61937;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.energy-control {
+                    h3 {
+                        width: 259px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover, &:focus {
+                                    background-color: #00ac65;
+                                    border-color: #00ac65;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+        .rsa-title {
+            font-size: 50px;
+            color: #fff;
+            @include lato();
+            font-weight: bold;
+            margin-bottom: 40px;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+            small {
+                font-size: 24px;
+                color: #fff;
+                @include noto();
+            }
+        }
+        .summary {
+            font-size: 24px;
+            color: #fff;
+            font-weight: 400;
+            @include noto();
+            text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+        }
     }
+	.jumbo-cover {
+		z-index: 1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+	}
 }
 
 // 서비스센터 및 게시판

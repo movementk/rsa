@@ -133,7 +133,7 @@ address {
         line-height: 24px;
         font-weight: 300; }
     .product-list .section-content .product-item .details .table-wrap .table-type2 tbody tr th {
-      font-size: 14px;
+      font-size: 13px;
       color: #fff;
       text-align: left;
       font-weight: 400;
@@ -150,12 +150,12 @@ address {
   .product-list .section-content .product-item .table-wrap {
     margin-top: 50px; }
     .product-list .section-content .product-item .table-wrap .table-type2 thead tr th {
-      font-size: 16px;
+      font-size: 13px;
       color: #fff;
       vertical-align: middle;
       background-color: #adadad; }
     .product-list .section-content .product-item .table-wrap .table-type2 tbody tr td {
-      font-size: 14px;
+      font-size: 13px;
       color: #666;
       font-weight: 300;
       vertical-align: middle;

@@ -49,30 +49,38 @@
                                 <li><a href="/company/ci.php">CI<span></span></a></li>
                                 <li><a href="/company/history.php">연혁<span></span></a></li>
                                 <li><a href="/company/location.php">사업장안내<span></span></a></li>
-                                <li><a href="/company/partner.php">파트너쉽 제안</a></li>
-                                <li><a href="/company/global_partner.php">글로벌 파트너쉽</a></li>
+                                <li><a href="/company/partner.php">파트너쉽 제안<span></span></a></li>
+                                <li><a href="/company/global_partner.php">글로벌 파트너쉽<span></span></a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">투자정보</a>
                             <ul>
-                                <li><a href="#">공시정보<span></span></a></li>
-                                <li><a href="#">주가정보<span></span></a></li>
-                                <li><a href="#">재무정보<span></span></a></li>
-                                <li><a href="#">공지/공고<span></span></a></li>
+                                <li><a href="/investment/finance_information.php">재무정보<span></span></a></li>
+                                <li><a href="/investment/stock_information.php">주식정보<span></span></a></li>
+                                <li><a href="/investment/disclosure_information.php">공시정보<span></span></a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="produce-list">
                             <a href="#">제품안내</a>
-                            <ul>
-                                <li><a href="/product/product_list.php">PLC<span></span></a></li>
-                                <li><a href="#">Distributed I/O<span></span></a></li>
-                                <li><a href="#">Touch Panel<span></span></a></li>
-                                <li><a href="#">Inverter<span></span></a></li>
-                                <li><a href="#">Servo<span></span></a></li>
-                                <li><a href="#">Motion Controller<span></span></a></li>
-                                <li><a href="#">UPS<span></span></a></li>
-                            </ul>
+                            <div class="robot-motion">
+                                <h3>로못보션</h3>
+                                <ul>
+                                    <li><a href="#">Motion Controller<span></span></a></li>
+                                    <li><a href="#">Servo<span></span></a></li>
+                                    <li><a href="#">Inverter<span></span></a></li>
+                                    <li><a href="#">PLC<span></span></a></li>
+                                    <li><a href="#">Distributed I/O<span></span></a></li>
+                                    <li><a href="#">Touch Panel<span></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="energy-control">
+                                <h3>에너지 제어</h3>
+                                <ul>
+                                    <li><a href="#">PCS<span></span></a></li>
+                                    <li><a href="#">UPS<span></span></a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <a href="#">고객지원</a>

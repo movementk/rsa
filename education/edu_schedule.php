@@ -72,7 +72,7 @@
                         <h3 class="content-title">교육문의 및 취소 전화번호</h3>
                     </div>
                     <div class="article-content">
-                        <h4><small>산화협력단 첨단기수교육센터</small> 허정 선생님</h4>
+                        <h4><small>산학협력단 첨단기수교육센터</small> 허정 선생님</h4>
                         <ul>
                             <li>
                                 <i class="icon-phone">

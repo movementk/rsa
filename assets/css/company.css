@@ -55,53 +55,91 @@ address {
     background-image: url(/assets/images/company/company_intro_bg.png);
     background-repeat: no-repeat;
     background-position: 50% 50%; }
-    .introduce .company-intro .article-content .intro-list .figure {
+    .introduce .company-intro .article-content .intro-list ol {
+      font-size: 0;
+      text-align: center;
       padding-top: 35px; }
-      .introduce .company-intro .article-content .intro-list .figure img {
-        display: inline-block; }
-.introduce .service-area .article-content > p {
-  font-size: 16px;
-  color: #666;
-  line-height: 24px;
-  font-weight: 400; }
-  .introduce .service-area .article-content > p > b {
-    font-weight: 500;
-    color: #e61937; }
-.introduce .service-area .article-content .circle-list {
-  font-size: 0;
-  text-align: center;
-  margin-top: 80px; }
-  .introduce .service-area .article-content .circle-list > li {
-    display: inline-block;
-    width: 20%;
-    vertical-align: top; }
-    .introduce .service-area .article-content .circle-list > li .circle {
-      display: inline-block;
-      width: 200px;
-      height: 200px;
-      padding: 45px 0;
-      border-radius: 50%; }
-      .introduce .service-area .article-content .circle-list > li .circle.gray-bg {
-        background-color: #939393; }
-      .introduce .service-area .article-content .circle-list > li .circle.red-bg {
-        background-color: #e61937; }
-      .introduce .service-area .article-content .circle-list > li .circle .figure {
-        height: 51px;
-        line-height: 51px;
-        vertical-align: middle; }
-        .introduce .service-area .article-content .circle-list > li .circle .figure img {
-          display: inline-block; }
-      .introduce .service-area .article-content .circle-list > li .circle .figcaption {
+      .introduce .company-intro .article-content .intro-list ol li {
+        position: relative;
+        display: inline-block;
+        width: 227px;
+        height: 227px;
         font-size: 14px;
-        color: #fff;
-        line-height: 18px;
-        margin-top: 20px; }
+        color: #7b7b7b;
+        vertical-align: top;
+        z-index: 1;
+        padding: 63px 0;
+        margin-left: -18.5px;
+        margin-right: -18.5px;
+        border-radius: 50%;
+        border: 10px solid #7c7c7c; }
+        .introduce .company-intro .article-content .intro-list ol li:first-child {
+          margin-left: 0; }
+        .introduce .company-intro .article-content .intro-list ol li:last-child {
+          margin-right: 0; }
+        .introduce .company-intro .article-content .intro-list ol li:nth-of-type(odd) {
+          color: #e92d4b;
+          border-color: #e92d4b; }
+        .introduce .company-intro .article-content .intro-list ol li:nth-of-type(2n + 1) {
+          z-index: 2;
+          margin-top: 105px; }
+        .introduce .company-intro .article-content .intro-list ol li .num {
+          display: block;
+          font-size: 20px;
+          font-weight: 600;
+          font-style: normal;
+          font-family: 'Titillium Web', sans-serif; }
+        .introduce .company-intro .article-content .intro-list ol li p {
+          margin-top: 5px;
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 24px; }
+          .introduce .company-intro .article-content .intro-list ol li p small {
+            font-size: 13px;
+            line-height: 20px; }
+.introduce .service-area .article-content {
+  text-align: center; }
+  .introduce .service-area .article-content > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+    font-weight: 400; }
+  .introduce .service-area .article-content .circle-list {
+    font-size: 0;
+    text-align: center;
+    margin-top: 80px; }
+    .introduce .service-area .article-content .circle-list > li {
+      display: inline-block;
+      width: 20%;
+      vertical-align: top; }
+      .introduce .service-area .article-content .circle-list > li .circle {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        padding: 45px 0;
+        border-radius: 50%; }
+        .introduce .service-area .article-content .circle-list > li .circle.gray-bg {
+          background-color: #939393; }
+        .introduce .service-area .article-content .circle-list > li .circle.red-bg {
+          background-color: #e61937; }
+        .introduce .service-area .article-content .circle-list > li .circle .figure {
+          height: 51px;
+          line-height: 51px;
+          vertical-align: middle; }
+          .introduce .service-area .article-content .circle-list > li .circle .figure img {
+            display: inline-block; }
+        .introduce .service-area .article-content .circle-list > li .circle .figcaption {
+          font-size: 14px;
+          color: #fff;
+          line-height: 18px;
+          margin-top: 20px; }
 
 .greeting .section-content figure {
   text-align: right; }
   .greeting .section-content figure img {
     display: inline-block; }
 .greeting .section-content .greeting-txt {
+  width: 700px;
   font-size: 16px;
   color: #666;
   font-weight: 300;
@@ -281,26 +319,19 @@ address {
       font-size: 18px;
       color: #fff;
       font-weight: 400;
-      line-height: 30px;
-      padding-left: 15px; }
-      .history .section-content .content-top h4:before {
-        position: absolute;
-        top: 6px;
-        left: 0;
-        content: "";
-        height: 18px;
-        border-left: 2px solid #de1d3b; }
+      line-height: 30px; }
   .history .section-content > ol {
-    margin-top: 90px; }
+    margin-top: 60px; }
     .history .section-content > ol > li > dl {
       display: table; }
       .history .section-content > ol > li > dl dt {
         display: table-cell;
         width: 252px;
+        height: 135px;
         font-size: 26px;
         color: #555;
         font-weight: bold;
-        padding-top: 25px;
+        padding-top: 20px;
         font-family: 'Titillium Web', sans-serif;
         border-top: 3px solid #555; }
       .history .section-content > ol > li > dl dd {
@@ -310,11 +341,16 @@ address {
         color: #555;
         font-weight: 300;
         padding-left: 60px;
-        padding-bottom: 100px;
-        border-top: 1px solid #cccdce; }
+        border-top: 1px solid #cccdce;
+        background-repeat: no-repeat;
+        background-position: 100% 50%; }
         .history .section-content > ol > li > dl dd > p {
           display: block;
           line-height: 30px; }
+          .history .section-content > ol > li > dl dd > p:before {
+            content: "\E80B";
+            font-family: "fontello";
+            margin-right: 5px; }
 
 .location .section-content .nav-tabs {
   font-size: 0;
@@ -467,7 +503,7 @@ address {
   text-align: center;
   padding: 65px 0 35px;
   margin-bottom: 55px;
-  border: 6px solid #b4b4b4;
+  border: 2px solid #b4b4b4;
   background-color: #fff; }
   .global-partner article.distributors .article-content .global-map img {
     display: inline-block; }

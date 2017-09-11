@@ -175,36 +175,38 @@ address {
     width: 100%;
     margin: 25px 0 35px;
     border-top: 1px solid #adadad; }
-  #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a {
-    overflow: hidden; }
-    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure {
-      float: left; }
-      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure img {
-        width: 117px;
-        height: 120px; }
-    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details {
-      float: left;
-      padding-left: 15px; }
-      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-subject {
-        font-size: 16px;
-        color: #333;
-        margin-bottom: 15px; }
-      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-content {
-        overflow: hidden;
-        width: 183px;
-        height: 60px;
-        font-size: 13px;
-        color: #5b5b5b;
-        line-height: 20px;
-        opacity: .7; }
-      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .date {
-        font-size: 13px;
-        color: #5b5b5b;
-        opacity: .7;
-        text-align: right;
-        margin-top: 10px; }
-    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:hover, #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:focus {
-      text-decoration: none; }
+  #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li {
+    height: 120px; }
+    #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a {
+      overflow: hidden; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure {
+        float: left; }
+        #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .figure img {
+          width: 117px;
+          height: 120px; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details {
+        float: left;
+        padding-left: 15px; }
+        #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-subject {
+          font-size: 16px;
+          color: #333;
+          margin-bottom: 15px; }
+        #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .press-content {
+          overflow: hidden;
+          width: 183px;
+          height: 60px;
+          font-size: 13px;
+          color: #5b5b5b;
+          line-height: 20px;
+          opacity: .7; }
+        #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a .details .date {
+          font-size: 13px;
+          color: #5b5b5b;
+          opacity: .7;
+          text-align: right;
+          margin-top: 10px; }
+      #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:hover, #content article.rsa-press .bx-wrapper .bx-viewport .press-slider li a:focus {
+        text-decoration: none; }
   #content article.rsa-press .bx-wrapper .bx-controls .bx-controls-direction {
     display: none; }
   #content article.rsa-press .bx-wrapper .bx-controls .bx-pager {
@@ -379,6 +381,7 @@ address {
       background-repeat: no-repeat; }
 
 #fields {
+  display: none;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -399,70 +402,118 @@ address {
       text-align: center;
       vertical-align: middle; }
     #fields .fields-content .rsa-title {
-      font-size: 60px;
+      font-size: 50px;
       color: #fff;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
       margin-bottom: 40px;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
       #fields .fields-content .rsa-title small {
-        font-size: 26px;
+        font-size: 24px;
         color: #fff;
         font-family: 'Noto Sans KR', sans-serif; }
     #fields .fields-content .summary {
-      font-size: 30px;
+      font-size: 24px;
       color: #fff;
       font-weight: 400;
       font-family: 'Noto Sans KR', sans-serif;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
-    #fields .fields-content .menu-list {
-      display: inline-block;
-      text-align: center;
-      margin-top: 65px; }
-      #fields .fields-content .menu-list li {
+
+#jumbo {
+  overflow: hidden;
+  position: relative;
+  height: 663px; }
+  #jumbo .jumbo-slider .bx-wrapper .bx-viewport ul li {
+    overflow: hidden;
+    position: relative;
+    height: 663px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+    #jumbo .jumbo-slider .bx-wrapper .bx-viewport ul li video {
+      position: relative;
+      width: 100%;
+      height: auto; }
+    #jumbo .jumbo-slider .bx-wrapper .bx-viewport ul li .img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      -ms-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
+    #jumbo .jumbo-slider .bx-wrapper .bx-viewport ul li.active .img {
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 3s;
+      transition-duration: 3s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+  #jumbo .jumbo-slider .bx-wrapper .bx-controls {
+    z-index: 1;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    text-align: center; }
+    #jumbo .jumbo-slider .bx-wrapper .bx-controls .bx-pager {
+      display: inline-block; }
+      #jumbo .jumbo-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
         display: inline; }
-        #fields .fields-content .menu-list li a {
+        #jumbo .jumbo-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
           float: left;
-          width: 130px;
-          text-align: center;
+          width: 15px;
+          height: 15px;
           border: 1px solid #fff;
-          opacity: .8;
-          padding: 15px 0;
+          border-radius: 50%; }
+          #jumbo .jumbo-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+            background-color: #fff; }
+        #jumbo .jumbo-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item + .bx-pager-item .bx-pager-link {
+          margin-left: 10px; }
+  #jumbo .jumbo-content {
+    position: absolute;
+    top: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 30em rgba(0, 0, 0, 0.5); }
+    #jumbo .jumbo-content > div {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+    #jumbo .jumbo-content .menu-list {
+      font-size: 0;
+      margin-top: 65px; }
+      #jumbo .jumbo-content .menu-list div {
+        display: inline-block; }
+        #jumbo .jumbo-content .menu-list div h3 {
+          width: 100%;
+          font-size: 13px;
+          color: #fff;
+          display: block;
+          line-height: 25px;
           margin-left: -1px;
-          -webkit-transition-property: all;
-          transition-property: all;
-          -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-          -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-          -webkit-transition-delay: 0s;
-          transition-delay: 0s; }
-          #fields .fields-content .menu-list li a i {
-            display: block;
-            width: 100%;
-            height: 50px;
-            background-position: 50% 50%;
-            background-repeat: no-repeat; }
-            #fields .fields-content .menu-list li a i.icon-1 {
-              background-image: url(/assets/images/main/icon_img01.png); }
-            #fields .fields-content .menu-list li a i.icon-2 {
-              background-image: url(/assets/images/main/icon_img02.png); }
-            #fields .fields-content .menu-list li a i.icon-3 {
-              background-image: url(/assets/images/main/icon_img03.png); }
-            #fields .fields-content .menu-list li a i.icon-4 {
-              background-image: url(/assets/images/main/icon_img04.png); }
-            #fields .fields-content .menu-list li a i.icon-5 {
-              background-image: url(/assets/images/main/icon_img05.png); }
-            #fields .fields-content .menu-list li a i.icon-6 {
-              background-image: url(/assets/images/main/icon_img06.png); }
-            #fields .fields-content .menu-list li a i.icon-7 {
-              background-image: url(/assets/images/main/icon_img07.png); }
-          #fields .fields-content .menu-list li a p {
-            font-size: 14px;
-            color: #fff;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            margin-top: 10px;
+          border: 1px solid #989390;
+          background-color: rgba(0, 0, 0, 0.5); }
+        #jumbo .jumbo-content .menu-list div ul li {
+          display: inline; }
+          #jumbo .jumbo-content .menu-list div ul li:last-child a {
+            border-right: 1px solid #989390; }
+          #jumbo .jumbo-content .menu-list div ul li a {
+            float: left;
+            width: 130px;
+            text-align: center;
+            border: 1px solid #989390;
+            border-top: 0;
+            padding: 15px 0;
             -webkit-transition-property: all;
             transition-property: all;
             -webkit-transition-duration: 0.15s;
@@ -470,16 +521,89 @@ address {
             -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
             -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
-          #fields .fields-content .menu-list li a:hover, #fields .fields-content .menu-list li a:focus {
-            position: relative;
-            z-index: 999;
-            text-decoration: none;
-            opacity: 1;
-            background-color: #e61937;
-            border-color: #e61937; }
-            #fields .fields-content .menu-list li a:hover p, #fields .fields-content .menu-list li a:focus p {
-              font-weight: bold; }
+            transition-delay: 0s;
+            margin-left: -1px;
+            background-color: rgba(0, 0, 0, 0.5); }
+            #jumbo .jumbo-content .menu-list div ul li a i {
+              display: block;
+              width: 100%;
+              height: 50px;
+              background-position: 50% 50%;
+              background-repeat: no-repeat; }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-1 {
+                background-image: url(/assets/images/main/icon_img01.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-2 {
+                background-image: url(/assets/images/main/icon_img02.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-3 {
+                background-image: url(/assets/images/main/icon_img03.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-4 {
+                background-image: url(/assets/images/main/icon_img04.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-5 {
+                background-image: url(/assets/images/main/icon_img05.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-6 {
+                background-image: url(/assets/images/main/icon_img06.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-7 {
+                background-image: url(/assets/images/main/icon_img07.png); }
+              #jumbo .jumbo-content .menu-list div ul li a i.icon-8 {
+                background-image: url(/assets/images/main/icon_img08.png); }
+            #jumbo .jumbo-content .menu-list div ul li a p {
+              font-size: 14px;
+              color: #fff;
+              font-family: 'Lato', sans-serif;
+              font-weight: 400;
+              margin-top: 10px;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+            #jumbo .jumbo-content .menu-list div ul li a:hover, #jumbo .jumbo-content .menu-list div ul li a:focus {
+              position: relative;
+              z-index: 999;
+              text-decoration: none;
+              opacity: 1; }
+              #jumbo .jumbo-content .menu-list div ul li a:hover p, #jumbo .jumbo-content .menu-list div ul li a:focus p {
+                font-weight: bold; }
+        #jumbo .jumbo-content .menu-list div.robot-motion h3 {
+          width: 776px; }
+        #jumbo .jumbo-content .menu-list div.robot-motion ul li:last-child a {
+          border-right: 0; }
+        #jumbo .jumbo-content .menu-list div.robot-motion ul li a:hover, #jumbo .jumbo-content .menu-list div.robot-motion ul li a:focus {
+          background-color: #e61937;
+          border-color: #e61937; }
+        #jumbo .jumbo-content .menu-list div.energy-control h3 {
+          width: 259px; }
+        #jumbo .jumbo-content .menu-list div.energy-control ul li a:hover, #jumbo .jumbo-content .menu-list div.energy-control ul li a:focus {
+          background-color: #00ac65;
+          border-color: #00ac65; }
+    #jumbo .jumbo-content .rsa-title {
+      font-size: 50px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-shadow: 0 0 5px black; }
+      #jumbo .jumbo-content .rsa-title small {
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Noto Sans KR', sans-serif; }
+    #jumbo .jumbo-content .summary {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 400;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-shadow: 0 0 5px black; }
+  #jumbo .jumbo-cover {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; }
 
 #rsa-center {
   position: relative;
