@@ -34,14 +34,14 @@ address {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 40px;
+  height: 30px;
   z-index: 1002;
   background-color: #e61937; }
   #topnav .language .btn {
     font-size: 12px;
     color: #fff;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     font-family: 'Lato', sans-serif;
     padding: 0;
     -webkit-transition-property: all;
@@ -60,7 +60,7 @@ address {
   #topnav .language .language-menu {
     min-width: 70px;
     padding: 0;
-    top: 38px; }
+    top: 28px; }
     #topnav .language .language-menu li {
       text-align: center; }
       #topnav .language .language-menu li a {
@@ -79,11 +79,11 @@ address {
         font-size: 12px;
         font-family: 'Lato', sans-serif;
         color: #fff;
-        line-height: 40px; }
+        line-height: 30px; }
 
 #header {
   position: fixed;
-  top: 40px;
+  top: 30px;
   width: 100%;
   height: 100px;
   overflow: hidden;
@@ -115,6 +115,28 @@ address {
     float: left;
     text-align: center;
     width: 128px; }
+    #header .menu-list > ul > li.produce-list div {
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      #header .menu-list > ul > li.produce-list div ul {
+        margin: 0;
+        padding: 0; }
+    #header .menu-list > ul > li.produce-list h3 {
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      font-weight: bold; }
     #header .menu-list > ul > li > a {
       position: relative;
       display: block;
@@ -124,7 +146,7 @@ address {
       line-height: 100px;
       text-decoration: none; }
     #header .menu-list > ul > li ul {
-      height: 300px;
+      height: 380px;
       padding: 20px 0;
       -webkit-transition-property: all;
       transition-property: all;
@@ -159,21 +181,43 @@ address {
             -webkit-transition-delay: 0s;
             transition-delay: 0s;
             background-color: #fff; }
-          #header .menu-list > ul > li ul li a:hover span, #header .menu-list > ul > li ul li a:focus span {
-            margin-left: -50%;
-            width: 100%; }
+          #header .menu-list > ul > li ul li a:hover, #header .menu-list > ul > li ul li a:focus {
+            color: #fff !important; }
+            #header .menu-list > ul > li ul li a:hover span, #header .menu-list > ul > li ul li a:focus span {
+              margin-left: -50%;
+              width: 100%; }
+    #header .menu-list > ul > li div.robot-motion ul {
+      height: auto; }
+    #header .menu-list > ul > li div.energy-control {
+      padding-bottom: 20px; }
+      #header .menu-list > ul > li div.energy-control ul {
+        height: auto; }
+    #header .menu-list > ul > li div h3 {
+      display: block;
+      padding-top: 20px;
+      font-size: 14px;
+      color: #333;
+      margin: 0;
+      line-height: 32px;
+      font-weight: 400; }
     #header .menu-list > ul > li:hover > a, #header .menu-list > ul > li:focus > a {
       color: #e61937; }
-    #header .menu-list > ul > li:hover > ul > li a, #header .menu-list > ul > li:focus > ul > li a {
-      color: #fff; }
 
 body.nav-expanded #header {
-  height: 400px; }
+  height: 480px; }
   body.nav-expanded #header .line {
     display: block; }
+  body.nav-expanded #header .menu-list li:hover div, body.nav-expanded #header .menu-list li:focus div {
+    border-top: #e61937;
+    background-color: #e61937; }
+    body.nav-expanded #header .menu-list li:hover div h3, body.nav-expanded #header .menu-list li:focus div h3 {
+      color: #fff;
+      background-color: #e61937; }
   body.nav-expanded #header .menu-list li:hover ul, body.nav-expanded #header .menu-list li:focus ul {
     border-top: #e61937;
     background-color: #e61937; }
+    body.nav-expanded #header .menu-list li:hover ul li a, body.nav-expanded #header .menu-list li:focus ul li a {
+      color: #ff8989; }
 
 #footnav {
   padding: 55px 0 50px;
@@ -239,7 +283,7 @@ body.nav-expanded #header {
           color: #fff;
           font-weight: 300; }
   #footer .copyright {
-    font-size: 12px;
+    font-size: 11px;
     color: #fff;
     font-weight: 400;
     margin-top: 6px;

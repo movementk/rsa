@@ -46,35 +46,43 @@
                                     <li>인천</li>
                                     <li>경기</li>
                                     <li>강원</li>
-                                    <li>충청지역</li>
-                                    <li>광주,호남지역</li>
+                                    <li>충청</li>
                                 </ul>
                             </div>
                             <div class="nambu">
                                 <h4>부산센터</h4>
                                 <ul class="area-list">
                                     <li>부산</li>
-                                    <li>경남지역</li>
+                                    <li>대구</li>
+                                    <li>경남</li>
+                                    <li>경북지역</li>
                                 </ul>
+                            </div>
+                            <div class="call-number">
+                                <p class="call-txt">
+                                    <small>전국어디서나</small><br>
+                                    고객지원 콜센터
+                                </p>
+                                <p class="num">1588-5298</p>
                             </div>
                         </div>
                         <div class="center-addr">
                             <div class="jungbu">
-                                <h4>본사센터 (서울,인천,경기,강원,충청)</h4>
+                                <h4>본사센터 (서울 · 인천 · 경기 · 강원 · 충청)</h4>
                                 <address>경기도 평택시 진위면 진위산단로 38</address>
                                 <dl>
                                     <dt>우편번호</dt>
-                                    <dd>451 - 862</dd>
+                                    <dd>17709</dd>
                                     <dt>전화번호</dt>
-                                    <dd>031 - 685 - 9300</dd>
+                                    <dd>031 - 685 - 9593, 9594</dd>
                                 </dl>
                             </div>
                             <div class="nambu">
-                                <h4>부산센터 (부산,대구,경남,경북지역)</h4>
+                                <h4>부산센터 (부산 · 대구 · 경남 · 경북지역)</h4>
                                 <address>부산광역시 사상구 다동로 303 벽산디지털벨리 313호</address>
                                 <dl>
                                     <dt>우편번호</dt>
-                                    <dd>617 - 731</dd>
+                                    <dd>46981</dd>
                                     <dt>전화번호</dt>
                                     <dd>051 - 329 - 7802, 7803</dd>
                                 </dl>
@@ -100,13 +108,13 @@
                             <tbody>
                                 <tr>
                                     <td>본사센터</td>
-                                    <td>서울,인천,경기,강원,충청</td>
-                                    <td>031-685-9300</td>
+                                    <td>서울, 인천, 경기, 강원, 충청</td>
+                                    <td>031-685-9593, 9594</td>
                                     <td>031-685-9500</td>
                                 </tr>
                                 <tr>
                                     <td>부산센터</td>
-                                    <td>부산,대구,경남,경북</td>
+                                    <td>부산, 대구, 경남, 경북</td>
                                     <td>051-329-7802, 7803</td>
                                     <td>051-329-7804</td>
                                 </tr>

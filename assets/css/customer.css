@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,600,700");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
@@ -154,19 +155,20 @@ address {
     overflow: hidden;
     width: 100%;
     height: 410px;
-    border: 5px solid #b4b4b4;
+    border: 2px solid #b4b4b4;
     background-color: #fff; }
     .cs-center .section-content .after-center > div {
       float: left;
-      width: 50%;
-      height: 400px; }
+      height: 100%; }
       .cs-center .section-content .after-center > div.center-map {
+        width: 668px;
         position: relative;
         background-image: url(/assets/images/customer/cs_center_map.png);
         background-repeat: no-repeat;
-        background-position: 240px 50%; }
+        background-position: 270px 50%; }
         .cs-center .section-content .after-center > div.center-map > div {
-          position: absolute; }
+          position: absolute;
+          text-align: center; }
           .cs-center .section-content .after-center > div.center-map > div > h4 {
             font-size: 16px;
             color: #e61937;
@@ -180,23 +182,49 @@ address {
               color: #666;
               font-weight: 300;
               line-height: 18px; }
-              .cs-center .section-content .after-center > div.center-map > div .area-list > li:nth-of-type(5) {
-                clear: both; }
               .cs-center .section-content .after-center > div.center-map > div .area-list > li:before {
-                content: "/"; }
+                content: "·";
+                padding: 0 3px; }
               .cs-center .section-content .after-center > div.center-map > div .area-list > li:first-child:before {
-                content: "("; }
+                content: "(";
+                padding: 0; }
               .cs-center .section-content .after-center > div.center-map > div .area-list > li:last-child:after {
                 content: ")"; }
           .cs-center .section-content .after-center > div.center-map > div.jungbu {
-            top: 106px;
-            left: 153px; }
+            top: 105px;
+            left: 140px; }
           .cs-center .section-content .after-center > div.center-map > div.nambu {
-            right: 20px;
-            bottom: 117px; }
+            right: 35px;
+            bottom: 115px; }
+          .cs-center .section-content .after-center > div.center-map > div.call-number {
+            bottom: 0;
+            left: 0;
+            width: 250px;
+            height: 105px;
+            padding-top: 20px;
+            text-align: left;
+            padding-left: 108px;
+            background-image: url(/assets/images/customer/call_icon_bg.gif);
+            background-color: #f4f4f4;
+            background-repeat: no-repeat;
+            background-position: 25px 50%; }
+            .cs-center .section-content .after-center > div.center-map > div.call-number .call-txt {
+              font-size: 15px;
+              color: #333;
+              line-height: 18px; }
+              .cs-center .section-content .after-center > div.center-map > div.call-number .call-txt small {
+                font-size: 13px;
+                color: #666;
+                opacity: .7; }
+            .cs-center .section-content .after-center > div.center-map > div.call-number .num {
+              font-family: "Gotham";
+              font-size: 22px;
+              color: #e61937;
+              font-weight: bold; }
       .cs-center .section-content .after-center > div.center-addr {
+        width: 498px;
         padding: 60px 0;
-        padding-left: 70px; }
+        padding-left: 30px; }
         .cs-center .section-content .after-center > div.center-addr > div {
           display: block;
           padding-left: 28px;

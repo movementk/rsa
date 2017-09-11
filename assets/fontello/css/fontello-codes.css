@@ -9,6 +9,9 @@
 .icon-phone:before { content: '\e807'; } /* '' */
 .icon-mail:before { content: '\e808'; } /* '' */
 .icon-download:before { content: '\e809'; } /* '' */
+.icon-up-dir:before { content: '\e80a'; } /* '' */
+.icon-dot:before { content: '\e80b'; } /* '' */
+.icon-down-dir:before { content: '\e80c'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
 .icon-angle-up:before { content: '\f106'; } /* '' */
 .icon-fax:before { content: '\f1ac'; } /* '' */

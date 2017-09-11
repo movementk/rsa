@@ -5,83 +5,111 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <!-- Srat Content -->
 	<main id="content">
-        <div id="fields">
-            <div class="video-area">
-                <video loop muted autoplay>
-                    <source src="/assets/images/main/banner2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="fields-content">
-                <div>
-                    <h2 class="rsa-title">
-                        <small>로봇모션·에너지제어 전문기업</small><br>
-                        알에스오토메이션
-                    </h2>
-                    <p class="summary">
-                        4차산업혁명의 브레인을 만든다
-                    </p>
-                    <ul class="menu-list">
-                        <li>
-                            <a href="#">
-                                <i class="icon-1">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>Distributed I/O</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-2">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>Touch Panel</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-3">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>Motion Controller</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-4">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>Servo</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-5">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>PLC</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-6">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>UPS</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-7">
-                                    <span class="sr-only">icon</span>
-                                </i>
-                                <p>Inverter</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <div id="jumbo">
+			<div class="jumbo-slider">
+				<ul>
+					<li>
+						<div class="img" style="background-image: url(/assets/images/main/banner9.jpg);"></div>
+					</li>
+					<li>
+						<div class="img" style="background-image: url(/assets/images/main/banner9.jpg);"></div>
+					</li>
+					<li>
+						<div class="img" style="background-image: url(/assets/images/main/banner9.jpg);"></div>
+					</li>
+                    <li>
+						<div class="img" style="background-image: url(/assets/images/main/banner9.jpg);"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="jumbo-content">
+				<div>
+					<h2 class="rsa-title">
+						<small>로봇모션 · 에너지제어 전문기업</small><br>
+						알에스오토메이션
+					</h2>
+					<p class="summary">
+						알에스오토메이션
+					</p>
+					<div class="menu-list">
+					    <div class="robot-motion">
+                            <h3>로봇모션</h3>
+					        <ul>
+					            <li>
+                                    <a href="#">
+                                        <i class="icon-1">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>Motion Controller</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-2">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>Servo</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-3">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>Inverter</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-4">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>PLC</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-5">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>Distributed I/O</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-6">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>Touch Panel</p>
+                                    </a>
+                                </li>
+					        </ul>
+					    </div>
+					    <div class="energy-control">
+                            <h3>에너지제어</h3>
+					        <ul>
+					            <li>
+                                    <a href="#">
+                                        <i class="icon-7">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>PCS</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-8">
+                                            <span class="sr-only">icon</span>
+                                        </i>
+                                        <p>UPS</p>
+                                    </a>
+                                </li>
+					        </ul>
+					    </div>
+                    </div>
+				</div>
+			</div>
+		</div>
         <nav id="rsa-center">
             <div class="container">
                 <div class="cs-center">
