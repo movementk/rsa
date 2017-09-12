@@ -1,0 +1,87 @@
+<header id="header">
+    <h1 class="logo">
+        <a href="/mobile/"><img src="/mobile/assets/images/main/logo.png" alt="로고"></a>
+    </h1>
+    <button type="button" class="btn btn-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="sr-only">메뉴버튼</span>
+    </button>
+</header>
+<nav id="nav" class="collapsed" tabindex="-1">
+    <div class="nav-backdrop"></div>
+    <div class="nav-container">
+        <div class="nav-head">
+            <h1><a href="/mobile/"><img src="/mobile/assets/images/main/logo.png" alt="로고"></a></h1>
+            <button class="btn btn-nav-close">
+                <i class="icon-cancel"><span class="sr-only">네비게이션 닫기</span></i>
+            </button>
+        </div>
+        <div class="nav-content">
+            <ul class="gnb">
+                <li class="active">
+                    <a href="#">회사개요</a>
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">사업장안내</a></li>
+                        <li><a href="#">파트너쉽 제안</a></li>
+                        <li><a href="#">글로벌 파트너쉽</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">투자정보</a>
+                    <ul>
+                        <li><a href="#">재무정보</a></li>
+                        <li><a href="#">주식정보</a></li>
+                        <li><a href="#">공시정보</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">제품안내</a>
+                    <ul>
+                        <li><a href="#">Motion Controller</a></li>
+                        <li><a href="#">Drive</a></li>
+                        <li><a href="#">PLC</a></li>
+                        <li><a href="#">Distributed I/O</a></li>
+                        <li><a href="#">Touch Panel</a></li>
+                        <li><a href="#">PCS</a></li>
+                        <li><a href="#">UPS</a></li>
+                        <li><a href="#">Inverter</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객지원</a>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">동영상</a></li>
+                        <li><a href="#">서비스센터</a></li>
+                        <li><a href="#">대리점</a></li>
+                        <li><a href="#">대리점 게시판</a></li>
+                        <li><a href="#">연락처</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">교육지원</a>
+                    <ul>
+                        <li><a href="#">교육안내</a></li>
+                        <li><a href="#">스케줄/등록</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">뉴스센터</a>
+                    <ul>
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">Press Release</a></li>
+                        <li><a href="#">News Center</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
