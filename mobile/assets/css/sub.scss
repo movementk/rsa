@@ -1,5 +1,11 @@
 @import 'common';
 
+.ex-title {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
 label {
     font-weight: 400;
     margin: 0;
@@ -82,22 +88,72 @@ section {
     background-size: 14px auto;
     background-position: 0 50%;
 }
-//검색폼
-.search-form {
+//검색폼1
+.selection-search {
     .form-group {
+        position: relative;
+        padding-right: 120px;
         ~ .form-group {
+            padding: 0;
             margin-top: 10px;
+            .form-control {
+                padding-right: 45px;
+            }
+            .btn-search {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: #fff;
+                width: 40px;
+                height: 40px;
+                background-color: $rcolor;
+            }
+        }
+        select {
+            &:nth-of-type(1) {
+                
+            }
+            &:nth-of-type(2) {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 110px;;
+            }
         }
     }
 }
-
-// 테이블
+//검색폼2 
+.search-form {
+    .form-group {
+        position: relative;
+        padding-left: 120px;
+        select {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110px;
+        }
+        input {
+            padding-right: 45px;
+        }
+        .btn-search {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            color: $rcolor;
+        }
+    }
+}
+// 테이블 기본
 .table-wrap {
     .table {
         margin-bottom: 0;
         tbody {
             tr {
                 th {
+                    width: 90px;
                     font-size: 13px;
                     color: #333;
                     font-weight: 400;
@@ -163,10 +219,12 @@ article {
         }
     }
 }
-
+//반응형 테이블
 .table-responsive {
     border: 0;
+    margin-bottom: 0;
     .table {
+        margin-bottom: 0;
         border-top: 2px solid $rcolor;
         thead {
             tr {
@@ -190,6 +248,7 @@ article {
                     color: #666;
                     font-weight: 300;
                     padding: 12px;
+                    vertical-align: middle;
                     text-align: center;
                     border: 1px solid #dfdfdf;
                     border-bottom: 1px solid #dfdfdf !important;
@@ -208,6 +267,7 @@ article {
                 &.total {
                     td {
                         color: $rcolor;
+                        font-weight: 400;
                         background-color: #f5f5f5;
                     }
                 }
@@ -215,7 +275,64 @@ article {
         }
     }
 }
-
+// 게시판 쓰기
+.board-write {
+    background-color: #fff;
+    .table {
+        margin-bottom: 0;
+        border-bottom: 0;
+        border-top: 2px solid $rcolor;
+        tbody {
+            tr {
+                th {
+                    width: 75px;
+                    text-align: left;
+                    vertical-align: middle;
+                    padding-left: 10px;
+                    border: 0;
+                    border-bottom: 1px solid #d1d1d1;
+                    background-color: #f7f8f9;
+                    &.u-content {
+                        vertical-align: top;
+                        padding-top: 15px;
+                    }
+                }
+                td {
+                    border: 0;
+                    border-bottom: 1px solid #d1d1d1;
+                    .form-group {
+                        .form-control {
+                            height: 32px;
+                            border-color: #a2a2a2;
+                        }
+                        textarea {
+                            height: 175px !important;
+                        }
+                    }
+                    &.attach {
+                        padding-right: 0;
+                        .form-group {
+                            position: relative;
+                            padding-right: 95px;
+                            label {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                width: 85px;
+                                text-align: center;
+                                font-size: 13px;
+                                height: 32px;
+                                line-height: 32px;
+                                color: #fff;
+                                background-color: #acacac;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 // 게시판 리스트
 .board-list {
     border-top: 2px solid $rcolor;
@@ -256,10 +373,233 @@ article {
         }
     }
 }
-
-
-
-
+// 게시판 뷰
+.board-view {
+    border-top: 2px solid $rcolor;
+    border-bottom: 2px solid #5c5c5c;
+    .view-header {
+        .subject {
+            font-size: 14px;
+            color: #303030;
+            padding: 25px 10px;
+            border-bottom: 1px solid #d1d1d1;
+            background-color: #f7f8f9;
+        }
+        .writer-info {
+            padding: 10px;
+            border-bottom: 1px solid #d1d1d1;
+            ul {
+                overflow: hidden;
+                li {
+                    float: left;
+                    &:nth-of-type(1) {
+                        width: 60%;
+                    }
+                    &:nth-of-type(2) {
+                        width: 40%;
+                    }
+                    &:nth-of-type(3) {
+                        width: 100%;
+                    }
+                    dl {
+                        dt {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                            line-height: 26px;
+                            font-weight: 300;
+                            margin-right: 15px;
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                            line-height: 26px;
+                            font-weight: 300;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .view-content {
+        padding: 30px 10px 50px;
+        min-height: 150px;
+        font-size: 13px;
+        color: #666;
+    }
+    .attach {
+        overflow: hidden;
+        padding: 15px 10px;
+        border-top: 1px solid #d1d1d1;
+        > dt {
+            position: relative;
+            float: left;
+            font-size: 13px;
+            color: #222;
+            font-weight: 400;
+            margin-right: 20px;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "\E805";
+                font-family: "fontello";
+            }
+        }
+        > dd {
+            display: inline-block;
+            a {
+                font-size: 13px;
+                color: #333;
+                font-weight: 400;
+                &:after {
+                    content: ",";
+                    margin-right: 5px;
+                }
+                &:last-child {
+                    &:after {
+                        content: "";
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.next-link {
+    margin-top: 40px;
+    border-top: 1px solid #6f848e;
+    border-bottom: 1px solid #6f848e;
+    > li {
+        display: block;
+        &:first-child {
+            border-bottom: 1px solid #d1d1d1;
+        }
+        > dl {
+            position: relative;
+            padding-left: 80px;
+            > dt {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 80px;
+                font-size: 13px;
+                color: #666;
+                text-align: center;
+                font-weight: 300;
+                line-height: 50px;
+                background-color: #f5f5f5;
+            }
+            > dd {
+                width: 100%;
+                padding-left: 20px;
+                padding-right: 20px;
+                > a {
+                    display: block;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    font-size: 13px;
+                    line-height: 50px;
+                    color: #333;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+// 버튼
+.btn-area {
+    text-align: center;
+    p {
+        font-size: 0;
+        .btn {
+            display: inline-block;
+            height: 40px;
+            font-size: 14px;
+            color: #fff;
+            line-height: 40px;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &.btn-red {
+                background-color: $rcolor;
+            }
+            &.btn-gray {
+                background-color: #777;
+            }
+            &.btn-xs {
+                width: 94px;
+                margin-right: 9px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            &.btn-sm {
+                width: 145px;
+            }
+            &.btn-lg {
+                width: 300px;
+            }
+        }
+    }
+}
+// 페이징
+.paging {
+    text-align: center;
+    .pagination {
+        margin: 0;
+        li {
+            a {
+                width: 26px;
+                height: 26px;
+                font-size: 13px;
+                color: #666;
+                text-align: center;
+                line-height: 24px;
+                padding: 0;
+                margin: 0 3px;
+                border-radius: 0;
+                border-color: #cdcdcd;
+                @include roboto();
+                &:hover {
+                    background: none;
+                    border-color: #cdcdcd;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: $rcolor;
+                }
+            }
+            &.l-space {
+                a {
+                    margin-right: 13px; 
+                }
+            }
+            &.r-space {
+                a {
+                    margin-left: 13px;
+                }
+            }
+            &:first-child {
+                a {
+                    margin-left: 0;
+                }
+            }
+            &:last-child {
+                a {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
 
 
 
