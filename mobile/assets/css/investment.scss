@@ -1,0 +1,148 @@
+@import 'common';
+
+.investment {
+    .page-header {
+        background-image: url(/mobile/assets/images/investment/page_header_bg.jpg);
+    }
+}
+
+// 재무정보
+.finance-information {
+    .section-content {
+        background-color: #fff;
+    }
+}
+
+// 주식정보
+.stock-information {
+    .section-content {
+        padding: 40px 10px 80px;
+        background-color: #fff;
+        .today-time {
+            font-size: 13px;
+            margin-bottom: 20px;
+            i {
+                color: $rcolor;
+                font-style: normal;
+            }
+        }
+    }
+    .stock-information {
+        .today-stock {
+            padding: 46px 0 10px;
+            text-align: center;
+            border-top: 2px solid $rcolor;
+            border-bottom: 1px solid #dfdfdf;
+            .today {
+                font-weight: 500;
+                color: #333;
+                font-size: 50px;
+                margin-bottom: 30px;
+                font-family: 'Maven Pro' ,sans-serif;
+            }
+            hr {
+                display: block;
+                margin: 0 auto 25px;
+                width: 55px;
+                border-top: 1xp solid #ccc;
+            }
+            > .up {
+                color: $rcolor;
+                &:before {
+                    content: "\E809";
+                    font-family: "fontello";
+                    margin-right: 10px;
+                }
+            }
+            > .down {
+                color: #33aeff;
+                &:before {
+                    content: "\E808";
+                    font-family: "fontello";
+                    margin-right: 10px;
+                }
+            }
+            > dl {
+                width: 150px;
+                margin: 0 auto;
+                overflow: hidden;
+                text-align: left;
+                dt {
+                    float: left;
+                    clear: both;
+                    width: 100px;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 300;
+                    line-height: 25px;
+                    margin-bottom: 10px;
+                }
+                > dd {
+                    float: left;
+                    font-size: 13px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    @include titi();
+                    margin-bottom: 10px;
+                    &.fluctuation {
+                        &:after {
+                            content: "%";
+                        }
+                    }
+                    &.plus {
+                        color: $rcolor;
+                        &:before {
+                            content: "+";
+                        }
+                    }
+                    &.minus {
+                        color: #33aeff;
+                        &:before {
+                            content: "-";
+                        }
+                    }
+                    &.up {
+                        color: $rcolor;
+                        &:before {
+                            content: "\E809";
+                            font-family: "fontello";
+                            margin-right: 5px;
+                        }
+                    }
+                    &.down {
+                        color: #33aeff;
+                        &:before {
+                            content: "\E808";
+                            font-family: "fontello";
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        > .table-responsive {
+            margin-top: 40px;
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            font-size: 18px;
+                            font-weight: bold;
+                            padding: 35px 10px;
+                            @include titi();
+                            &.up {
+                                color: $rcolor;
+                            }
+                            &.down {
+                                color: #33aeff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    article {
+        padding: 0;
+    }
+}

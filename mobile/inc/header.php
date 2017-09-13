@@ -23,21 +23,20 @@
                 <li class="active">
                     <a href="#">회사개요</a>
                     <ul>
-                        <li><a href="#">회사소개</a></li>
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">CI</a></li>
-                        <li><a href="#">연혁</a></li>
-                        <li><a href="#">사업장안내</a></li>
-                        <li><a href="#">파트너쉽 제안</a></li>
-                        <li><a href="#">글로벌 파트너쉽</a></li>
+                        <li><a href="/mobile/company/introduce.php">회사소개</a></li>
+                        <li><a href="/mobile/company/greeting.php">인사말</a></li>
+                        <li><a href="/mobile/company/ci.php">CI</a></li>
+                        <li><a href="/mobile/company/history.php">연혁</a></li>
+                        <li><a href="/mobile/company/location.php">사업장안내</a></li>
+                        <li><a href="/mobile/company/partner.php">파트너 제안</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">투자정보</a>
                     <ul>
-                        <li><a href="#">재무정보</a></li>
-                        <li><a href="#">주식정보</a></li>
-                        <li><a href="#">공시정보</a></li>
+                        <li><a href="/mobile/investment/finance_information.php">재무정보</a></li>
+                        <li><a href="/mobile/investment/stock_information.php">주식정보</a></li>
+                        <li><a href="/mobile/investment/disclosure_information.php">공시정보</a></li>
                     </ul>
                 </li>
                 <li>

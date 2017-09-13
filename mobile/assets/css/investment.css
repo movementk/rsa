@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,600,700");
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+body {
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 46px;
+  background-color: #ececec; }
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.investment .page-header {
+  background-image: url(/mobile/assets/images/investment/page_header_bg.jpg); }
+
+.finance-information .section-content {
+  background-color: #fff; }
+
+.stock-information .section-content {
+  padding: 40px 10px 80px;
+  background-color: #fff; }
+  .stock-information .section-content .today-time {
+    font-size: 13px;
+    margin-bottom: 20px; }
+    .stock-information .section-content .today-time i {
+      color: #e61937;
+      font-style: normal; }
+.stock-information .stock-information .today-stock {
+  padding: 46px 0 10px;
+  text-align: center;
+  border-top: 2px solid #e61937;
+  border-bottom: 1px solid #dfdfdf; }
+  .stock-information .stock-information .today-stock .today {
+    font-weight: 500;
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Maven Pro' ,sans-serif; }
+  .stock-information .stock-information .today-stock hr {
+    display: block;
+    margin: 0 auto 25px;
+    width: 55px;
+    border-top: 1xp solid #ccc; }
+  .stock-information .stock-information .today-stock > .up {
+    color: #e61937; }
+    .stock-information .stock-information .today-stock > .up:before {
+      content: "\E809";
+      font-family: "fontello";
+      margin-right: 10px; }
+  .stock-information .stock-information .today-stock > .down {
+    color: #33aeff; }
+    .stock-information .stock-information .today-stock > .down:before {
+      content: "\E808";
+      font-family: "fontello";
+      margin-right: 10px; }
+  .stock-information .stock-information .today-stock > dl {
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left; }
+    .stock-information .stock-information .today-stock > dl dt {
+      float: left;
+      clear: both;
+      width: 100px;
+      font-size: 18px;
+      color: #333;
+      font-weight: 300;
+      line-height: 25px;
+      margin-bottom: 10px; }
+    .stock-information .stock-information .today-stock > dl > dd {
+      float: left;
+      font-size: 13px;
+      line-height: 25px;
+      font-weight: bold;
+      font-family: 'Titillium Web', sans-serif;
+      margin-bottom: 10px; }
+      .stock-information .stock-information .today-stock > dl > dd.fluctuation:after {
+        content: "%"; }
+      .stock-information .stock-information .today-stock > dl > dd.plus {
+        color: #e61937; }
+        .stock-information .stock-information .today-stock > dl > dd.plus:before {
+          content: "+"; }
+      .stock-information .stock-information .today-stock > dl > dd.minus {
+        color: #33aeff; }
+        .stock-information .stock-information .today-stock > dl > dd.minus:before {
+          content: "-"; }
+      .stock-information .stock-information .today-stock > dl > dd.up {
+        color: #e61937; }
+        .stock-information .stock-information .today-stock > dl > dd.up:before {
+          content: "\E809";
+          font-family: "fontello";
+          margin-right: 5px; }
+      .stock-information .stock-information .today-stock > dl > dd.down {
+        color: #33aeff; }
+        .stock-information .stock-information .today-stock > dl > dd.down:before {
+          content: "\E808";
+          font-family: "fontello";
+          margin-right: 5px; }
+.stock-information .stock-information > .table-responsive {
+  margin-top: 40px; }
+  .stock-information .stock-information > .table-responsive .table tbody tr td {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 35px 10px;
+    font-family: 'Titillium Web', sans-serif; }
+    .stock-information .stock-information > .table-responsive .table tbody tr td.up {
+      color: #e61937; }
+    .stock-information .stock-information > .table-responsive .table tbody tr td.down {
+      color: #33aeff; }
+.stock-information article {
+  padding: 0; }
+
+/*# sourceMappingURL=investment.css.map */

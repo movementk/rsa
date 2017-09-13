@@ -71,6 +71,42 @@
       "css": "angle-double-right",
       "code": 61697,
       "src": "fontawesome"
+    },
+    {
+      "uid": "21115bb09fa242341cb91ed34710aa13",
+      "css": "attach",
+      "code": 59397,
+      "src": "websymbols"
+    },
+    {
+      "uid": "815576dccc008afcfd83a38378a4fdde",
+      "css": "download",
+      "code": 59398,
+      "src": "iconic"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59399,
+      "src": "elusive"
+    },
+    {
+      "uid": "5cbe092278ff71fc27c920298b0f3ca3",
+      "css": "fax",
+      "code": 61868,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8ax1xqcbzz1hobyd4i7f0unwib1bztip",
+      "css": "down-dir",
+      "code": 59400,
+      "src": "modernpics"
+    },
+    {
+      "uid": "6ipws8y9gej6vbloufvhi5qux7rluf64",
+      "css": "up-dir",
+      "code": 59401,
+      "src": "modernpics"
     }
   ]
 }

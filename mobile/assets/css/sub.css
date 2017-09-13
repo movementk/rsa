@@ -33,6 +33,11 @@ dl {
 address {
   margin-bottom: 0; }
 
+.ex-title {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px; }
+
 label {
   font-weight: 400;
   margin: 0; }
@@ -104,12 +109,50 @@ section {
   background-size: 14px auto;
   background-position: 0 50%; }
 
-.search-form .form-group ~ .form-group {
-  margin-top: 10px; }
+.selection-search .form-group {
+  position: relative;
+  padding-right: 120px; }
+  .selection-search .form-group ~ .form-group {
+    padding: 0;
+    margin-top: 10px; }
+    .selection-search .form-group ~ .form-group .form-control {
+      padding-right: 45px; }
+    .selection-search .form-group ~ .form-group .btn-search {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      background-color: #e61937; }
+  .selection-search .form-group select:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px; }
+
+.search-form .form-group {
+  position: relative;
+  padding-left: 120px; }
+  .search-form .form-group select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px; }
+  .search-form .form-group input {
+    padding-right: 45px; }
+  .search-form .form-group .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    color: #e61937; }
 
 .table-wrap .table {
   margin-bottom: 0; }
   .table-wrap .table tbody tr th {
+    width: 90px;
     font-size: 13px;
     color: #333;
     font-weight: 400;
@@ -163,8 +206,10 @@ article {
       content: ")"; }
 
 .table-responsive {
-  border: 0; }
+  border: 0;
+  margin-bottom: 0; }
   .table-responsive .table {
+    margin-bottom: 0;
     border-top: 2px solid #e61937; }
     .table-responsive .table thead tr th {
       font-size: 13px;
@@ -181,6 +226,7 @@ article {
       color: #666;
       font-weight: 300;
       padding: 12px;
+      vertical-align: middle;
       text-align: center;
       border: 1px solid #dfdfdf;
       border-bottom: 1px solid #dfdfdf !important; }
@@ -192,7 +238,50 @@ article {
       border-top: 0; }
     .table-responsive .table tbody tr.total td {
       color: #e61937;
+      font-weight: 400;
       background-color: #f5f5f5; }
+
+.board-write {
+  background-color: #fff; }
+  .board-write .table {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-top: 2px solid #e61937; }
+    .board-write .table tbody tr th {
+      width: 75px;
+      text-align: left;
+      vertical-align: middle;
+      padding-left: 10px;
+      border: 0;
+      border-bottom: 1px solid #d1d1d1;
+      background-color: #f7f8f9; }
+      .board-write .table tbody tr th.u-content {
+        vertical-align: top;
+        padding-top: 15px; }
+    .board-write .table tbody tr td {
+      border: 0;
+      border-bottom: 1px solid #d1d1d1; }
+      .board-write .table tbody tr td .form-group .form-control {
+        height: 32px;
+        border-color: #a2a2a2; }
+      .board-write .table tbody tr td .form-group textarea {
+        height: 175px !important; }
+      .board-write .table tbody tr td.attach {
+        padding-right: 0; }
+        .board-write .table tbody tr td.attach .form-group {
+          position: relative;
+          padding-right: 95px; }
+          .board-write .table tbody tr td.attach .form-group label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 85px;
+            text-align: center;
+            font-size: 13px;
+            height: 32px;
+            line-height: 32px;
+            color: #fff;
+            background-color: #acacac; }
 
 .board-list {
   border-top: 2px solid #e61937; }
@@ -226,5 +315,171 @@ article {
           color: #666;
           font-weight: 400;
           line-height: 22px; }
+
+.board-view {
+  border-top: 2px solid #e61937;
+  border-bottom: 2px solid #5c5c5c; }
+  .board-view .view-header .subject {
+    font-size: 14px;
+    color: #303030;
+    padding: 25px 10px;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #f7f8f9; }
+  .board-view .view-header .writer-info {
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d1; }
+    .board-view .view-header .writer-info ul {
+      overflow: hidden; }
+      .board-view .view-header .writer-info ul li {
+        float: left; }
+        .board-view .view-header .writer-info ul li:nth-of-type(1) {
+          width: 60%; }
+        .board-view .view-header .writer-info ul li:nth-of-type(2) {
+          width: 40%; }
+        .board-view .view-header .writer-info ul li:nth-of-type(3) {
+          width: 100%; }
+        .board-view .view-header .writer-info ul li dl dt {
+          display: inline-block;
+          font-size: 12px;
+          color: #666;
+          line-height: 26px;
+          font-weight: 300;
+          margin-right: 15px; }
+        .board-view .view-header .writer-info ul li dl dd {
+          display: inline-block;
+          font-size: 12px;
+          color: #666;
+          line-height: 26px;
+          font-weight: 300;
+          margin-right: 15px; }
+  .board-view .view-content {
+    padding: 30px 10px 50px;
+    min-height: 150px;
+    font-size: 13px;
+    color: #666; }
+  .board-view .attach {
+    overflow: hidden;
+    padding: 15px 10px;
+    border-top: 1px solid #d1d1d1; }
+    .board-view .attach > dt {
+      position: relative;
+      float: left;
+      font-size: 13px;
+      color: #222;
+      font-weight: 400;
+      margin-right: 20px;
+      padding-left: 20px; }
+      .board-view .attach > dt:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "\E805";
+        font-family: "fontello"; }
+    .board-view .attach > dd {
+      display: inline-block; }
+      .board-view .attach > dd a {
+        font-size: 13px;
+        color: #333;
+        font-weight: 400; }
+        .board-view .attach > dd a:after {
+          content: ",";
+          margin-right: 5px; }
+        .board-view .attach > dd a:last-child:after {
+          content: "";
+          margin: 0; }
+
+.next-link {
+  margin-top: 40px;
+  border-top: 1px solid #6f848e;
+  border-bottom: 1px solid #6f848e; }
+  .next-link > li {
+    display: block; }
+    .next-link > li:first-child {
+      border-bottom: 1px solid #d1d1d1; }
+    .next-link > li > dl {
+      position: relative;
+      padding-left: 80px; }
+      .next-link > li > dl > dt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        font-size: 13px;
+        color: #666;
+        text-align: center;
+        font-weight: 300;
+        line-height: 50px;
+        background-color: #f5f5f5; }
+      .next-link > li > dl > dd {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .next-link > li > dl > dd > a {
+          display: block;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          font-size: 13px;
+          line-height: 50px;
+          color: #333;
+          font-weight: 400; }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p {
+    font-size: 0; }
+    .btn-area p .btn {
+      display: inline-block;
+      height: 40px;
+      font-size: 14px;
+      color: #fff;
+      line-height: 40px;
+      margin-right: 10px; }
+      .btn-area p .btn:last-child {
+        margin-right: 0; }
+      .btn-area p .btn.btn-red {
+        background-color: #e61937; }
+      .btn-area p .btn.btn-gray {
+        background-color: #777; }
+      .btn-area p .btn.btn-xs {
+        width: 94px;
+        margin-right: 9px; }
+        .btn-area p .btn.btn-xs:last-child {
+          margin-right: 0; }
+      .btn-area p .btn.btn-sm {
+        width: 145px; }
+      .btn-area p .btn.btn-lg {
+        width: 300px; }
+
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    margin: 0; }
+    .paging .pagination li a {
+      width: 26px;
+      height: 26px;
+      font-size: 13px;
+      color: #666;
+      text-align: center;
+      line-height: 24px;
+      padding: 0;
+      margin: 0 3px;
+      border-radius: 0;
+      border-color: #cdcdcd;
+      font-family: 'Roboto', sans-serif; }
+      .paging .pagination li a:hover {
+        background: none;
+        border-color: #cdcdcd; }
+    .paging .pagination li.active a {
+      color: #fff;
+      background-color: #e61937; }
+    .paging .pagination li.l-space a {
+      margin-right: 13px; }
+    .paging .pagination li.r-space a {
+      margin-left: 13px; }
+    .paging .pagination li:first-child a {
+      margin-left: 0; }
+    .paging .pagination li:last-child a {
+      margin-right: 0; }
 
 /*# sourceMappingURL=sub.css.map */
