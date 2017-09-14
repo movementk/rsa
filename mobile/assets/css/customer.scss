@@ -226,6 +226,79 @@
                 }
             }
         }
+        .call-number {
+            font-size: 0;
+            text-align: center;
+            padding: 25px 0 20px;
+            background-color: #f4f4f4;
+            .figure {
+                display: inline-block;
+                    vertical-align: top;
+                img {
+                    width: 56px;
+                }
+            }
+            .details {
+                display: inline-block;
+                text-align: left;
+                padding-left: 22px;
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #333;
+                    line-height: 16px;
+                    margin-bottom: 5px;
+                    small {
+                        display: block;
+                        font-size: 13px;
+                        color: #666;
+                        opacity: .7;
+                    }
+                }
+                a {
+                    display: block;
+                    font-size: 22px;
+                    line-height: 22px;
+                    font-weight: bold;
+                    @include titi();
+                    color: $rcolor;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .table-responsive {
+        margin-top: 25px;
+        .table {
+            border-top: 0;
+            thead {
+                tr {
+                    th {
+                        padding: 20px;
+                        color: #fff;
+                        border: 0;
+                        border-right: 1px solid #fff;
+                        background-color: #b5b5b5;
+                        &:last-child {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        padding: 20px;
+                        border-color: #e5e5e5;
+                        background-color: #fff;
+                        a {
+                            color: #666;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

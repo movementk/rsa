@@ -149,5 +149,57 @@ address {
         .cs-center .section-content .cs-location .details ul li dl dd a {
           color: #666;
           text-decoration: none; }
+  .cs-center .section-content .call-number {
+    font-size: 0;
+    text-align: center;
+    padding: 25px 0 20px;
+    background-color: #f4f4f4; }
+    .cs-center .section-content .call-number .figure {
+      display: inline-block;
+      vertical-align: top; }
+      .cs-center .section-content .call-number .figure img {
+        width: 56px; }
+    .cs-center .section-content .call-number .details {
+      display: inline-block;
+      text-align: left;
+      padding-left: 22px; }
+      .cs-center .section-content .call-number .details p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #333;
+        line-height: 16px;
+        margin-bottom: 5px; }
+        .cs-center .section-content .call-number .details p small {
+          display: block;
+          font-size: 13px;
+          color: #666;
+          opacity: .7; }
+      .cs-center .section-content .call-number .details a {
+        display: block;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: bold;
+        font-family: 'Titillium Web', sans-serif;
+        color: #e61937;
+        text-decoration: none; }
+.cs-center .table-responsive {
+  margin-top: 25px; }
+  .cs-center .table-responsive .table {
+    border-top: 0; }
+    .cs-center .table-responsive .table thead tr th {
+      padding: 20px;
+      color: #fff;
+      border: 0;
+      border-right: 1px solid #fff;
+      background-color: #b5b5b5; }
+      .cs-center .table-responsive .table thead tr th:last-child {
+        border-right: 0; }
+    .cs-center .table-responsive .table tbody tr td {
+      padding: 20px;
+      border-color: #e5e5e5;
+      background-color: #fff; }
+      .cs-center .table-responsive .table tbody tr td a {
+        color: #666;
+        text-decoration: none; }
 
 /*# sourceMappingURL=customer.css.map */
