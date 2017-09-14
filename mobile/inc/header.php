@@ -42,14 +42,14 @@
                 <li>
                     <a href="#">제품안내</a>
                     <ul>
-                        <li><a href="#">Motion Controller</a></li>
-                        <li><a href="#">Drive</a></li>
-                        <li><a href="#">PLC</a></li>
-                        <li><a href="#">Distributed I/O</a></li>
-                        <li><a href="#">Touch Panel</a></li>
-                        <li><a href="#">PCS</a></li>
-                        <li><a href="#">UPS</a></li>
-                        <li><a href="#">Inverter</a></li>
+                        <li><a href="/mobile/product/product_list.php">Motion Controller</a></li>
+                        <li><a href="/mobile/product/product_list.php">Drive</a></li>
+                        <li><a href="/mobile/product/product_list.php">PLC</a></li>
+                        <li><a href="/mobile/product/product_list.php">Distributed I/O</a></li>
+                        <li><a href="/mobile/product/product_list.php">Touch Panel</a></li>
+                        <li><a href="/mobile/product/product_list.php">PCS</a></li>
+                        <li><a href="/mobile/product/product_list.php">UPS</a></li>
+                        <li><a href="/mobile/product/product_list.php">Inverter</a></li>
                     </ul>
                 </li>
                 <li>

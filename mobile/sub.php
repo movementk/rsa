@@ -117,10 +117,10 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><label for="u-name">제목</label></th>
+                                    <th><label for="subject">제목</label></th>
                                     <td>
                                         <div class="form-group">
-                                            <input type="text" id="u-name" class="form-control">
+                                            <input type="text" id="subject" class="form-control">
                                         </div>
                                     </td>
                                 </tr>

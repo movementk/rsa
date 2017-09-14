@@ -72,26 +72,116 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
+                                        <th>날짜</th>
+                                        <th>종가(원)</th>
+                                        <th>전일대비</th>
+                                        <th>등락률</th>
+                                        <th>시가</th>
+                                        <th>고가</th>
+                                        <th>저가</th>
+                                        <th>거래량 (주)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td class="up">700</td>
+                                        <td class="fluctuation plus">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td class="down">700</td>
+                                        <td class="fluctuation minus">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-04-21</td>
+                                        <td>13,700</td>
+                                        <td>700</td>
+                                        <td class="fluctuation">5.38</td>
+                                        <td>13,200</td>
+                                        <td>14,100</td>
+                                        <td>13,200</td>
+                                        <td>254,773</td>
                                     </tr>
                                 </tbody>
                             </table>
