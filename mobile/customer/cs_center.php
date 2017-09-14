@@ -57,6 +57,44 @@
                             </ul>
                         </div>
                     </article>
+                    <div class="call-number">
+                        <p class="figure">
+                            <img src="/mobile/assets/images/customer/call_number_img.jpg" alt="">
+                        </p>
+                        <div class="details">
+                            <p>
+                                <small>전국어디서나</small>
+                                고객지원 콜센터
+                            </p>
+                            <a href="tel:15885298">1588-5298</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>서비스센터</th>
+                                <th>서비스지역</th>
+                                <th>전화번호</th>
+                                <th>전화번호</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>본사센터</td>
+                                <td>서울, 인천, 경기, 강원, 충청</td>
+                                <td><a href="tel:0316859593">031-685-9593, 9594</a></td>
+                                <td>031-685-9500</td>
+                            </tr>
+                            <tr>
+                                <td>부산센터</td>
+                                <td>부산, 대구, 경남, 경북</td>
+                                <td><a href="tel:0513297802">051-329-7802, 7803</a></td>
+                                <td>051-329-7804</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
