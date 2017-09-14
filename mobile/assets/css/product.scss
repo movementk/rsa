@@ -1,0 +1,270 @@
+@import 'common';
+
+.product {
+    .page-header {
+        background-image: url(/mobile/assets/images/product/page_header_bg.jpg);
+    }
+}
+
+.attention {
+    font-size: 13px;
+    line-height: 16px;
+    color: $rcolor;
+    font-weight: 300;
+    margin-top: 10px;
+    a {
+        color: $rcolor;
+        text-decoration: none;
+    }
+    &:before {
+        content: "*";
+    }
+}
+.basic-list {
+    li {
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
+.based-list {
+    li {
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        line-height: 22px;
+        &:before {
+            content: "-";
+        }
+    }
+}
+.based {
+    font-size: 13px;
+    color: #666;
+    line-height: 22px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    &:before {
+        content: "-";
+    }
+}
+.summary {
+    font-size: 15px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 15px;
+    opacity: .8;
+}
+.product-title {
+    font-size: 33px;
+    color: #333;
+    @include lato();
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+figure {
+    padding: 0 50px;
+    .img-responsive {
+        margin: 0 auto;
+    }
+}
+strong {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 24px;
+    ~ strong {
+        margin-top: 35px;
+    }
+}
+.btn-area {
+    margin-top: 50px;
+    .btn-lg {
+        width: 280px !important;
+    }
+}
+// 제품 리스트
+.product-list {
+    .dropdown {
+        margin-bottom: 25px;
+        width: 100%;
+        .dropdown-toggle {
+            position: relative;
+            width: 100%;
+            font-size: 13px;
+            color: $rcolor;
+            text-align: left;
+            padding: 10px 20px;
+            box-shadow: none;
+            border: 1px solid $rcolor;
+            background-color: #fff;
+            &:hover, &:focus {
+                background-color: #fff !important;
+                background: none;
+            }
+            &:after {
+                position: absolute;
+                top: 0;
+                right: 20px;
+                font-size: 18px;
+                line-height: 38px;
+                font-family: "fontello";
+                content: "\E801";
+            }
+        }
+        &.open {
+            .dropdown-toggle {
+                color: $rcolor;
+                border-color: $rcolor;
+                &:after {
+                    content: "\E802";
+                }
+            }
+        }
+        .dropdown-menu {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            margin-top: -1px;
+            border-radius: 0;
+            box-shadow: none;
+            border-color: $rcolor;
+            li {
+                border-bottom: 1px solid $rcolor;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                a {
+                    font-size: 13px;
+                    color: $rcolor;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    display: block;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+    .section-content {
+        article {
+            padding: 65px 10px 55px;
+            ~ article {
+                margin-top: 30px;
+            }
+            .details {
+                margin-top: 50px;
+                .table-responsive {
+                    margin-top: 45px;
+                    .table {
+                        border: 0;
+                        th {
+                            font-weight: 400;
+                            color: #fff;
+                            padding: 20px;
+                            background-color: #adadad;
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    padding: 20px;
+                                    font-size: 12px;
+                                    color: #666;
+                                }
+                            }
+                        }
+                        &.type1 {
+                            thead {
+                                tr {
+                                    th {
+                                        border-color: #e5e5e5;
+                                        &:last-child {
+                                            border-right: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    td {
+                                        border-color: #e5e5e5;
+                                    }
+                                }
+                            }
+                        }
+                        &.type2 {
+                            tbody {
+                                tr {
+                                    &:first-child {
+                                        td {
+                                            border-top: 1px solid #e5e5e5;
+                                        }
+                                    }
+                                    th {
+                                        width: 100px;
+                                        font-size: 13px;
+                                        text-align: left;
+                                        padding-left: 15px;
+                                        border: 0;
+                                        border-bottom: 1px solid #fff;
+                                    }
+                                    td {
+                                        text-align: left;
+                                        border-left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

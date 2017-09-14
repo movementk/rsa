@@ -288,6 +288,8 @@ article {
   .board-list li {
     display: block;
     border-bottom: 1px solid #ddd; }
+    .board-list li:last-child {
+      border-bottom: 0; }
     .board-list li a {
       display: block;
       padding: 25px 10px;

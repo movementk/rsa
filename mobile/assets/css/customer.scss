@@ -1,0 +1,270 @@
+@import 'common';
+
+.page-header {
+    background-image: url(/mobile/assets/images/customer/page_header_bg.jpg);
+}
+
+//공통 
+.board-list {
+    > li {
+        > a {
+            dl {
+                dt {
+                    width: 50px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }                
+}
+
+//faq 리스트
+.faq-list {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
+
+//faq 뷰
+.faq-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//faq 글쓰기
+.faq-write {
+    .write {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+
+//qna 리스트
+.qna-list {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
+
+//qna 뷰
+.qna-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//qna 글쓰기
+.qna-write {
+    .write {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//video list
+.video-list {
+    .section-content {
+        > ul {
+            margin-right: -10px;
+            margin-left: -10px;
+            > li {
+                ~ li {
+                    a {
+                        margin-top: 20px;
+                    }
+                }
+                &:nth-of-type(2) {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                &:nth-of-type(2n + 1) {
+                    a {
+                        margin-right: -5px;
+                    }
+                }
+                &:nth-of-type(2n + 2) {
+                    a {
+                        margin-left: -5px;
+                    }
+                }
+                > a {
+                    display: block;
+                    text-decoration: none;
+                    .details {
+                        padding: 18px 10px 20px;
+                        background-color: #fff;
+                        .figure {
+                            .img-responsive {
+                                width: 100%;
+                            }
+                        }
+                        .subject {
+                            display: block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            margin-bottom: 10px;
+                        }
+                        .date {
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 50px;
+        }
+    }
+}
+
+//video 뷰
+.video-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+// 서비스 센터
+.cs-center {
+    .section-content {
+        border: 2px solid #b4b4b4;
+        .cs-location {
+            padding: 50px 10px 60px;
+            .figure {
+                margin-bottom: 65px;
+                padding: 0 10px;
+                .img-responsive {
+                    margin: 0 auto;
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+            .details {
+                max-width: 300px;
+                margin: 0 auto;
+                ul {
+                    li {
+                        ~ li {
+                            margin-top: 45px;
+                        }
+                        dl {
+                            dt {
+                                font-size: 15px;
+                                color: #666;
+                                font-weight: 400;
+                                margin-bottom: 20px;
+                                padding-left: 20px;
+                                background-image: url(/mobile/assets/images/customer/icon_addr.gif);
+                                background-repeat: no-repeat;
+                                background-size: 11px auto;
+                                background-position: 0 50%;
+                            }
+                            dd {
+                                font-size: 12px;
+                                font-weight: 300;
+                                color: #666;
+                                line-height: 24px;
+                                padding-left: 20px;
+                                a {
+                                    color: #666;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

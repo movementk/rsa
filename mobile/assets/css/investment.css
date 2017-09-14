@@ -77,7 +77,7 @@ address {
       font-family: "fontello";
       margin-right: 10px; }
   .stock-information .stock-information .today-stock > dl {
-    width: 150px;
+    width: 170px;
     margin: 0 auto;
     overflow: hidden;
     text-align: left; }
@@ -92,7 +92,7 @@ address {
       margin-bottom: 10px; }
     .stock-information .stock-information .today-stock > dl > dd {
       float: left;
-      font-size: 13px;
+      font-size: 18px;
       line-height: 25px;
       font-weight: bold;
       font-family: 'Titillium Web', sans-serif;
@@ -131,6 +131,38 @@ address {
     .stock-information .stock-information > .table-responsive .table tbody tr td.down {
       color: #33aeff; }
 .stock-information article {
-  padding: 0; }
+  padding: 0;
+  margin-top: 33px; }
+  .stock-information article .table-responsive .table thead tr th {
+    color: #333;
+    font-weight: 300; }
+  .stock-information article .table-responsive .table tbody tr td {
+    font-size: 12px;
+    font-weight: 300; }
+    .stock-information article .table-responsive .table tbody tr td.fluctuation:after {
+      content: "%"; }
+    .stock-information article .table-responsive .table tbody tr td.plus {
+      color: #e61937; }
+      .stock-information article .table-responsive .table tbody tr td.plus:before {
+        content: "+"; }
+    .stock-information article .table-responsive .table tbody tr td.minus {
+      color: #33aeff; }
+      .stock-information article .table-responsive .table tbody tr td.minus:before {
+        content: "-"; }
+    .stock-information article .table-responsive .table tbody tr td.up {
+      color: #e61937; }
+      .stock-information article .table-responsive .table tbody tr td.up:before {
+        content: "\E809";
+        font-family: "fontello";
+        margin-right: 5px; }
+    .stock-information article .table-responsive .table tbody tr td.down {
+      color: #33aeff; }
+      .stock-information article .table-responsive .table tbody tr td.down:before {
+        content: "\E808";
+        font-family: "fontello";
+        margin-right: 5px; }
+
+.disclosure-information .section-content {
+  background-color: #fff; }
 
 /*# sourceMappingURL=investment.css.map */
