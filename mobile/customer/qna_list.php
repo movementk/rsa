@@ -5,7 +5,7 @@
 <body class="customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
     <!-- Content Start -->
-    <main id="content" class="board-space">
+    <main id="content">
         <!-- page-header -->
         <div class="page-header">
             <div class="container">
