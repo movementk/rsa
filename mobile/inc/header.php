@@ -55,29 +55,28 @@
                 <li>
                     <a href="#">고객지원</a>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="/mobile/customer/faq_list.php">FAQ</a></li>
+                        <li><a href="/mobile/customer/qna_list.php">Q&amp;A</a></li>
                         <li><a href="#">자료실</a></li>
-                        <li><a href="#">동영상</a></li>
-                        <li><a href="#">서비스센터</a></li>
-                        <li><a href="#">대리점</a></li>
-                        <li><a href="#">대리점 게시판</a></li>
-                        <li><a href="#">연락처</a></li>
+                        <li><a href="/mobile/customer/video_list.php">동영상</a></li>
+                        <li><a href="/mobile/customer/cs_center.php">서비스센터</a></li>
+                        <li><a href="/mobile/customer/agent_list.php">대리점</a></li>
+                        <li><a href="/mobile/customer/agent_notice.php">대리점 게시판</a></li>
+                        <li><a href="/mobile/customer/contact.php">연락처</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">교육지원</a>
                     <ul>
-                        <li><a href="#">교육안내</a></li>
-                        <li><a href="#">스케줄/등록</a></li>
+                        <li><a href="/mobile/education/edu_guide.php">교육안내</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">뉴스센터</a>
                     <ul>
-                        <li><a href="#">Notice</a></li>
-                        <li><a href="#">Press Release</a></li>
-                        <li><a href="#">News Center</a></li>
+                        <li><a href="/mobile/news/notice_list.php">Notice</a></li>
+                        <li><a href="/mobile/news/pr_list.php">Press Release</a></li>
+                        <li><a href="/mobile/news/news_list.php">News Center</a></li>
                     </ul>
                 </li>
             </ul>

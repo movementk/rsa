@@ -302,17 +302,272 @@
     }
 }
 
+// 대리점 리스트
+.agent-list {
+    .list {
+        padding: 0;
+        background: none;
+        .article-header {
+            margin-bottom: 20px;
+            .dropdown {
+                margin-bottom: 25px;
+                width: 100%;
+                .dropdown-toggle {
+                    position: relative;
+                    width: 100%;
+                    font-size: 13px;
+                    color: #999;
+                    text-align: left;
+                    padding: 10px 20px;
+                    box-shadow: none;
+                    border: 1px solid #e3e3e3;
+                    background-color: #fff;
+                    &:hover, &:focus {
+                        background-color: #fff !important;
+                        background: none;
+                    }
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        right: 20px;
+                        font-size: 18px;
+                        line-height: 38px;
+                        font-family: "fontello";
+                        content: "\E801";
+                    }
+                }
+                &.open {
+                    .dropdown-toggle {
+                        color: #999;
+                        border-color: #e3e3e3;
+                        &:after {
+                            content: "\E802";
+                        }
+                    }
+                }
+                .dropdown-menu {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: -1px;
+                    border-radius: 0;
+                    box-shadow: none;
+                    border-color: #e3e3e3;
+                    li {
+                        border-bottom: 1px solid #e3e3e3;
+                        &:last-child {
+                            border-bottom: 0;
+                        }
+                        a {
+                            font-size: 13px;
+                            color: #999;
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            display: block;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            background-color: #fff;
+            .board-list {
+                > li {
+                    .agent-info {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        > ul {
+                            font-size: 0;
+                            li {
+                                display: inline-block;
+                                width: 35%;
+                                border: 0;
+                                line-height: 22px;
+                                font-size: 12px;
+                                &:nth-of-type(2n + 1) {
+                                    width: 65%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        margin-top: 35px;
+    }
+}
 
+//대리점 뷰
+.agent-view {
+    .view {
+        padding: 30px 10px 25px;
+        h3 {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 25px;
+        }
+        .table-wrap {
+            .table {
+                border-top: 2px solid $rcolor;
+                tbody {
+                    tr {
+                        &:last-child {
+                            th {
+                                border-color: #6f848e;
+                            }
+                            td {
+                                border-color: #6f848e;
+                            }
+                        }
+                        th {
+                            border: 0;
+                            border-bottom: 1px solid #dbdbdb;
+                            background-color: #f5f5f5;
+                        }
+                        td {
+                            border: 0;
+                            border-bottom: 1px solid #dbdbdb;
+                            a {
+                                color: #666;
+                                text-decoration: none;
+                            }
+                            .map {
+                                padding: 10px 0 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+}
 
+//대리점 게시판
+.agent-notice {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
 
+// 연락처
+.contact {
+    .section-header {
+        ~ .section-header {
+            margin-top: 75px;
+        }
+    }
+    .section-content {
+        .table-responsive {
+            .table {
+                border-top: 0;
+                thead {
+                    tr {
+                        th {
+                            color: #fff;
+                            padding: 20px;
+                            border: 0;
+                            border-right: 1px solid #e5e5e5;
+                            background-color: #aeaeae;
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            padding: 20px;
+                            border-color: #e5e5e5;
+                            background-color: #fff;
+                            &:first-child {
+                                color: $rcolor;
+                                font-weight: 400;
+                            }
+                            a {
+                                display: block;
+                                color: #666;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
-
-
-
-
-
+//비밀번호 확인
+.pw-confirm {
+    margin: 40px 0 90px;
+    padding-top: 40px; 
+    padding-bottom: 90px;
+    .title {
+        font-size: 27px;
+        font-weight: 400;
+        color: #333;
+        text-align: center;
+        margin: 50px 0 25px;
+        @include arial();
+    }
+    .summary {
+        font-size: 12px;
+        color: #777;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .user-id {
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        display: block;
+        line-height: 31px;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .article-content {
+        .form-group {
+            max-width: 300px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            .form-control {
+                width: 100%;
+                border-color: #eee;
+                background-color: #eee;
+            }
+        }
+        .btn-area {
+            max-width: 300px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            p {
+                .btn-lg {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
 
 
 

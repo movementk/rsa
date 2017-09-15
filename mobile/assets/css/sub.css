@@ -290,11 +290,11 @@ article {
     border-bottom: 1px solid #ddd; }
     .board-list li:last-child {
       border-bottom: 0; }
-    .board-list li a {
+    .board-list li > a {
       display: block;
       padding: 25px 10px;
       text-decoration: none; }
-      .board-list li a p {
+      .board-list li > a .subject {
         display: block;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -302,9 +302,9 @@ article {
         font-size: 15px;
         color: #333;
         margin-bottom: 10px; }
-      .board-list li a dl {
+      .board-list li > a dl {
         overflow: hidden; }
-        .board-list li a dl dt {
+        .board-list li > a dl dt {
           float: left;
           clear: both;
           font-size: 12px;
@@ -312,11 +312,44 @@ article {
           font-weight: 400;
           line-height: 22px;
           margin-right: 20px; }
-        .board-list li a dl dd {
+        .board-list li > a dl dd {
           font-size: 12px;
           color: #666;
           font-weight: 400;
           line-height: 22px; }
+    .board-list li .agent-info {
+      display: block;
+      padding: 25px 10px;
+      text-decoration: none; }
+      .board-list li .agent-info .subject {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 15px;
+        color: #333;
+        text-decoration: none;
+        margin-bottom: 10px; }
+      .board-list li .agent-info dl {
+        overflow: hidden; }
+        .board-list li .agent-info dl dt {
+          float: left;
+          clear: both;
+          font-size: 12px;
+          color: #666;
+          font-weight: 400;
+          line-height: 22px;
+          margin-right: 15px; }
+        .board-list li .agent-info dl dd {
+          font-size: 12px;
+          color: #666;
+          font-weight: 400;
+          line-height: 22px; }
+          .board-list li .agent-info dl dd a {
+            color: #666;
+            text-decoration: none; }
+          .board-list li .agent-info dl dd i {
+            color: #d8d8d8; }
 
 .board-view {
   border-top: 2px solid #e61937;

@@ -41,12 +41,12 @@
             <div class="container">
                 <ul class="row">
                     <li class="col-xs-6">
-                        <a href="#">
+                        <a href="/mobile/product/product_list.php">
                             <img src="/mobile/assets/images/main/quick_img01.gif" alt="제품안내">제품안내
                         </a>
                     </li>
                     <li class="col-xs-6">
-                        <a href="#">
+                        <a href="/mobile/customer/faq_list.php">
                             <img src="/mobile/assets/images/main/quick_img02.gif" alt="고객지원">고객지원
                         </a>
                     </li>
@@ -56,7 +56,7 @@
                         </a>
                     </li>
                     <li class="col-xs-6">
-                        <a href="#">
+                        <a href="/mobile/customer/qna_list.php">
                             <img src="/mobile/assets/images/main/quick_img04.gif" alt="Q&A">Q&amp;A
                         </a>
                     </li>
@@ -123,7 +123,7 @@
                         <h4>PRESS</h4>
                     </div>
                     <div class="details">
-                        <a href="#">
+                        <a href="/mobile/news/pr_view.php">
                             알에스오토메이션, 코스닥 신규 상장 - <br>
                             4차산업 혁명에 따른 고성장 기대 
                         </a>
@@ -135,7 +135,7 @@
                         <h4>NOTICE</h4>
                     </div>
                     <div class="details">
-                        <a href="#">
+                        <a href="/mobile/news/notice_view.php">
                             신주 발행 공고(2017)
                             <p class="date">17-07-13</p>
                         </a>

@@ -1,0 +1,129 @@
+@import 'common';
+
+.page-header {
+    background-image: url(/mobile/assets/images/news/page_header_bg.jpg);
+}
+
+//news 리스트
+.news-list {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
+
+//news 뷰
+.news-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//news 글쓰기
+.news-write {
+    .write {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+
+//notice 리스트
+.notice-list {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
+
+//notice 뷰
+.notice-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//notice 글쓰기
+.notice-write {
+    .write {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//pr 리스트
+.pr-list {
+    .list {
+        padding-left: 0;
+        padding-right: 0;
+        .article-header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        padding-bottom: 0;
+    }
+    .article-content {
+        margin-top: 25px;
+    }
+    .paging {
+        margin-top: 25px;
+    }
+}
+
+//pr 뷰
+.pr-view {
+    .view {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//pr 글쓰기
+.pr-write {
+    .write {
+        .article-content {
+            .btn-area {
+                margin-top: 25px;
+            }
+        }
+    }
+}
