@@ -18,6 +18,58 @@
                 <i class="icon-cancel"><span class="sr-only">네비게이션 닫기</span></i>
             </button>
         </div>
+        <div class="nav-header">
+            <!-- 로그아웃 되었을때 -->
+            <div class="login-form">
+                <ul>
+                    <li>
+                        <a href="/mobile/member/login.php">
+                            <figure>
+                                <img src="/mobile/assets/images/main/login_form_img01.png" alt="">
+                                <figcaption>로그인</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/mobile/member/join.php">
+                            <figure>
+                                <img src="/mobile/assets/images/main/login_form_img02.png" alt="">
+                                <figcaption>회원가입</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/mobile/member/id_find.php">
+                            <figure>
+                                <img src="/mobile/assets/images/main/login_form_img03.png" alt="">
+                                <figcaption>아이디/<br>비밀번호찾기</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 로그인했을때 -->
+            <div class="logout-form">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/logout_form_img01.png" alt="">
+                                <figcaption>로그아웃</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/logout_form_img02.png" alt="">
+                                <figcaption>회원정보수정</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="nav-content">
             <ul class="gnb">
                 <li class="active">
@@ -57,7 +109,7 @@
                     <ul>
                         <li><a href="/mobile/customer/faq_list.php">FAQ</a></li>
                         <li><a href="/mobile/customer/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">자료실</a></li>
+                        <li><a href="/mobile/customer/dataroom.php">자료실</a></li>
                         <li><a href="/mobile/customer/video_list.php">동영상</a></li>
                         <li><a href="/mobile/customer/cs_center.php">서비스센터</a></li>
                         <li><a href="/mobile/customer/agent_list.php">대리점</a></li>

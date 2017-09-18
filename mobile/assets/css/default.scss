@@ -73,6 +73,70 @@ body.nav-opened {
         height: 100%;
         z-index: 9999;
     }
+    .nav-header {
+        background-image: url(/mobile/assets/images/main/nav_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .login-form {
+            padding: 20px 0 15px;
+            > ul {
+                font-size: 0;
+                li {
+                    display: inline-block;
+                    width: 33.33%;
+                    text-align: center;
+                    vertical-align: top;
+                    a {
+                        
+                        display: inline-block;
+                        font-size: 12px;
+                        color: #fff;
+                        text-decoration: none;
+                        figure {
+                            img {
+                                display: block;
+                                width: 33px;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .logout-form {
+            padding: 20px 0 20px;
+            > ul {
+                font-size: 0;
+                li {
+                    display: inline-block;
+                    width: 50%;
+                    text-align: center;
+                    vertical-align: top;
+                    a {
+                        
+                        display: inline-block;
+                        font-size: 12px;
+                        color: #fff;
+                        text-decoration: none;
+                        figure {
+                            img {
+                                display: block;
+                                width: 33px;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     .nav-container {
         position: absolute;
         top: 0;

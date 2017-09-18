@@ -67,6 +67,9 @@ address {
     padding-right: 10px; }
 .qna-list .article-content {
   margin-top: 25px; }
+.qna-list .btn-area {
+  margin-top: 30px;
+  margin-top: 30px; }
 .qna-list .paging {
   margin-top: 25px; }
 
@@ -336,45 +339,144 @@ address {
       color: #666;
       text-decoration: none; }
 
-.pw-confirm {
-  margin: 40px 0 90px;
-  padding-top: 40px;
-  padding-bottom: 90px; }
-  .pw-confirm .title {
-    font-size: 27px;
-    font-weight: 400;
-    color: #333;
-    text-align: center;
-    margin: 50px 0 25px;
-    font-family: 'Arial', sans-serif; }
-  .pw-confirm .summary {
-    font-size: 12px;
-    color: #777;
+.dataroom {
+  background-color: #f2f2f2; }
+  .dataroom .summary {
+    font-size: 15px;
+    color: #707070;
     font-weight: 300;
-    text-align: center;
-    margin-bottom: 20px; }
-  .pw-confirm .user-id {
-    font-size: 13px;
-    color: #666;
-    font-weight: 300;
-    display: block;
-    line-height: 31px;
-    max-width: 300px;
-    margin: 0 auto;
-    margin-bottom: 10px; }
-  .pw-confirm .article-content .form-group {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-bottom: 10px; }
-    .pw-confirm .article-content .form-group .form-control {
+    margin: 30px 0 20px; }
+    .dataroom .summary .icon-search {
+      margin-right: 5px; }
+  .dataroom .table-wrap {
+    margin-bottom: 30px;
+    border: 3px solid #cfcfcf; }
+    .dataroom .table-wrap tbody tr th {
+      font-size: 13px;
+      width: 100px;
+      padding: 20px 0 0 10px;
+      vertical-align: top;
+      border: 0;
+      border-bottom: 1px solid #e3e3e3; }
+    .dataroom .table-wrap tbody tr td {
+      padding: 20px 20px 20px 0;
+      border: 0;
+      border-bottom: 1px solid #e3e3e3;
+      background-color: #fff; }
+      .dataroom .table-wrap tbody tr td ul {
+        font-size: 0; }
+        .dataroom .table-wrap tbody tr td ul li {
+          position: relative;
+          display: inline-block;
+          text-align: left;
+          line-height: 30px;
+          margin-left: 20px; }
+          .dataroom .table-wrap tbody tr td ul li label {
+            position: relative;
+            font-size: 12px;
+            color: #707070;
+            font-weight: 300;
+            padding-left: 18px;
+            z-index: 1; }
+          .dataroom .table-wrap tbody tr td ul li input[type=radio] {
+            position: absolute;
+            visibility: hidden; }
+            .dataroom .table-wrap tbody tr td ul li input[type=radio]:checked ~ .check {
+              border: 1px solid #e61937; }
+            .dataroom .table-wrap tbody tr td ul li input[type=radio]:checked ~ .check:before {
+              background: #e61937; }
+            .dataroom .table-wrap tbody tr td ul li input[type=radio]:checked ~ label {
+              color: #e61937; }
+          .dataroom .table-wrap tbody tr td ul li .check {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #707070;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 0; }
+            .dataroom .table-wrap tbody tr td ul li .check:before {
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              content: "";
+              width: 4px;
+              height: 4px;
+              border-radius: 50%; }
+    .dataroom .table-wrap tbody tr:last-child th {
+      border-bottom: 0; }
+    .dataroom .table-wrap tbody tr:last-child td {
+      border-bottom: 0; }
+  .dataroom .list {
+    padding: 0;
+    padding-top: 30px; }
+    .dataroom .list .article-header {
+      padding: 0 10px; }
+      .dataroom .list .article-header .dropdown {
+        margin-bottom: 25px;
+        width: 100%; }
+        .dataroom .list .article-header .dropdown .dropdown-toggle {
+          position: relative;
+          width: 100%;
+          font-size: 13px;
+          color: #999;
+          text-align: left;
+          padding: 10px 20px;
+          box-shadow: none;
+          border: 1px solid #e3e3e3;
+          background-color: #fff; }
+          .dataroom .list .article-header .dropdown .dropdown-toggle:hover, .dataroom .list .article-header .dropdown .dropdown-toggle:focus {
+            background-color: #fff !important;
+            background: none; }
+          .dataroom .list .article-header .dropdown .dropdown-toggle:after {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            font-size: 18px;
+            line-height: 38px;
+            font-family: "fontello";
+            content: "\E801"; }
+        .dataroom .list .article-header .dropdown.open .dropdown-toggle {
+          color: #999;
+          border-color: #e3e3e3; }
+          .dataroom .list .article-header .dropdown.open .dropdown-toggle:after {
+            content: "\E802"; }
+        .dataroom .list .article-header .dropdown .dropdown-menu {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          margin-top: -1px;
+          border-radius: 0;
+          box-shadow: none;
+          border-color: #e3e3e3; }
+          .dataroom .list .article-header .dropdown .dropdown-menu li {
+            border-bottom: 1px solid #e3e3e3; }
+            .dataroom .list .article-header .dropdown .dropdown-menu li:last-child {
+              border-bottom: 0; }
+            .dataroom .list .article-header .dropdown .dropdown-menu li a {
+              font-size: 13px;
+              color: #999;
+              padding-top: 0;
+              padding-bottom: 0;
+              display: block;
+              line-height: 40px; }
+    .dataroom .list .board-list li a ul {
       width: 100%;
-      border-color: #eee;
-      background-color: #eee; }
-  .pw-confirm .article-content .btn-area {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-bottom: 10px; }
-    .pw-confirm .article-content .btn-area p .btn-lg {
-      width: 100%; }
+      font-size: 0; }
+      .dataroom .list .board-list li a ul > li {
+        display: inline-block;
+        font-size: 12px;
+        width: 50%;
+        border: 0; }
+        .dataroom .list .board-list li a ul > li dl dt.category {
+          margin-left: 20px;
+          width: 35px; }
+  .dataroom .paging {
+    margin-top: 40px; }
+
+.dataroom-view .view .article-content .btn-area {
+  margin-top: 25px; }
 
 /*# sourceMappingURL=customer.css.map */
