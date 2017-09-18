@@ -10,9 +10,9 @@
             <div class="jumbo-slider">
                 <ul>
                     <li style="background-image: url(/mobile/assets/images/main/jumbo_img01.jpg);"></li>
-                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img01.jpg);"></li>
-                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img01.jpg);"></li>
-                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img01.jpg);"></li>
+                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img02.jpg);"></li>
+                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img03.jpg);"></li>
+                    <li style="background-image: url(/mobile/assets/images/main/jumbo_img04.jpg);"></li>
                 </ul>
             </div>
             <div class="jumbo-content">

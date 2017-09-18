@@ -1,6 +1,6 @@
 <nav id="foot-nav">
     <ul>
-        <li><a href="#">자료실</a></li>
+        <li><a href="/mobile/customer/dataroom.php">자료실</a></li>
         <li><a href="/mobile/customer/cs_center.php">서비스센터</a></li>
         <li><a href="/mobile/company/partner.php">파트너쉽 제안</a></li>
         <li><a href="/mobile/company/location.php">오시는 길</a></li>

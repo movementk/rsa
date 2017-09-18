@@ -36,18 +36,6 @@ address {
 .product .page-header {
   background-image: url(/mobile/assets/images/product/page_header_bg.jpg); }
 
-.attention {
-  font-size: 13px;
-  line-height: 16px;
-  color: #e61937;
-  font-weight: 300;
-  margin-top: 10px; }
-  .attention a {
-    color: #e61937;
-    text-decoration: none; }
-  .attention:before {
-    content: "*"; }
-
 .basic-list li {
   font-size: 13px;
   color: #666;
@@ -70,20 +58,6 @@ address {
   margin-bottom: 25px; }
   .based:before {
     content: "-"; }
-
-.summary {
-  font-size: 15px;
-  color: #666;
-  font-weight: 400;
-  margin-bottom: 15px;
-  opacity: .8; }
-
-.product-title {
-  font-size: 33px;
-  color: #333;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  margin-bottom: 15px; }
 
 figure {
   padding: 0 50px; }
@@ -157,38 +131,67 @@ strong {
   padding: 65px 10px 55px; }
   .product-list .section-content article ~ article {
     margin-top: 30px; }
+  .product-list .section-content article .product-name {
+    font-size: 25px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px; }
+  .product-list .section-content article p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 15px; }
+    .product-list .section-content article p b {
+      font-size: 14px; }
+    .product-list .section-content article p.summary {
+      font-size: 15px;
+      color: #666;
+      font-weight: 400;
+      margin-bottom: 15px;
+      opacity: .8; }
+    .product-list .section-content article p.attention {
+      font-size: 13px;
+      line-height: 16px;
+      color: #e61937;
+      font-weight: 300;
+      margin-top: 10px; }
+      .product-list .section-content article p.attention a {
+        color: #e61937;
+        text-decoration: none; }
+      .product-list .section-content article p.attention:before {
+        content: "*"; }
+  .product-list .section-content article ul {
+    margin-bottom: 15px; }
+    .product-list .section-content article ul li {
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px; }
   .product-list .section-content article .details {
     margin-top: 50px; }
-    .product-list .section-content article .details .table-responsive {
+    .product-list .section-content article .details .row {
+      margin: 0 !important; }
+      .product-list .section-content article .details .row .col-xs-10 {
+        width: 100% !important;
+        padding: 0 !important; }
+      .product-list .section-content article .details .row .col-xs-offset-1 {
+        margin: 0 !important;
+        padding: 0 !important; }
+    .product-list .section-content article .details .table-responsive .table {
+      border: 0; }
+    .product-list .section-content article .details .table {
       margin-top: 45px; }
-      .product-list .section-content article .details .table-responsive .table {
-        border: 0; }
-        .product-list .section-content article .details .table-responsive .table th {
-          font-weight: 400;
-          color: #fff;
-          padding: 20px;
-          background-color: #adadad; }
-        .product-list .section-content article .details .table-responsive .table tbody tr td {
-          padding: 20px;
-          font-size: 12px;
-          color: #666; }
-        .product-list .section-content article .details .table-responsive .table.type1 thead tr th {
-          border-color: #e5e5e5; }
-          .product-list .section-content article .details .table-responsive .table.type1 thead tr th:last-child {
-            border-right: 0; }
-        .product-list .section-content article .details .table-responsive .table.type1 tbody tr td {
-          border-color: #e5e5e5; }
-        .product-list .section-content article .details .table-responsive .table.type2 tbody tr:first-child td {
-          border-top: 1px solid #e5e5e5; }
-        .product-list .section-content article .details .table-responsive .table.type2 tbody tr th {
-          width: 100px;
-          font-size: 13px;
-          text-align: left;
-          padding-left: 15px;
-          border: 0;
-          border-bottom: 1px solid #fff; }
-        .product-list .section-content article .details .table-responsive .table.type2 tbody tr td {
-          text-align: left;
-          border-left: 0; }
+      .product-list .section-content article .details .table thead tr th {
+        width: 100px;
+        color: #fff;
+        background-color: #adadad; }
+        .product-list .section-content article .details .table thead tr th:last-child {
+          border-right: 0;
+          vertical-align: middle; }
+      .product-list .section-content article .details .table tbody tr th {
+        color: #fff;
+        border-left: 0;
+        border-right: 0;
+        background-color: #adadad; }
 
 /*# sourceMappingURL=product.css.map */

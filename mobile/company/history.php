@@ -47,9 +47,6 @@
                                         <li>제2공장 준공</li>
                                         <li>WC300 기업 선정</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2017.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>
@@ -61,9 +58,6 @@
                                         <li>제어관련  기술특허 35개</li>
                                         <li>대한민국 기술 대상 수상</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2016.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>
@@ -75,9 +69,6 @@
                                         <li>에너지 제어 장치 국내 1위</li>
                                         <li>스마트 튜닝 원천기술 개발</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2015.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>
@@ -89,9 +80,6 @@
                                         <li>독일, 일본에 이어 22bit 광학식 엔코더 자체 개발</li>
                                         <li>로봇제어기 누적 1.2만대 공급</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2014.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>
@@ -113,9 +101,6 @@
                                         <li>누적 매출 2,000억  달성</li>
                                         <li>모션제어기 수출 국내 최초 2,000만불/년</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2012.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>
@@ -126,9 +111,6 @@
                                     <ul>
                                         <li>알에스오토메이션 출범</li>
                                     </ul>
-                                    <figure>
-                                        <img src="/mobile/assets/images/company/history_2010.png" alt="">
-                                    </figure>
                                 </dd>
                             </dl>
                         </li>

@@ -6,20 +6,7 @@
     }
 }
 
-.attention {
-    font-size: 13px;
-    line-height: 16px;
-    color: $rcolor;
-    font-weight: 300;
-    margin-top: 10px;
-    a {
-        color: $rcolor;
-        text-decoration: none;
-    }
-    &:before {
-        content: "*";
-    }
-}
+
 .basic-list {
     li {
         font-size: 13px;
@@ -48,20 +35,6 @@
     &:before {
         content: "-";
     }
-}
-.summary {
-    font-size: 15px;
-    color: #666;
-    font-weight: 400;
-    margin-bottom: 15px;
-    opacity: .8;
-}
-.product-title {
-    font-size: 33px;
-    color: #333;
-    @include lato();
-    font-weight: bold;
-    margin-bottom: 15px;
 }
 
 figure {
@@ -155,67 +128,91 @@ strong {
             ~ article {
                 margin-top: 30px;
             }
+            .product-name {
+                font-size: 25px;
+                color: #333;
+                @include lato();
+                font-weight: bold;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 12px;
+                color: #666;
+                line-height: 20px;
+                margin-bottom: 15px;
+                b {
+                    font-size: 14px;
+                }
+                &.summary {
+                    font-size: 15px;
+                    color: #666;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                    opacity: .8;
+                }
+                &.attention {
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: $rcolor;
+                    font-weight: 300;
+                    margin-top: 10px;
+                    a {
+                        color: $rcolor;
+                        text-decoration: none;
+                    }
+                    &:before {
+                        content: "*";
+                    }
+                }
+            }
+            ul {
+                margin-bottom: 15px;
+                li {
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 20px;
+                }
+            }
             .details {
-                margin-top: 50px;
+                .row {
+                    margin: 0 !important;
+                    .col-xs-10 {
+                        width: 100% !important;
+                        padding: 0 !important;
+                    }
+                    .col-xs-offset-1 {
+                        margin: 0 !important;
+                        padding: 0 !important;
+                    }
+                }
                 .table-responsive {
-                    margin-top: 45px;
                     .table {
                         border: 0;
-                        th {
-                            font-weight: 400;
-                            color: #fff;
-                            padding: 20px;
-                            background-color: #adadad;
-                        }
-                        tbody {
-                            tr {
-                                td {
-                                    padding: 20px;
-                                    font-size: 12px;
-                                    color: #666;
+                    }
+                }
+                margin-top: 50px;
+                .table {
+                    margin-top: 45px;
+                    thead {
+                        tr {
+                            th {
+                                width: 100px;
+                                color: #fff;
+                                background-color: #adadad;
+                                &:last-child {
+                                    border-right: 0;
+                                    vertical-align: middle;
                                 }
                             }
                         }
-                        &.type1 {
-                            thead {
-                                tr {
-                                    th {
-                                        border-color: #e5e5e5;
-                                        &:last-child {
-                                            border-right: 0;
-                                        }
-                                    }
-                                }
-                            }
-                            tbody {
-                                tr {
-                                    td {
-                                        border-color: #e5e5e5;
-                                    }
-                                }
-                            }
-                        }
-                        &.type2 {
-                            tbody {
-                                tr {
-                                    &:first-child {
-                                        td {
-                                            border-top: 1px solid #e5e5e5;
-                                        }
-                                    }
-                                    th {
-                                        width: 100px;
-                                        font-size: 13px;
-                                        text-align: left;
-                                        padding-left: 15px;
-                                        border: 0;
-                                        border-bottom: 1px solid #fff;
-                                    }
-                                    td {
-                                        text-align: left;
-                                        border-left: 0;
-                                    }
-                                }
+                    }
+                    tbody {
+                        tr {
+                            th {
+                                color: #fff;
+                                border-left: 0;
+                                border-right: 0;
+                                background-color: #adadad;
                             }
                         }
                     }
