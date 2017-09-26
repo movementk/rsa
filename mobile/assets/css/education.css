@@ -37,13 +37,17 @@ address {
   background-image: url(/mobile/assets/images/education/page_header_bg.jpg); }
 
 .attention {
-  font-size: 13px;
+  position: relative;
+  font-size: 11px;
   color: #e61937;
-  line-height: 26px;
+  padding-left: 10px;
+  line-height: 20px;
   margin-top: 10px; }
   .attention:before {
-    content: "*";
-    margin-right: 3px; }
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "*"; }
 
 .inline-dl {
   overflow: hidden; }
@@ -76,6 +80,24 @@ address {
     color: #666;
     line-height: 26px;
     font-weight: 300; }
+  .edu-guide .section-content .space-li-1 {
+    position: relative; }
+    .edu-guide .section-content .space-li-1 dt {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .edu-guide .section-content .space-li-1 dd {
+      display: inline-block;
+      padding-left: 65px; }
+  .edu-guide .section-content .space-li-2 {
+    position: relative; }
+    .edu-guide .section-content .space-li-2 dt {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .edu-guide .section-content .space-li-2 dd {
+      display: inline-block;
+      padding-left: 96px; }
   .edu-guide .section-content .step-list > li {
     position: relative;
     text-align: center;
@@ -185,7 +207,7 @@ address {
       color: #666;
       text-decoration: none; }
       .edu-guide .section-content .table-wrap .table tbody tr td a i {
-        margin-right: 15px; }
+        margin-right: 5px; }
     .edu-guide .section-content .table-wrap .table tbody tr td .circle-list > li {
       position: relative;
       padding-left: 25px;
@@ -209,11 +231,13 @@ address {
     .edu-guide .section-content .table-wrap .table tbody tr td ul > li {
       font-size: 12px; }
       .edu-guide .section-content .table-wrap .table tbody tr td ul > li ~ li {
-        margin-top: 10px; }
-      .edu-guide .section-content .table-wrap .table tbody tr td ul > li:before {
+        margin-top: 10px;
         position: relative;
-        top: -2px;
-        content: "-";
-        margin-right: 3px; }
+        padding-left: 10px; }
+      .edu-guide .section-content .table-wrap .table tbody tr td ul > li:before {
+        position: absolute;
+        top: -0;
+        left: 0;
+        content: "-"; }
 
 /*# sourceMappingURL=education.css.map */

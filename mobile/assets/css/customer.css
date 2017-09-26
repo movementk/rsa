@@ -185,23 +185,31 @@ address {
         font-family: 'Titillium Web', sans-serif;
         color: #e61937;
         text-decoration: none; }
-.cs-center .table-responsive {
+.cs-center .table-wrap {
   margin-top: 25px; }
-  .cs-center .table-responsive .table {
+  .cs-center .table-wrap .table {
     border-top: 0; }
-    .cs-center .table-responsive .table thead tr th {
-      padding: 20px;
+    .cs-center .table-wrap .table thead tr th {
+      word-break: keep-all;
+      word-wrap: break-word;
+      padding: 20px 10px;
       color: #fff;
+      font-weight: 400;
+      text-align: center;
       border: 0;
       border-right: 1px solid #fff;
       background-color: #b5b5b5; }
-      .cs-center .table-responsive .table thead tr th:last-child {
+      .cs-center .table-wrap .table thead tr th:last-child {
         border-right: 0; }
-    .cs-center .table-responsive .table tbody tr td {
-      padding: 20px;
+    .cs-center .table-wrap .table tbody tr td {
+      word-break: keep-all;
+      word-wrap: break-word;
+      border-color: #e5e5e5;
+      padding: 20px 10px;
+      text-align: center;
       border-color: #e5e5e5;
       background-color: #fff; }
-      .cs-center .table-responsive .table tbody tr td a {
+      .cs-center .table-wrap .table tbody tr td a {
         color: #666;
         text-decoration: none; }
 
@@ -317,24 +325,28 @@ address {
 
 .contact .section-header ~ .section-header {
   margin-top: 75px; }
-.contact .section-content .table-responsive .table {
+.contact .section-content .table-wrap .table {
   border-top: 0; }
-  .contact .section-content .table-responsive .table thead tr th {
+  .contact .section-content .table-wrap .table thead tr th {
     color: #fff;
-    padding: 20px;
+    padding: 20px 10px;
     border: 0;
+    text-align: center;
     border-right: 1px solid #e5e5e5;
     background-color: #aeaeae; }
-    .contact .section-content .table-responsive .table thead tr th:last-child {
+    .contact .section-content .table-wrap .table thead tr th:last-child {
       border-right: 0; }
-  .contact .section-content .table-responsive .table tbody tr td {
-    padding: 20px;
+  .contact .section-content .table-wrap .table tbody tr td {
+    text-align: center;
+    padding: 20px 10px;
+    word-break: keep-all;
     border-color: #e5e5e5;
     background-color: #fff; }
-    .contact .section-content .table-responsive .table tbody tr td:first-child {
+    .contact .section-content .table-wrap .table tbody tr td.title {
       color: #e61937;
-      font-weight: 400; }
-    .contact .section-content .table-responsive .table tbody tr td a {
+      font-weight: 400;
+      vertical-align: middle; }
+    .contact .section-content .table-wrap .table tbody tr td a {
       display: block;
       color: #666;
       text-decoration: none; }
@@ -478,5 +490,11 @@ address {
 
 .dataroom-view .view .article-content .btn-area {
   margin-top: 25px; }
+.dataroom-view .view .article-content a {
+  word-break: break-all; }
+.dataroom-view .view .article-content table tr th {
+  word-break: break-all; }
+.dataroom-view .view .article-content table tr td {
+  word-break: break-all; }
 
 /*# sourceMappingURL=customer.css.map */

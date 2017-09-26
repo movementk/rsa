@@ -27,6 +27,9 @@
         
         <section class="pr-list">
             <div class="container">
+                <div class="section-header">
+                    <h3 class="section-title">Press Release</h3>
+                </div>
                 <div class="section-content">
                     <article class="list">
                         <div class="article-header">

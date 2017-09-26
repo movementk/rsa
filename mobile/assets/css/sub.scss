@@ -474,12 +474,13 @@ article {
         color: #666;
     }
     .attach {
-        overflow: hidden;
+//        overflow: hidden;
         padding: 15px 10px;
         border-top: 1px solid #d1d1d1;
         > dt {
             position: relative;
-            float: left;
+//            float: left;
+            display: block;
             font-size: 13px;
             color: #222;
             font-weight: 400;
@@ -494,7 +495,8 @@ article {
             }
         }
         > dd {
-            display: inline-block;
+            display: block;
+            margin-top: 15px;
             a {
                 font-size: 13px;
                 color: #333;

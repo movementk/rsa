@@ -27,6 +27,9 @@
         
         <section class="cs-center">
             <div class="container">
+                <div class="section-header">
+					<h3 class="section-title">서비스센터</h3>
+				</div>
                 <div class="section-content">
                     <article class="cs-location">
                         <p class="figure">
@@ -70,22 +73,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="table-responsive">
+                <div class="table-wrap">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>서비스센터</th>
                                 <th>서비스지역</th>
-                                <th>전화번호</th>
-                                <th>전화번호</th>
+                                <th>연락처</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>본사센터</td>
                                 <td>서울, 인천, 경기, 강원, 충청</td>
-                                <td><a href="tel:0316859593">031-685-9593, 9594</a></td>
-                                <td>031-685-9500</td>
+                                <td>
+                                    <a href="tel:0316859593">031-685-9593, 9594</a>
+                                    031-685-9500
+                                </td>
                             </tr>
                             <tr>
                                 <td>부산센터</td>

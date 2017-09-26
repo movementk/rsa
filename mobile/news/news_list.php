@@ -27,6 +27,9 @@
         
         <section class="news-list">
             <div class="container">
+                <div class="section-header">
+                    <h3 class="section-title">News Center</h3>
+                </div>
                 <div class="section-content">
                     <article class="list">
                         <div class="article-header">

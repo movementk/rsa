@@ -86,6 +86,10 @@ address {
 
 .pr-view .view .article-content .btn-area {
   margin-top: 25px; }
+.pr-view .view .article-content img {
+  width: 100%; }
+.pr-view .view .article-content a {
+  word-break: break-all; }
 
 .pr-write .write .article-content .btn-area {
   margin-top: 25px; }

@@ -5,10 +5,18 @@
         background-image: url(/mobile/assets/images/product/page_header_bg.jpg);
     }
 }
-
-
+.dott {
+    position: relative;
+    padding-left: 10px;
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "·";
+    }
+}
 .basic-list {
-    li {
+    > li {
         font-size: 13px;
         color: #666;
         font-weight: 300;
@@ -16,31 +24,54 @@
     }
 }
 .based-list {
-    li {
+    > li {
+        position: relative;
         font-size: 13px;
         color: #666;
         font-weight: 300;
         line-height: 22px;
+        padding-left: 10px;
         &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
             content: "-";
         }
     }
 }
+.dott-list {
+    > li {
+        position: relative;
+        padding-left: 10px;
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "·";
+        }
+    }
+}
 .based {
+    position: relative;
     font-size: 13px;
     color: #666;
     line-height: 22px;
     font-weight: 300;
     margin-bottom: 25px;
+    padding-left: 10px;
     &:before {
-        content: "-";
-    }
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "-";
+        }
 }
-
-figure {
-    padding: 0 50px;
-    .img-responsive {
-        margin: 0 auto;
+#content {
+    figure {
+        padding: 0 50px;
+        .img-responsive {
+            margin: 0 auto;
+        }
     }
 }
 strong {
@@ -48,11 +79,12 @@ strong {
     font-size: 16px;
     font-weight: 500;
     color: #666;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     line-height: 24px;
-    ~ strong {
-        margin-top: 35px;
-    }
+//    ~ strong {
+//        margin-top: 35px;
+//    }
 }
 .btn-area {
     margin-top: 50px;
@@ -141,26 +173,32 @@ strong {
                 line-height: 20px;
                 margin-bottom: 15px;
                 b {
+                    display: block;
                     font-size: 14px;
+                    margin-top: 25px;
                 }
                 &.summary {
                     font-size: 15px;
                     color: #666;
                     font-weight: 400;
-                    margin-bottom: 15px;
+                    margin-bottom: 25px;
                     opacity: .8;
                 }
                 &.attention {
-                    font-size: 13px;
-                    line-height: 16px;
-                    color: $rcolor;
-                    font-weight: 300;
+                    position: relative;
+                    font-size: 11px;
+                    color: #e61937;
+                    padding-left: 10px;
+                    line-height: 20px;
                     margin-top: 10px;
                     a {
                         color: $rcolor;
                         text-decoration: none;
                     }
                     &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
                         content: "*";
                     }
                 }
@@ -198,6 +236,8 @@ strong {
                             th {
                                 width: 100px;
                                 color: #fff;
+                                font-weight: 400;
+                                vertical-align: middle;
                                 background-color: #adadad;
                                 &:last-child {
                                     border-right: 0;
@@ -210,6 +250,8 @@ strong {
                         tr {
                             th {
                                 color: #fff;
+                                font-weight: 400;
+                                vertical-align: middle;
                                 border-left: 0;
                                 border-right: 0;
                                 background-color: #adadad;
