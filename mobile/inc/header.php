@@ -48,7 +48,7 @@
                     </li>
                 </ul>
             </div>
-            <!-- 로그인했을때 -->
+            <!-- 로그인했을때 
             <div class="logout-form">
                 <ul>
                     <li>
@@ -68,7 +68,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div-->
         </div>
         <div class="nav-content">
             <ul class="gnb">

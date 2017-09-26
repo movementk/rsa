@@ -394,12 +394,11 @@ article {
     font-size: 13px;
     color: #666; }
   .board-view .attach {
-    overflow: hidden;
     padding: 15px 10px;
     border-top: 1px solid #d1d1d1; }
     .board-view .attach > dt {
       position: relative;
-      float: left;
+      display: block;
       font-size: 13px;
       color: #222;
       font-weight: 400;
@@ -412,7 +411,8 @@ article {
         content: "\E805";
         font-family: "fontello"; }
     .board-view .attach > dd {
-      display: inline-block; }
+      display: block;
+      margin-top: 15px; }
       .board-view .attach > dd a {
         font-size: 13px;
         color: #333;

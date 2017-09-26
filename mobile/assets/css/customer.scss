@@ -271,15 +271,19 @@
             }
         }
     }
-    .table-responsive {
+    .table-wrap {
         margin-top: 25px;
         .table {
             border-top: 0;
             thead {
                 tr {
                     th {
-                        padding: 20px;
+                        word-break: keep-all;
+                        word-wrap: break-word;
+                        padding: 20px 10px;
                         color: #fff;
+                        font-weight: 400;
+                        text-align: center;
                         border: 0;
                         border-right: 1px solid #fff;
                         background-color: #b5b5b5;
@@ -292,7 +296,11 @@
             tbody {
                 tr {
                     td {
-                        padding: 20px;
+                        word-break: keep-all;
+                        word-wrap: break-word;
+                        border-color: #e5e5e5;
+                        padding: 20px 10px;
+                        text-align: center;
                         border-color: #e5e5e5;
                         background-color: #fff;
                         a {
@@ -479,15 +487,16 @@
         }
     }
     .section-content {
-        .table-responsive {
+        .table-wrap {
             .table {
                 border-top: 0;
                 thead {
                     tr {
                         th {
                             color: #fff;
-                            padding: 20px;
+                            padding: 20px 10px;
                             border: 0;
+                            text-align: center;
                             border-right: 1px solid #e5e5e5;
                             background-color: #aeaeae;
                             &:last-child {
@@ -499,12 +508,15 @@
                 tbody {
                     tr {
                         td {
-                            padding: 20px;
+                            text-align: center;
+                            padding: 20px 10px;
+                            word-break: keep-all;
                             border-color: #e5e5e5;
                             background-color: #fff;
-                            &:first-child {
+                            &.title {
                                 color: $rcolor;
                                 font-weight: 400;
+                                vertical-align: middle;
                             }
                             a {
                                 display: block;
@@ -714,6 +726,19 @@
         .article-content {
             .btn-area {
                 margin-top: 25px;
+            }
+            a {
+                word-break: break-all;
+            }
+            table {
+                tr {
+                    th {
+                        word-break: break-all;
+                    }
+                    td {
+                        word-break: break-all;
+                    }
+                }
             }
         }
     }
